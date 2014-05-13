@@ -1,4 +1,5 @@
-thesis
-======
+# phD thesis
 
-phD thesis LaTex template
+Clément Renaud phD Thesis (LaTex)
+
+
