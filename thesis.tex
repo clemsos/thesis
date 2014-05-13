@@ -4,7 +4,7 @@
 
 \begin{document}
 
-% \begin{spacing}{1.2} % line spacing
+
 \frenchspacing % disable specific space after coma
 \raggedbottom %  makes all pages the height of the text on that page. No extra vertical space is added.
 \pagenumbering{roman}
@@ -20,19 +20,27 @@
 
 % the main course
 \mainmatter
-\include{chapters/chapter1}
-% \include{pages/test}
+\begin{spacing}{1.2} % line spacing
+% \include{chapters/typo}
+% \include{chapters/chapitre1}
+\include{chapters/chapitre1}
 
+% \include{pages/test}
+\end{spacing}
 \cleardoublepage
 
-\backmatter
-\part{ Annexes}
-\appendix
-\tableofcontents  % table des matières à la fin
-\listoffigures
 
+\backmatter
+\appendix
+\tableofcontents
+\addcontentsline{toc}{chapter}{Table des Matières}
+\bibliography{bib/library}
 \addcontentsline{toc}{chapter}{Bibliographie}
-\bibliography{refs}
-\bibliographystyle{plainnat}
-% \end{spacing}
+\listoffigures
+\addcontentsline{toc}{chapter}{Liste des Figures}
+
+\part*{Annexes}
+\part{Liste des mèmes}
+
+
 \end{document}
