@@ -1,0 +1,38 @@
+% UTF-8 encoding
+
+\documentclass{Thesis}
+
+\begin{document}
+
+% \begin{spacing}{1.2} % line spacing
+\frenchspacing % disable specific space after coma
+\raggedbottom %  makes all pages the height of the text on that page. No extra vertical space is added.
+\pagenumbering{roman}
+\pagestyle{plain}
+
+% the front matter
+\frontmatter 
+\input{pages/title}
+\maketitle
+\copyrightpage
+\abstractpage
+\sommaire
+
+% the main course
+\mainmatter
+\include{chapters/chapter1}
+% \include{pages/test}
+
+\cleardoublepage
+
+\backmatter
+\part{ Annexes}
+\appendix
+\tableofcontents  % table des matières à la fin
+\listoffigures
+
+\addcontentsline{toc}{chapter}{Bibliographie}
+\bibliography{refs}
+\bibliographystyle{plainnat}
+% \end{spacing}
+\end{document}

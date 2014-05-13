@@ -1,0 +1,1257 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"show",
+				"showClusters"
+			],
+			[
+				"geo",
+				"geoPaths"
+			],
+			[
+				"tr",
+				"transform"
+			],
+			[
+				"fro",
+				"forEach"
+			],
+			[
+				"strok",
+				"stroke-width"
+			],
+			[
+				"meme",
+				"memeName"
+			],
+			[
+				"pop",
+				"population"
+			],
+			[
+				"di",
+				"divWords"
+			],
+			[
+				"tran",
+				"translate"
+			],
+			[
+				"name",
+				"memeName"
+			],
+			[
+				"time",
+				"timebar"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"map_",
+				"map_width"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"map",
+				"map_width"
+			],
+			[
+				"select",
+				"selectAll"
+			],
+			[
+				"pro",
+				"provincesInfo"
+			],
+			[
+				"for",
+				"forEach"
+			],
+			[
+				"cat",
+				"category20c"
+			],
+			[
+				"pr",
+				"provinces"
+			],
+			[
+				"by",
+				"by_time"
+			],
+			[
+				"click",
+				"clickMap"
+			],
+			[
+				"data",
+				"dataService"
+			],
+			[
+				"trans",
+				"transform"
+			],
+			[
+				"Pr",
+				"processing"
+			],
+			[
+				"allo",
+				"allowed_users"
+			],
+			[
+				"tra",
+				"translate"
+			],
+			[
+				"y",
+				"y"
+			],
+			[
+				"sto",
+				"stroke"
+			],
+			[
+				"fi",
+				"function"
+			],
+			[
+				"inde",
+				"indexOf"
+			],
+			[
+				"drawWo",
+				"drawWordPie"
+			],
+			[
+				"word",
+				"wordProvinces"
+			],
+			[
+				"wo",
+				"wordsProvince"
+			],
+			[
+				"slect",
+				"select"
+			],
+			[
+				"dra",
+				"drawPie"
+			],
+			[
+				"gep",
+				"geoPaths"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"sec",
+				"select"
+			],
+			[
+				"sl",
+				"selected"
+			],
+			[
+				"fill",
+				"fill-opacity"
+			],
+			[
+				"words",
+				"words_allowed"
+			],
+			[
+				"user",
+				"userForce"
+			],
+			[
+				"draw",
+				"drawUsers"
+			],
+			[
+				"tick",
+				"tickWord"
+			],
+			[
+				"wor",
+				"wordForce"
+			],
+			[
+				"svg",
+				"svgIsSetup"
+			],
+			[
+				"force",
+				"wordForceStarted"
+			],
+			[
+				"dat",
+				"dataService"
+			],
+			[
+				"update",
+				"updateData"
+			],
+			[
+				"wordE",
+				"parseWordEdges"
+			],
+			[
+				"mainl",
+				"mainlandMap"
+			],
+			[
+				"centroi",
+				"centroid"
+			],
+			[
+				"selec",
+				"selectAll"
+			],
+			[
+				"defu",
+				"defaultStrokeColor"
+			],
+			[
+				"new",
+				"newVal"
+			],
+			[
+				"u",
+				"updatedStart"
+			],
+			[
+				"se",
+				"select"
+			],
+			[
+				"times",
+				"timestamp"
+			],
+			[
+				"tim",
+				"timeline"
+			],
+			[
+				"centroids",
+				"centroidsSort"
+			],
+			[
+				"Provinces",
+				"provinces"
+			],
+			[
+				"s",
+				"select"
+			],
+			[
+				"viz",
+				"vizWidth"
+			],
+			[
+				"com",
+				"communities"
+			],
+			[
+				"link",
+				"linkDistance"
+			],
+			[
+				"colo",
+				"colorProvinces"
+			],
+			[
+				"provin",
+				"provincesToProvinces"
+			],
+			[
+				"pvoi",
+				"provinces"
+			],
+			[
+				"hash",
+				"hashtag"
+			],
+			[
+				"fie",
+				"filename"
+			],
+			[
+				"create",
+				"create_index"
+			],
+			[
+				"cens",
+				"censored_words"
+			],
+			[
+				"hashag",
+				"hashtags_data"
+			],
+			[
+				"t",
+				"top_hashtags_ok"
+			],
+			[
+				"top",
+				"top_hashtags"
+			],
+			[
+				"ex",
+				"except"
+			],
+			[
+				"min",
+				"minimum_tweets"
+			],
+			[
+				"stop_",
+				"stop_hashtags"
+			],
+			[
+				"hahs",
+				"hashtag"
+			],
+			[
+				"Ex",
+				"except"
+			],
+			[
+				"mn",
+				"mentions"
+			],
+			[
+				"has",
+				"hashtagfilename"
+			],
+			[
+				"clean",
+				"clean_csvname"
+			],
+			[
+				"set",
+				"training_set"
+			],
+			[
+				"men",
+				"mentions_count"
+			],
+			[
+				"png",
+				"png_file"
+			],
+			[
+				"gv",
+				"gv_file"
+			],
+			[
+				"mem",
+				"meme_name"
+			],
+			[
+				"ra",
+				"raw_csv_folder"
+			],
+			[
+				"edge",
+				"edge_file"
+			],
+			[
+				"width",
+				"width"
+			],
+			[
+				"dend",
+				"dendo_rows"
+			],
+			[
+				"Pro",
+				"protomemes"
+			],
+			[
+				"matrix",
+				"matrix_data"
+			],
+			[
+				"get_",
+				"get_protomemes_ids_by_rows"
+			],
+			[
+				"sim",
+				"similarity_matrix"
+			],
+			[
+				"quer",
+				"query2"
+			],
+			[
+				"multi",
+				"multiprocess"
+			],
+			[
+				"csv",
+				"csv_file"
+			],
+			[
+				"simila",
+				"similarity"
+			],
+			[
+				"prot",
+				"proto_count"
+			],
+			[
+				"comb",
+				"combi_path"
+			],
+			[
+				"re",
+				"results"
+			],
+			[
+				"chunk",
+				"chunk_end"
+			],
+			[
+				"co",
+				"corpus_row"
+			],
+			[
+				"simi",
+				"similarity"
+			],
+			[
+				"transf",
+				"Transform"
+			],
+			[
+				"_co",
+				"_corpus_path"
+			],
+			[
+				"file",
+				"filename"
+			],
+			[
+				"c",
+				"collections"
+			],
+			[
+				"txt",
+				"txt_corpus"
+			],
+			[
+				"_",
+				"_protomemes"
+			],
+			[
+				"dic",
+				"dic_path"
+			],
+			[
+				"vec",
+				"vectorize_text"
+			],
+			[
+				"simil",
+				"similarities"
+			],
+			[
+				"ha",
+				"hastags"
+			],
+			[
+				"mul",
+				"multi_process"
+			],
+			[
+				"reorder",
+				"reordered"
+			],
+			[
+				"tw",
+				"tweets_count"
+			],
+			[
+				"corpus",
+				"corpus_users"
+			],
+			[
+				"uls",
+				"urls_api"
+			],
+			[
+				"json",
+				"json_file"
+			],
+			[
+				"lo",
+				"log_file"
+			],
+			[
+				"count",
+				"tweets_count"
+			],
+			[
+				"to",
+				"to_JSON"
+			],
+			[
+				"de",
+				"decode"
+			],
+			[
+				"get",
+				"get_loc_entities"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "testClass.tex",
+			"settings":
+			{
+				"buffer_size": 211,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "thesis.cls",
+			"settings":
+			{
+				"buffer_size": 1037,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/clemsos/phD/LatEX/templates/template-Harvard/thesis.tex",
+			"settings":
+			{
+				"buffer_size": 594,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/clemsos/phD/LatEX/templates/template-Harvard/harvard-thesis.cls",
+			"settings":
+			{
+				"buffer_size": 5868,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "thesis.tex",
+			"settings":
+			{
+				"buffer_size": 1034,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 374.0,
+		"selected_items":
+		[
+			[
+				"dele",
+				"LaTexTools: Delete temporary files"
+			],
+			[
+				"la",
+				"LaTexTools: Delete temporary files"
+			],
+			[
+				"de",
+				"LaTexTools: Delete temporary files"
+			],
+			[
+				"latex",
+				"LaTexTools: Delete temporary files"
+			],
+			[
+				"delete",
+				"LaTexTools: Delete temporary files"
+			],
+			[
+				"recon",
+				"LaTeXTools: Reconfigure and migrate settings"
+			],
+			[
+				"pdf",
+				"LaTeXTools: View PDF"
+			],
+			[
+				"json",
+				"JSON Reindent: reindent file or selection"
+			],
+			[
+				"ori",
+				"Origami: Destroy Current Pane"
+			],
+			[
+				"origa",
+				"Origami: Create Pane Below"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"ja",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"mark",
+				"Markdown Preview: Python Markdown: Preview in Browser"
+			],
+			[
+				"ma",
+				"Markdown Preview: Python Markdown: Preview in Browser"
+			],
+			[
+				"mar",
+				"Markdown Preview: Python Markdown: Preview in Browser"
+			],
+			[
+				"html",
+				"Snippet: bs3-html5-template"
+			],
+			[
+				"jso",
+				"Pretty JSON: Reformat (Pretty Print) JSON"
+			],
+			[
+				"js",
+				"Set Syntax: JSON"
+			],
+			[
+				"jsn",
+				"Set Syntax: JSON"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"ipy",
+				"Open IPython Notebook"
+			],
+			[
+				"templ",
+				"Snippet: bs3-html5-template"
+			],
+			[
+				"i",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"def folg",
+				"Code Folding: Fold Tag Attributes"
+			],
+			[
+				"quick",
+				"QuickRef"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"fold",
+				"Code Folding: Fold Tag Attributes"
+			],
+			[
+				"rand",
+				"Generate Random Text"
+			]
+		],
+		"width": 647.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": true,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/clemsos/phD/thesis/pages/abstract.tex",
+		"/home/clemsos/phD/thesis/pages/thanks.tex",
+		"/home/clemsos/phD/thesis/pages/test.tex",
+		"/home/clemsos/phD/thesis/pages/title.tex",
+		"/home/clemsos/phD/LatEX/templates/classicthesis/classicthesis-config.tex",
+		"/home/clemsos/phD/LatEX/templates/classicthesis/ClassicThesis.tex",
+		"/home/clemsos/phD/LatEX/templates/classicthesis/FrontBackmatter/Abstract.tex",
+		"/home/clemsos/phD/thesis/pages/PageDeGarde.tex",
+		"/home/clemsos/phD/thesis/thesis.pdf",
+		"/home/clemsos/phD/thesis/pages/Titleback.tex",
+		"/home/clemsos/phD/thesis/thesis.config.tex",
+		"/home/clemsos/phD/thesis/pages/Bibliography.tex",
+		"/home/clemsos/phD/thesis/pages/Abstract.tex",
+		"/home/clemsos/phD/thesis/page-de-garde.tex",
+		"/home/clemsos/phD/LatEX/page-de-garde1.fdb_latexmk",
+		"/home/clemsos/phD/LatEX/docx-tex/docx-tex/xdoc.egg-info/top_level.txt",
+		"/home/clemsos/phD/LatEX/docx-tex/docx-tex/xdoc.egg-info/dependency_links.txt",
+		"/home/clemsos/phD/LatEX/docx-tex/writer2latex12/config/default.xml",
+		"/home/clemsos/phD/LatEX/docx-tex/docx-tex/xdoc/dom.py",
+		"/home/clemsos/.config/sublime-text-3/Packages/LaTeXTools/README.markdown",
+		"/home/clemsos/phD/LatEX/templates/classicthesis/Chapters/Chapter0A.tex",
+		"/home/clemsos/phD/thesis/.gitignore",
+		"/home/clemsos/phD/thesis/README.md",
+		"/home/clemsos/phD/thesis/page-de-garde1.tex",
+		"/tmp/.fr-wZtqUB/page-de-garde1.synctex",
+		"/home/clemsos/phD/LatEX/page-de-garde1.aux",
+		"/home/clemsos/Dev/mitras/ui/app.js",
+		"/home/clemsos/Dev/mitras/ui/public/index.html",
+		"/home/clemsos/Dev/mitras/es_results_to_csv.py",
+		"/home/clemsos/Dev/mitras/analyze_meme.py",
+		"/home/clemsos/Dev/mitras/ui/public/libs/simg.js",
+		"/home/clemsos/Dev/mitras/ui/public/js/oldies/d3flatlayers.js",
+		"/home/clemsos/Dev/mitras/ui/public/js/directives.js",
+		"/home/clemsos/Dev/mitras/ui/public/js/controllers.js",
+		"/home/clemsos/Dev/mitras/ui/public/js/services.js",
+		"/home/clemsos/Dev/mitras/meme_generation.log",
+		"/home/clemsos/Dev/mitras/results/nb_of_users_by_provinces.json",
+		"/home/clemsos/Dev/mitras/ui/views/_index.html",
+		"/home/clemsos/Dev/mitras/provinces_stats.py",
+		"/home/clemsos/Dev/mitras/ui/package.json",
+		"/home/clemsos/Dev/mitras/tests/mongo_cookbook.py",
+		"/home/clemsos/Dev/mitras/ui/public/js/app.js",
+		"/home/clemsos/Dev/mitras/ui/views/__index.html",
+		"/home/clemsos/Dev/mitras/meme_list.py",
+		"/home/clemsos/Dev/mitras/ui/views/index.html",
+		"/home/clemsos/Dev/mitras/results/2012_sina-weibo-memes_list.json",
+		"/home/clemsos/Dev/mitras/tests/test_population.py",
+		"/home/clemsos/Dev/mitras/ui/start.sh",
+		"/home/clemsos/Dev/mitras/ui/public/js/main.js",
+		"/home/clemsos/Dev/mitras/ui/public/js/example_flat.js",
+		"/home/clemsos/Dev/mitras/.gitmodules",
+		"/home/clemsos/Dev/mitras/user_stats.py",
+		"/home/clemsos/Taf/Teaching/Processing/Processing Lyon #01/I_DataViz/Modes.pde",
+		"/home/clemsos/Taf/Teaching/Processing/Processing Lyon #01/I_DataViz/I_DataViz.pde",
+		"/home/clemsos/Taf/Teaching/Processing/Processing Lyon #01/Programme de la journee.txt",
+		"/home/clemsos/Dev/mitras/ui/public/js/oldies/d3multilayer.js",
+		"/home/clemsos/Dev/mitras/ui/config/config.json",
+		"/home/clemsos/Dev/mitras/ui/public/js/Config.js",
+		"/home/clemsos/Dev/mitras/ui/public/js/oldies/routes.js",
+		"/home/clemsos/Dev/mitras/results/biaoge/biaoge_timeframes.json",
+		"/home/clemsos/Dev/mitras/viz_meme_analyze.py",
+		"/home/clemsos/Dev/mitras/ui/views/timeline.html",
+		"/home/clemsos/Dev/mitras/ui/public/js/d3flatlayers.js",
+		"/home/clemsos/Dev/mitras/ui/public/js/d3custom.js",
+		"/home/clemsos/Dev/mitras/ui/public/libs/bootstrap-slider.js",
+		"/home/clemsos/Dev/mitras/ui/public/js/d3time.js",
+		"/home/clemsos/Dev/mitras/ui/.gitignore",
+		"/home/clemsos/Dev/mitras/ui/etherapp.js",
+		"/home/clemsos/Dev/ethermashup/ethermashup-ui/package.json",
+		"/home/clemsos/Dev/ethermashup/ethermashup-ui/.Rhistory",
+		"/home/clemsos/Dev/mitras/ui/js/d3flatlayers.js",
+		"/home/clemsos/Dev/mitras/ui/meme.html",
+		"/home/clemsos/Dev/mitras/ui/js/main.js",
+		"/home/clemsos/Dev/mitras/ui/libs/simg.js",
+		"/home/clemsos/Dev/mitras/ui/libs/colorbrewer.v1.min.js",
+		"/home/clemsos/Dev/mitras/lib/visualizer.py",
+		"/home/clemsos/Dev/mitras/es_meme_analyze.py",
+		"/home/clemsos/Dev/mitras/tests/test_plot.py",
+		"/home/clemsos/Dev/mitras/The_Voice.csv",
+		"/home/clemsos/Dev/mitras/es_build_index.py",
+		"/home/clemsos/Dev/mitras/gephi_methodo",
+		"/home/clemsos/Dev/mitras/meme_analyze.py",
+		"/home/clemsos/Dev/mitras/mitras.sublime-project",
+		"/home/clemsos/Dev/mitras/tests/test_nlp_basic.py",
+		"/home/clemsos/Dev/mitras/tests/test_nlp_logic.py",
+		"/home/clemsos/Dev/mitras/杜甫很忙.csv",
+		"/home/clemsos/Dev/mitras/es_get_censored_tweets.py",
+		"/home/clemsos/Dev/mitras/es_search.py",
+		"/home/clemsos/Dev/mitras/lib/__init__.py",
+		"/home/clemsos/Taf/Teaching/Conversion_Données/Formats standards/sample.csv",
+		"/home/clemsos/Taf/Teaching/Conversion_Données/atelier_conversion_données.md",
+		"/home/clemsos/phD/Writings/Untitled Document",
+		"/home/clemsos/Dev/mitras/censored_get_keywords.py",
+		"/home/clemsos/Taf/Teaching/Conversion/atelier_conversion_données.md",
+		"/home/clemsos/Taf/Teaching/Conversion/pdf2csv/tabula2.csv",
+		"/home/clemsos/Taf/Teaching/Conversion/NOTES",
+		"/home/clemsos/Dev/mitras/out/censored_tweets_2012-02-05_2012-04-20.tsv",
+		"/home/clemsos/Dev/mitras/hashtags_stats.py",
+		"/home/clemsos/Dev/mitras/lib/stopwords/stop_hashtags",
+		"/home/clemsos/Dev/mitras/hashtags_tweets_to_db.py",
+		"/home/clemsos/Dev/mitras/hashtags_build_corpus_and_graph.py",
+		"/home/clemsos/Dev/mitras/out/hashtags/fetch_images.py",
+		"/var/log/mongodb/mongodb.log",
+		"/home/clemsos/Dev/mitras/out/hashtags/web_server.py",
+		"/home/clemsos/Dev/mitras/bin/mongo_structure.sh",
+		"/home/clemsos/Dev/mitras/data/hash",
+		"/home/clemsos/Dev/mitras/out/hashtags/data/hashtag_list",
+		"/home/clemsos/Dev/mitras/out/hashtags/data/hashtags_list_2",
+		"/home/clemsos/Dev/mitras/hashtags_viz.py",
+		"/home/clemsos/Dev/mitras/.gitignore",
+		"/home/clemsos/Dev/mitras/Untitled0.ipynb",
+		"/home/clemsos/Dev/mitras/haha.ipynb",
+		"/home/clemsos/Dev/mitras/mpld3_test.ipynb",
+		"/home/clemsos/Dev/mitras/test.ipynb",
+		"/home/clemsos/Dev/mitras/custom.css",
+		"/home/clemsos/Dev/mitras/out/hashtags/hashtags.py",
+		"/home/clemsos/Dev/mitras/out/hashtags/data/hashtags_stats.csv",
+		"/home/clemsos/Dev/mitras/out/hashtags/stats_top_hashtags.py",
+		"/home/clemsos/Dev/mitras/out/hashtags/0426李斯丹妮生日快乐.png",
+		"/home/clemsos/Dev/mitras/out/hashtags/create_image_from_multiple.py",
+		"/home/clemsos/Dev/mitras/out/hashtags/viz.pde",
+		"/home/clemsos/Dev/mitras/out/hashtags/index.html",
+		"/home/clemsos/Dev/mitras/out/hashtags/server.py",
+		"/home/clemsos/Dev/mitras/out/hashtags/0-1000/viz/node.py",
+		"/home/clemsos/Dev/mitras/out/hashtags/0-1000/node.py",
+		"/home/clemsos/Dev/mitras/out/hashtags/node.py",
+		"/home/clemsos/Dev/mitras/tests/test_geo.py",
+		"/home/clemsos/Dev/mitras/tests/es_cookbook.py"
+	],
+	"find":
+	{
+		"height": 37.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"/home/clemsos/Dev/mitras/tests",
+			"/home/clemsos/Dev/mitras/",
+			"",
+			"/home/clemsos/Dev/mitras/",
+			"/home/clemsos/Dev/mitras/tests",
+			"<open files>",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"thea",
+			"make",
+			"newcommand",
+			"normals",
+			"pdf",
+			"color",
+			"drawUserPie",
+			"myProvinces",
+			"drawUserP",
+			"drawUser",
+			"click",
+			" ",
+			"drawUserPie",
+			"pie",
+			"Math",
+			"geo",
+			"geoEdges",
+			"drawUserPie",
+			"ext",
+			"save",
+			"mcolor",
+			"pie",
+			"user dis",
+			"category20c",
+			"divwords",
+			"words",
+			"group",
+			"drawUserPie",
+			"save",
+			"saveU",
+			"timeData",
+			"time",
+			"domain",
+			"ratio",
+			"provinces_communities",
+			"toggle",
+			"mColor",
+			"mapLe",
+			"legend",
+			"toggle",
+			"mapLegend",
+			"mapLe",
+			"clusters",
+			"provincesClus",
+			"cloud",
+			"size",
+			"wordSize",
+			"cloud",
+			"tickWord",
+			"dataSer",
+			"dt",
+			"parseCen",
+			"ratio",
+			"$scope.ratio",
+			"sm",
+			"wrap",
+			"call",
+			"drawUserPi",
+			"drawUser",
+			"drawUserPi",
+			"drawUserP",
+			"pie",
+			"drawPie",
+			"defaultFillColor",
+			"tickMap",
+			"top_words_edges",
+			"top_users",
+			"words_allowed",
+			"td",
+			"tr",
+			"geo",
+			"feature",
+			"timeMax",
+			"slider",
+			"wordForce",
+			"end",
+			"updateData",
+			"$scope.data",
+			"tickWord",
+			"tickWords",
+			"legend",
+			"remove()",
+			"legend",
+			"\"*",
+			"selectAll(\"*",
+			"remove",
+			"legend",
+			"words_minimum_exchange",
+			"allowed_users",
+			"user_provinces",
+			"user_nodes",
+			"wordsLegend",
+			"mapLegend",
+			"x1",
+			"wrap",
+			"safename",
+			"$scope.$watch",
+			"var",
+			"count",
+			"multilayer",
+			"primary",
+			"drawPie",
+			"myComm",
+			"drawPie",
+			"pie",
+			".on",
+			"drag",
+			"markers",
+			"arrow",
+			"tickMar",
+			"markers",
+			"marker",
+			"marker-end",
+			"nodeCentroids",
+			"centroidsXY",
+			"myCommunitiesEdges",
+			"children",
+			"time",
+			"word_edge_median",
+			"js",
+			".size",
+			"userPathColo",
+			"tickWord",
+			"wordForceStarted",
+			"safename",
+			"meme",
+			"timeCtrl",
+			"js"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"#",
+			"Clément Renaud",
+			"Site de Démo",
+			"Urbanity",
+			"./assets",
+			"files",
+			"",
+			"#!/",
+			",\"ligne\":1}",
+			",\"ligne\":1}\n}",
+			"}\n}",
+			",\"ligne\":1\n}",
+			"\"ligne\":\"1\"\n}",
+			"\"ligne\":1\n}",
+			"city",
+			"longitude",
+			"latitude",
+			"capital",
+			"country",
+			"South Africa",
+			",",
+			" ",
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "testClass.tex",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 211,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								178,
+								178
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LaTeX/LaTeX.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "thesis.cls",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1037,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1035,
+								1035
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LaTeX/TeX.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 378.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/home/clemsos/phD/LatEX/templates/template-Harvard/thesis.tex",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 594,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								439,
+								439
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LaTeX/LaTeX.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/home/clemsos/phD/LatEX/templates/template-Harvard/harvard-thesis.cls",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5868,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4497,
+								4497
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LaTeX/TeX.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2733.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "thesis.tex",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1034,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								781,
+								781
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LaTeX/LaTeX.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 567.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 29.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 191.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "thesis.sublime-project",
+	"replace":
+	{
+		"height": 54.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+		],
+		"width": 392.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 316.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

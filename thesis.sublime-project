@@ -1,0 +1,17 @@
+{
+	"folders":
+	[
+		{
+			"follow_symlinks": true,
+			"path": "."
+		},
+		{
+			"follow_symlinks": true,
+			"path": "/home/clemsos/phD/LatEX/templates/classicthesis"
+		},
+		{
+			"follow_symlinks": true,
+			"path": "/home/clemsos/phD/LatEX"
+		}
+	]
+}
