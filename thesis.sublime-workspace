@@ -523,23 +523,7 @@
 			"file": "thesis.tex",
 			"settings":
 			{
-				"buffer_size": 854,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "bib/library.bib",
-			"settings":
-			{
-				"buffer_size": 3199477,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "Thesis.cls",
-			"settings":
-			{
-				"buffer_size": 5204,
+				"buffer_size": 850,
 				"line_ending": "Unix"
 			}
 		},
@@ -547,25 +531,40 @@
 			"file": "chapters/chapitre1.tex",
 			"settings":
 			{
-				"buffer_size": 78347,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/home/clemsos/Documents/Untitled 1.txt",
-			"settings":
-			{
-				"buffer_size": 78594,
+				"buffer_size": 83631,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"contents": "En revanche la parie « discussions » est à re-écrire.\nTu n’y discutes peu tes résultats et pire tu bavardes tantôt sur la méthode, tantôt sur des outils conceptuels que affirmes mobiliser; etc…\nMême si ces choses sont intéressantes, elles n’ont pas leur place là.\nTes réflexions sur la méthode, insère-les si tu trouves cela indispensable, dans la partie méthode.\nTes références aux outils conceptuels, dans la partie « outillage ».\n\nCe qu’il fallait faire  (Valérie  est libre de corriger ce qui est dessous mais globalement elle est de mon avis, je crois).\n\n\nCette partie sera effectivement à part et même sera la conclusion de ta thèse\n1. rappeler l’objet de ta thèse ET les hypothèses que tu as présentées en début de thèse.\n2. rappeler la méthode suivie\n3. rappeler les principaux résultats de ta thèse\n4. À la lumière de cela, dire si ton travail valide ta thèse de départ (totalement, un peu, beaucoup, pas du tout) et pourquoi. Avec prudence ( tu n’es qu’un gravillon qui prétend s’ajouter au Grand Mur de la science) . Avec quels biais éventuels, quelles limites, comment tu aurais pu mieux faire (apprends à battre ta coulpe, imagines toi à une séance d’autocritique pendant la RévoCul). Quelles questions nouvelles ton travail soulève-t-il?\nÀ la lumière de cela, dire si ton travail valide chacune des tes hypothèses, sur le même mode.\n(il n’ y a pas de honte à reconnaître  une hypothèse non vérifiée)\nÀ la lumière de cela, dire si ton travail  (l’analyse de tes résultats) valide tes choix méthodologiques (les algorithmes mais aussi les outils conceptuels)\n5. tu conclues sur des travaux à poursuivre…\nNB: n’oublie pas d’intégrer la dimension chinoise à tes réflexions.\nMais n’en fais pas de tonnes sur la pluridisciplinarité; travailler sur les big data est par définition travailler en pluridisciplinarité.\nC’est d’ailleurs pour cela que nous nous référons aus « humanités numériques » (digital humanities), intersection des sciences humaines et sociales et de l’informatique.",
+			"file": "test.tex",
 			"settings":
 			{
-				"buffer_size": 1992,
-				"line_ending": "Unix",
-				"name": "En revanche la parie « discussions » est à re-écri"
+				"buffer_size": 1034,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Thesis.cls",
+			"settings":
+			{
+				"buffer_size": 5238,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "refs.bib",
+			"settings":
+			{
+				"buffer_size": 3199461,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "chapters/typo.tex",
+			"settings":
+			{
+				"buffer_size": 1918,
+				"line_ending": "Unix"
 			}
 		}
 	],
@@ -575,6 +574,18 @@
 		"height": 392.0,
 		"selected_items":
 		[
+			[
+				"sync",
+				"SyncScroll: Toggle Current View Scroll Sync"
+			],
+			[
+				"syn",
+				"SyncScroll: Toggle Current View Scroll Sync"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
 			[
 				"l",
 				"LaTexTools: Delete temporary files"
@@ -626,10 +637,6 @@
 			[
 				"origa",
 				"Origami: Create Pane Below"
-			],
-			[
-				"in",
-				"Package Control: Install Package"
 			],
 			[
 				"ja",
@@ -704,7 +711,7 @@
 				"Generate Random Text"
 			]
 		],
-		"width": 647.0
+		"width": 499.0
 	},
 	"console":
 	{
@@ -720,19 +727,24 @@
 		"show_minimap": false,
 		"show_open_files": false,
 		"show_tabs": false,
-		"side_bar_visible": true,
+		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
 	"file_history":
 	[
+		"/home/clemsos/phD/thesis/.gitignore",
+		"/home/clemsos/phD/thesis/thesis.bbl",
+		"/home/clemsos/phD/thesis/chapters/_model_chapitre1.tex",
+		"/home/clemsos/phD/thesis/bib/library.bib",
+		"/home/clemsos/phD/thesis/README.md",
+		"/home/clemsos/phD/thesis/chapters/chapitre1.tex",
+		"/home/clemsos/Documents/Untitled 1.txt",
 		"/home/clemsos/.local/share/gnome-shell/extensions/MultiClock@mibus.org/schemas/org.gnome.shell.extensions.mibusMultiClock.gschema.xml",
 		"/home/clemsos/.local/share/gnome-shell/extensions/MultiClock@mibus.org/extension.js",
 		"/home/clemsos/.local/share/gnome-shell/extensions/MultiClock@mibus.org/metadata.json",
 		"/home/clemsos/.local/share/gnome-shell/extensions/MultiClock@mibus.org/schemas/gschemas.compiled",
 		"/home/clemsos/Documents/Paperasses/WIFI",
-		"/home/clemsos/phD/thesis/.gitignore",
 		"/home/clemsos/phD/thesis/chapters/typo.tex",
-		"/home/clemsos/phD/thesis/chapters/chapitre1.tex",
 		"/home/clemsos/phD/thesis/Thesis.cls",
 		"/home/clemsos/phD/thesis/thesis.log",
 		"/home/clemsos/phD/thesis/chapters/chap1.aux",
@@ -776,7 +788,6 @@
 		"/home/clemsos/phD/LatEX/docx-tex/docx-tex/xdoc/dom.py",
 		"/home/clemsos/.config/sublime-text-3/Packages/LaTeXTools/README.markdown",
 		"/home/clemsos/phD/LatEX/templates/classicthesis/Chapters/Chapter0A.tex",
-		"/home/clemsos/phD/thesis/README.md",
 		"/home/clemsos/phD/thesis/page-de-garde1.tex",
 		"/tmp/.fr-wZtqUB/page-de-garde1.synctex",
 		"/home/clemsos/phD/LatEX/page-de-garde1.aux",
@@ -848,15 +859,11 @@
 		"/home/clemsos/phD/Writings/Untitled Document",
 		"/home/clemsos/Dev/mitras/censored_get_keywords.py",
 		"/home/clemsos/Taf/Teaching/Conversion/atelier_conversion_données.md",
-		"/home/clemsos/Taf/Teaching/Conversion/pdf2csv/tabula2.csv",
-		"/home/clemsos/Taf/Teaching/Conversion/NOTES",
-		"/home/clemsos/Dev/mitras/out/censored_tweets_2012-02-05_2012-04-20.tsv",
-		"/home/clemsos/Dev/mitras/hashtags_stats.py",
-		"/home/clemsos/Dev/mitras/lib/stopwords/stop_hashtags"
+		"/home/clemsos/Taf/Teaching/Conversion/pdf2csv/tabula2.csv"
 	],
 	"find":
 	{
-		"height": 36.0
+		"height": 37.0
 	},
 	"find_in_files":
 	{
@@ -877,6 +884,28 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"bib",
+			"bibi",
+			"watsu",
+			"carto",
+			"cart",
+			"carto",
+			"cartogra",
+			"facebook",
+			"face",
+			"hyper",
+			"quote",
+			"Error: Reference source not found",
+			"include",
+			"figure",
+			"comments",
+			"figure",
+			"{fig:",
+			"Lieux,espa",
+			"Lieux, espa",
+			"Lieu, esp",
+			"subsection",
+			"&",
 			"Hwang",
 			"Hwang2005",
 			"Haddow",
@@ -982,29 +1011,7 @@
 			"tr",
 			"geo",
 			"feature",
-			"timeMax",
-			"slider",
-			"wordForce",
-			"end",
-			"updateData",
-			"$scope.data",
-			"tickWord",
-			"tickWords",
-			"legend",
-			"remove()",
-			"legend",
-			"\"*",
-			"selectAll(\"*",
-			"remove",
-			"legend",
-			"words_minimum_exchange",
-			"allowed_users",
-			"user_provinces",
-			"user_nodes",
-			"wordsLegend",
-			"mapLegend",
-			"x1",
-			"wrap"
+			"timeMax"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1012,6 +1019,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"\\cite{Reference}",
 			"#",
 			"Clément Renaud",
 			"Site de Démo",
@@ -1045,7 +1053,7 @@
 	"groups":
 	[
 		{
-			"selected": 5,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -1054,162 +1062,52 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 854,
+						"buffer_size": 850,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								567,
-								567
+								457,
+								457
 							]
 						],
 						"settings":
 						{
+							"origPos": 441.0,
+							"syncScroll": false,
 							"syntax": "Packages/LaTeX/LaTeX.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 326.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "bib/library.bib",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3199477,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/LaTeX/Bibtex.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 250388.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "Thesis.cls",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 5204,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2870,
-								2870
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/LaTeX/TeX.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1868.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "chapters/chapitre1.tex",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 78347,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1957,
-								1957
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/LaTeX/LaTeX.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 126.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
 					"type": "text"
 				},
 				{
-					"buffer": 4,
-					"file": "/home/clemsos/Documents/Untitled 1.txt",
+					"buffer": 1,
+					"file": "chapters/chapitre1.tex",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 78594,
+						"buffer_size": 83631,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								1958,
+								1958
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1992,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1992,
-								1992
-							]
-						],
-						"settings":
-						{
-							"auto_name": "En revanche la parie « discussions » est à re-écri",
-							"syntax": "Packages/Text/Plain text.tmLanguage"
+							"origPos": 0.0,
+							"syncScroll": true,
+							"syntax": "Packages/LaTeX/LaTeX.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1217,13 +1115,137 @@
 					},
 					"stack_index": 0,
 					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "test.tex",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1034,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"origPos": 0.0,
+							"syncScroll": false,
+							"syntax": "Packages/LaTeX/LaTeX.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "Thesis.cls",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5238,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2895,
+								2895
+							]
+						],
+						"settings":
+						{
+							"origPos": 1684.0,
+							"syncScroll": false,
+							"syntax": "Packages/LaTeX/TeX.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1684.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "refs.bib",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3199461,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								25326,
+								25326
+							]
+						],
+						"settings":
+						{
+							"origPos": 14116.0,
+							"syncScroll": false,
+							"syntax": "Packages/LaTeX/Bibtex.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 14116.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "chapters/typo.tex",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1918,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1340,
+								1340
+							]
+						],
+						"settings":
+						{
+							"origPos": 567.0,
+							"syncScroll": false,
+							"syntax": "Packages/LaTeX/LaTeX.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 567.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
 				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 28.0
+		"height": 37.0
 	},
 	"input":
 	{
@@ -1263,7 +1285,7 @@
 	"project": "thesis.sublime-project",
 	"replace":
 	{
-		"height": 52.0
+		"height": 68.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -1297,7 +1319,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 312.0,
+	"side_bar_width": 229.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
