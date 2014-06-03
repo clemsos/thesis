@@ -11,6 +11,7 @@
 
 \DeclareUnicodeCharacter{00A0}{ }
 \DeclareUnicodeCharacter{FB01}{ }
+\DeclareUnicodeCharacter{FEFF}{ }
 
 %feature to identify UTF8 errors
 % from http://tex.stackexchange.com/questions/119060/problem-after-copying-text-inputenc-error-unicode-char-u8-not-set-up-for-us
