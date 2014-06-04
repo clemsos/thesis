@@ -7,7 +7,8 @@
 \RequirePackage{lmodern}
 \RequirePackage[utf8]{inputenc} 
 \RequirePackage[T1]{fontenc}
-% \RequirePackage{textcomp}
+\RequirePackage{textcomp}
+\RequirePackage{subscript}
 
 \DeclareUnicodeCharacter{00A0}{ }
 \DeclareUnicodeCharacter{FB01}{ }

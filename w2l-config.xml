@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<config>
+  <option name="no_preamble" value="true" />
+  <option name="use_color" value="false" />
+  <option name="multilingual" value="false" />
+  <option name="use_bibtex" value="false" />
+  <option name="formatting" value="convert_basic" />
+  <option name="page_formatting" value="convert_all" />
+  <heading-map max-level="4">
+    <heading-level-map writer-level="1" name="chapter" level="0" />
+    <heading-level-map writer-level="2" name="section" level="1" />
+    <heading-level-map writer-level="3" name="subsection"
+      level="2" />
+    <heading-level-map writer-level="4" name="subsubsection"
+      level="3" />
+  </heading-map>
+  <custom-preamble />
+</config>

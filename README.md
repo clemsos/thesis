@@ -8,8 +8,9 @@ Convert Word to Latex :
 
 
 Save as .odt ave OpenOffice puis utiliser word2latex
-
-    w2l 02-CORRIGE-Chapitre2reluGP.odt chapitre2.tex
+    
+    # doc here : http://writer2latex.sourceforge.net/doc1.2/user-manual14.html
+    w2l -config /home/clemsos/phD/thesis/w2l-config.xml 03-CORRIGE-Chapitre3reluGP.odt chapitre3.tex
 
 regexp find quotes
     
