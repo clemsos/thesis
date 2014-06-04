@@ -66,7 +66,7 @@
 
 
 % page layout
-\RequirePackage[a4paper, margin=2cm]{geometry} % cus­tomize page lay­out
+\RequirePackage[a4paper, margin=2.5cm]{geometry} % cus­tomize page lay­out
 \RequirePackage{fancyhdr}  % header and footer
 \RequirePackage{booktabs} % for much better looking tables
 \RequirePackage[palatino]{quotchap} % dec­o­ra­tive chap­ter head­ings with quo­ta­tions
@@ -91,6 +91,7 @@
 \RequirePackage{cclicenses}
 
 % biblio
+\RequirePackage[authoryear]{natbib}
 \bibliographystyle{plainnat-fr}
 
 % sommaire
