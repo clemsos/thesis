@@ -13,7 +13,8 @@ import fileinput
 import re
 import os
 
-myfile="chapters/_chapitre3.tex"
+myfile="chapters/chapitre4.tex"
+# myfile="chapters/_chapitre3.tex"
 
 # with open(myfile,"rw") as chap:
 for line in fileinput.input(myfile, inplace=True):

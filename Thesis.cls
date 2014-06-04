@@ -109,8 +109,7 @@
 \def\universitycity#1{\gdef\@universitycity{#1}}
 \def\universitystate#1{\gdef\@universitystate{#1}}
 
-% You might also consider licensing your work under Creative Commons). See: http://creativecommons.org/weblog/entry/12824 for other PhD students who have released their work under creative commons.
-
+% Licensing CC
 \newcommand{\copyrightpage}{
     \newpage \thispagestyle{empty} \vspace*{\fill}
     \sc \noindent \cc~\textit{\@degreeyear \hspace{3pt}~- \theauthor} \\
@@ -124,12 +123,12 @@
     \vspace*{\fill} \vspace{150pt} \begin{center}
     \includegraphics[scale=0.4]{media/logoTPT.png}
     \Huge \textcolor{Crimson}{\textit{\thetitle}} \normalsize \\ \sc \vspace{100pt}
-    a dissertation presented \\ by\\
-    \theauthor\\ to\\ The \@department\\
+    Une dissertation écrite\\ par\\
+    \theauthor\\ pour\\ l'\@department\\
     \vspace{12pt}
-    in partial fulfillment of the requirements\\
-    for the degree of\\ \@degree\\
-    in the subject of\\ \@field\\
+    pour l'obtention\\
+    du grade de \\ \@degree\\
+    dans la discipline \\ \@field\\
     \vspace{12pt}
     \@university\\ \@universitycity, \@universitystate\\
     \@degreemonth\ \@degreeyear
@@ -141,13 +140,13 @@
     \pagenumbering{roman}
     \setcounter{page}{3}
     \pagestyle{fancy}
-    \lhead{Dissertation advisor: \@advisor} \rhead{\@author}
+    \lhead{Sous la direction de: \@advisor} \rhead{\@author}
     \renewcommand{\headrulewidth}{0.0pt}
     \begin{center}
     \vspace*{1pt}
     \Large \textcolor{Crimson}{\textit{\@title}} \normalsize\\
     \vspace*{15pt}
-    \sc Abstract \\ \rm
+    \sc Résumé \\ \rm
     \end{center}
     \doublespace %Harvard registrar requests that abstract is double spaced
     \input{pages/abstract}
@@ -156,6 +155,16 @@
     \cfoot{\thepage}
     \onehalfspacing
 }
+
+% the acknowledgments page
+\newcommand{\acknowledgments}{
+  \chapter*{Remerciements}
+  \noindent
+  \input{pages/thanks}
+  \vspace*{\fill}
+  \newpage
+  \setcounter{page}{1}
+  \pagenumbering{arabic}}
 
 % An environment for paragraph-style section
 \providecommand\newthought[1]{%

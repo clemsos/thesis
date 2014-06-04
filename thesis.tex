@@ -14,16 +14,27 @@
 \input{pages/title}
 \maketitle
 \copyrightpage
+
 \abstractpage
+\addcontentsline{toc}{section}{Abstract}
+
+\acknowledgments
+\addcontentsline{toc}{section}{Remerciements}
+
 \sommaire
+\addcontentsline{toc}{section}{Sommaire}
 
 % the main course
 \mainmatter
-\begin{spacing}{1.2} % line spacing
+\begin{spacing}{1.5} % line spacing
+
 \include{chapters/introduction}
+\addcontentsline{toc}{chapter}{Introduction}
+
 \include{chapters/chapitre1}
 \include{chapters/chapitre2}
 \include{chapters/chapitre3}
+\include{chapters/chapitre4}
 
 % \include{pages/test}
 \end{spacing}
@@ -40,6 +51,6 @@
 \addcontentsline{toc}{chapter}{Liste des Figures}
 
 \part*{Annexes}
-\part{Liste des mèmes}
+% \part{Liste des mèmes}
 
 \end{document}
