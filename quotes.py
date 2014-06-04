@@ -1,6 +1,13 @@
 #!/usr/bin/python
-# URL that generated this code:
-# http://txt2re.com/index-python.php3?s=(autor,2012)&3&20&6&18&19
+
+# convert citations into latex format
+# 
+#   (Nivre et al., 2007) 
+#   (Sagae and Tsujii 2007)
+#    Nivre (2007) 
+#   (Chen et al., 2007; Dredze et al., 2007).
+#
+#  \cite{Nivre2007}
 
 import fileinput
 import re
@@ -8,10 +15,11 @@ import os
 
 myfile="chapters/_chapitre2.tex"
 
-quotes=[]
 # with open(myfile,"rw") as chap:
 for line in fileinput.input(myfile, inplace=True):
     # for line in chap:
+
+        # Regexp from http://stackoverflow.com/a/16826935/887594
         author = "(?:[A-Z][A-Za-z'`-]+)"
         etal = "(?:et al.?)"
         additional = "(?:,? (?:(?:and |& )?" + author + "|" + etal + "))"
@@ -21,19 +29,16 @@ for line in fileinput.input(myfile, inplace=True):
         regex = "(" + author + additional+"*" + year + ")"
 
         matches = re.findall(regex, line)
-        
-        print line
-
+        l=""
         if len(matches):
             for quote in matches:
                 if len(quote.split(','))!=1: 
                     q="("+quote+")"
                     c="\cite{"+quote.split(',')[0]+quote.split(',')[1][1:]+"}"
                     # print(c,q)
-                    print line.replace(q, c),
+                    l=line.replace(q, c)
+                line=l
+
+        print line,
+
 print "quote converted to Latex"
-
-
-# for line in fileinput.input(myfile, inplace=True):
-    # print line.replace("foo", "bar")
-    # print "%d: %s" % (fileinput.filelineno(), line),
