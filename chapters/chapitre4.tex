@@ -27,52 +27,52 @@ suit. Une pr\'esentation plus d\'etaill\'ee de chaque m\`eme est
 disponible en annexe de cette th\`ese.
 
 
-\begin{figure}
-  \begin{tabular}{c|c}
+\begin{table}[t]
+  \begin{tabulary}{\textwidth}{c|C}
 
     \textbf{Nom} &
     \textbf{Description}\\
-
+    \hline \\[-1.5ex]
     \textit{S}\textit{extape}\textit{ } &
     Un scandale d{\textquoteright}adult\`ere concernant un homme politique
-    dans la ville de Chongqing dans le centre de la Chine.\\
+    dans la ville de Chongqing dans le centre de la Chine.\\[2ex]
 
     \textit{The Voice } &
     La premi\`ere saison d{\textquoteright}une \'emission de
-    t\'el\'e-crochet musical en Chine.\\
+    t\'el\'e-crochet musical en Chine.\\[2ex]
 
     \textit{Qiegao } &
     Un d\'ebat de soci\'et\'e sur la condition du peuple Uyghur suivant un
     fait divers autour d{\textquoteright}une rixe lors
-    d{\textquoteright}une vente de g\^ateau.\\
+    d{\textquoteright}une vente de g\^ateau.\\[2ex]
 
     \textit{Dufu} &
     Un m\`eme comique mettant en sc\`ene un po\`ete chinois dans des
-    situations burlesques.\\
+    situations burlesques.\\[2ex]
 
     \textit{Biaoge} &
     Un scandale entourant la collection de montres de marques prestigieuses
-    d{\textquoteright}un homme politique de la province du Shaanxi \\
+    d{\textquoteright}un homme politique de la province du Shaanxi \\[2ex]
 
     \textit{Moyan} &
     L{\textquoteright}attribution du Prix Nobel de litt\'erature \`a
-    l{\textquoteright}\'ecrivain chinois Mo Yan\\
+    l{\textquoteright}\'ecrivain chinois Mo Yan\\[2ex]
 
     \textit{Yuanfang} &
     La reprise d{\textquoteright}une citation d{\textquoteright}une s\'erie
-    t\'el\'evis\'ee sous forme humoristique\\
+    t\'el\'evis\'ee sous forme humoristique\\[2ex]
 
     \textit{Ccp} &
-    D\'ebats entourant le 18\`eme Congr\`es du Parti Communiste Chinois\\
+    D\'ebats entourant le 18\`eme Congr\`es du Parti Communiste Chinois\\[2ex]
 
-  \end{tabular}
+  \end{tabulary}
   \caption{D\'enomination et description des m\`emes \'etudi\'es}
-\end{figure}
+\end{table}
 
 
 \subsection[Approches socio{}-s\'emantiques et temporelles de la diffusion]{Approches socio-s\'emantiques et temporelles de la diffusion}
 
-\subsubsection[Structures temporelles]{4111 Structures temporelles}
+\subsubsection[Structures temporelles]{Structures temporelles}
 Dans un premier temps, nous avons choisi de consid\'erer les
 diff\'erentes structures temporelles des m\`emes. Les figures
 ci-dessous repr\'esentent chronologiquement le volume de messages
@@ -82,44 +82,50 @@ r\'eguli\`ere de la quantit\'e de messages observ\'es dans les graphes
 correspond \`a la baisse d{\textquoteright}activit\'e pendant les
 nuits.
 
-\begin{figure}
+\begin{figure}[ht]
     \centering
-    \subfloat[]{
-      \label{fig:edge-a}
+    \subfloat[sextape]{
       \includegraphics[width=6.0087in,height=1.6697in]{figures/chap4/chapitre4-img1.png}
+      \label{fig:time-sextape}
     }
-    \subfloat[]{
+    \newline
+    \subfloat[dufu]{
       \includegraphics[width=6.0087in,height=1.6697in]{figures/chap4/chapitre4-img2.png}
+      \label{fig:time-dufu}
     }
-    \subfloat[]{
+    \newline
+    \subfloat[qiegao]{
       \includegraphics[width=6.0087in,height=1.6697in]{figures/chap4/chapitre4-img3.png}
+      \label{fig:time-qiegao}
     }
-    \subfloat[]{
+    \newline
+    \subfloat[The Voice]{
       \includegraphics[width=6.0087in,height=1.6697in]{figures/chap4/chapitre4-img4.png}
+      \label{fig:time-voice}
     }
     \caption{
       Graphe temporel repr\'esentant le volume de messages \'echang\'es sur une dur\'ee de 3 semaines    
     }
 \end{figure}
-
+\clearpage
 
 D{\textquoteright}apr\`es ces figures, nous pouvons constater
 diff\'erentes formes repr\'esentatives : la {\textquotedblleft}breaking
 news{\textquotedblright} du m\`eme \textit{qiegao} se voit nettement
-par un d\'epart abrupt de la courbe (fig. F-3) \`a un niveau
+par un d\'epart abrupt de la courbe (Fig. \ref{fig:time-qiegao}) \`a un niveau
 directement tr\`es \'elev\'e, suivi d{\textquoteright}une retomb\'ee
 rapide de l{\textquoteright}attention en quelques jours . 
 
 La discussion plus informative autour du proc\`es de
 l{\textquoteright}homme politique de Chongqing et sa
-{\textquotedblleft}sextape{\textquotedblright} (fig. F-1) croit
+{\textquotedblleft}sextape{\textquotedblright} (Fig. \ref{fig:time-sextape}) croit
 doucement pour conna\^itre un pic rapide et tr\`es fort de discussion
 avant de retomber rapidement \'egalement. 
 
 L{\textquoteright}\'emission de t\'el\'evision The Voice est, elle,
 absolument \'ev\`enementielle et son graphe montre bien le rythme des
 \'emissions accompagn\'ees de tr\`es peu de discussions entre les
-\'emissions (fig. F-2). N\'eanmoins, nous voyons que le volume est
+\'emissions (Fig. \ref{fig:time-voice}). N\'eanmoins, nous voyons que le volume est
 nettement plus important avec un pic de plus de 2000 tweets dans une
 m\^eme heure le soir de la premi\`ere \'emission, d\'epassant tr\`es
 largement les trois autres m\`emes pr\'esent\'es. 
@@ -129,33 +135,33 @@ Le graphe du m\`eme absurdiste
 d{\textquoteright}attention puis un plateau de plusieurs jours. La
 blague semble durer et m\^eme conna\^itre un regain
 d{\textquoteright}int\'er\^et une semaine plus tard et \^etre
-r\'eguli\`erement mentionn\'e par la suite (fig. F-4). 
+r\'eguli\`erement mentionn\'e par la suite (Fig. \ref{fig:time-dufu}). 
 
 Proportionnellement, nous constatons que le m\`eme absurdiste est celui
 qui retient le plus l{\textquoteright}attention, le plus longtemps
-(fig. F-4). A l{\textquoteright}inverse la campagne en ligne de The
+(Fig. \ref{fig:time-dufu}). A l{\textquoteright}inverse la campagne en ligne de The
 Voice n{\textquoteright}est qu{\textquoteright}un artefact de
-l{\textquoteright}\'emission (fig. F-2) mais draine une audience tr\`es
+l{\textquoteright}\'emission (Fig. \ref{fig:time-voice}) mais draine une audience tr\`es
 importante pendant un temps restreint.
 
 
 La tendance du m\`eme comique \`a durer se v\'erifie \'egalement avec
-\textit{yuanfang }qui continue d{\textquoteright}\^etre mentionn\'e
+\textit{yuanfang} (Fig. \ref{fig:time-yuanfang}) qui continue d{\textquoteright}\^etre mentionn\'e
 tr\`es r\'eguli\`erement sur une p\'eriode de plusieurs mois (ici du 7
-Octobre au 16 D\'ecembre 2012). 
+Octobre au 16 D\'ecembre 2012).
 
-\begin{figure}
+\begin{figure}[ht]
     \centering
     
   \includegraphics[width=6.0087in,height=1.6697in]{figures/chap4/chapitre4-img5.png}
-    
+  \label{fig:time-yuanfang}
   \caption{
    Graphe temporel repr\'esentant le volume de messages \'echang\'es  autour du m\`eme \textit{yuanfang} entre le 7 Octobre et le 16 D\'ecembre 2012.
   }
 \end{figure}
 
 
-A l{\textquoteright}inverse, les informations type {\textquotedblleft}news{\textquotedblright} ont une dur\'ee de vie tr\`es courte, m\^eme lorsqu{\textquoteright}elles sont tr\`es d\'ebattues. Dans le cas de Moyan, on voit un tr\`es fort volume d{\textquoteright}activit\'e (3000 messages par heure au plus haut) mais une disparition quasi-totale des d\'ebats au bout en moins d{\textquoteright}une dizaine de jours.
+A l{\textquoteright}inverse, les informations type {\textquotedblleft}news{\textquotedblright} ont une dur\'ee de vie tr\`es courte, m\^eme lorsqu{\textquoteright}elles sont tr\`es d\'ebattues. Dans le cas de Moyan, on voit un tr\`es fort volume d{\textquoteright}activit\'e (3000 messages par heure au plus haut) mais une disparition quasi-totale des d\'ebats au bout en moins d{\textquoteright}une dizaine de jours (Fig. \ref{fig:time-moyan}).
 
 \begin{figure}
     \centering
@@ -163,10 +169,10 @@ A l{\textquoteright}inverse, les informations type {\textquotedblleft}news{\text
     \caption{
       Graphe temporel repr\'esentant le volume de messages \'echang\'es autour du m\`eme \textit{moyan} entre le 8 et le 21 Octobre 2012.
     }
+    \label{fig:time-moyan}
 \end{figure}
 
-\subsubsection[Structures conversationnelles]{Structures
-conversationnelles}
+\subsubsection[Structures conversationnelles]{Structures conversationnelles}
 Les conversations sur Sina Weibo sont faites
 d{\textquoteright}\'echanges entre les utilisateurs sous la forme de
 commentaires, de promotion d{\textquoteright}un message
@@ -186,12 +192,11 @@ Dans notre repr\'esentation, chaque utilisateur est un point et chaque
 interaction correspond \`a un trait. La couleur des points montre
 l{\textquoteright}appartenance de l{\textquoteright}utilisateur \`a une
 m\^eme communaut\'e de conversation calcul\'e gr\^ace \`a un algorithme
-de Louvain (Blondel \& al., 2008). La taille des points expriment le
+de Louvain \citep{Blondel2008}. La taille des points expriment le
 nombre total de connexions entrantes et sortantes d{\textquoteright}un
 utilisateur. La distance entre les groupes
 d{\textquoteright}utilisateurs est d\'efinie en utilisant
-l{\textquoteright}algorithme \textit{force }de d3js (Bostock \& al.,
-2011) pour calculer leur r\'epulsion : plus les utilisateurs sont
+l{\textquoteright}algorithme \textit{force} de d3js \citep{Bostock2011} pour calculer leur r\'epulsion : plus les utilisateurs sont
 proches dans la conversation, plus les points les repr\'esentant sont
 proches dans le graphe. La forme circulaire du graphe est due aux
 propri\'et\'es physiques d{\textquoteright}attraction utilis\'ees lors
@@ -204,27 +209,28 @@ interactions ont \'et\'e supprim\'es pour rendre le graphe lisible.
 \begin{figure}
     \centering
     \subfloat[Sextape]{
-      \label{fig:edge-a}
       \includegraphics[width=3.0705in,height=2.7913in]{figures/chap4/chapitre4-img7.png}
+      \label{fig:users-sextape}
     }
     \subfloat[The Voice]{
-      \label{fig:edge-a}
       \includegraphics[width=3.0705in,height=2.7913in]{figures/chap4/chapitre4-img8.png}
+      \label{fig:users-voice}
     }
+    \newline
     \subfloat[Qiegao]{
-      \label{fig:edge-a}
       \includegraphics[width=3.0705in,height=2.7913in]{figures/chap4/chapitre4-img9.png}
+      \label{fig:users-qiegao}
     }
     \subfloat[Dufu]{
-      \label{fig:edge-a}
-      \includegraphics[width=3.0748in,height=2.7953in]{figures/chap4/chapitre4-img10.png}
+      \includegraphics[width=3.0748in,height=2.7913in]{figures/chap4/chapitre4-img10.png}
+      \label{fig:users-dufu}
     }
     
   \caption{  
     Graphe conversationnel pour chacun des 4 m\`emes (pour une dur\'ee de 3 semaines)
   }
 \end{figure}
-
+\clearpage
 Les graphes de conversation permettent d{\textquoteright}identifier des
 sp\'ecificit\'es et de lire plusieurs indicateurs. Ils rendent
 notamment bien compte de la taille des conversations, tr\`es variables,
@@ -232,16 +238,16 @@ ou plut\^ot de la dimension des interactions. On voit que les
 discussions autour d{\textquoteright}aspects politiques et soci\'etaux
 connaissent beaucoup plus d{\textquoteright}\'echanges, alors que les
 deux autres semblent moins importantes. Dans le cas de \textit{The
-Voice} (Fig. H-2), la conversation est tr\`es structur\'ee autour de
+Voice} (Fig. \ref{fig:users-voice}), la conversation est tr\`es structur\'ee autour de
 peu d{\textquoteright}acteurs qui centralisent les d\'ebats. Le m\`eme
-absurdiste \textit{dufu }(fig.H-4) semble \^etre compos\'e
+absurdiste \textit{dufu} (fig. \ref{fig:users-dufu}) semble \^etre compos\'e
 d{\textquoteright}utilisateurs tr\`es distants qui ne communiquent
 entre eux que faiblement ou par petits groupes. La conversation
 \textit{sextape }autour du fait divers politique se constitue en
 groupes structur\'es mais plus distants, repouss\'es vers les bords du
 graphe, montrant l{\textquoteright}existence de nombreux foyers de
 discussions. A l{\textquoteright}inverse, la discussion de soci\'et\'e
-\textit{qiegao}\textit{ }autour des peuples du Xinjiang (fig. H-3)
+\textit{qiegao}\textit{ }autour des peuples du Xinjiang (fig. \ref{fig:users-qiegao})
 semble constitu\'e autour d{\textquoteright}un vaste foyer de
 discussions o\`u viennent s{\textquoteright}agr\'eger de nombreux
 utilisateurs tr\`es actifs.
@@ -268,12 +274,10 @@ s\'emantique relationnelle d{\textquoteright}ensemble entre les mots.
 La taille des mots repr\'esente le nombre de fois o\`u il sont \'et\'e
 cit\'es dans l{\textquoteright}ensemble du corpus. Les couleurs
 d\'efinissent des communaut\'es de mots qui ont \'et\'e calcul\'ees
-gr\^ace \`a l{\textquoteright}algorithme de Louvain (Blondel \& al.,
-2008). L{\textquoteright}\'epaisseur des traits repr\'esentent
+gr\^ace \`a l{\textquoteright}algorithme de Louvain \citep{Blondel2008}. L{\textquoteright}\'epaisseur des traits repr\'esentent
 l{\textquoteright}intensit\'e des relations (leur nombre de
 co-occurences dans le corpus). La disposition des mots utilise
-\'egalement l{\textquoteright}algorithme Force de d3js (Bostock \& al.,
-2011) pour calculer la proximit\'e des mots sur la base de
+\'egalement l{\textquoteright}algorithme Force de d3js \citep{Bostock2011} pour calculer la proximit\'e des mots sur la base de
 l{\textquoteright}intensit\'e de leurs relations. Afin de limiter la
 taille du graphe, nous avons s\'electionn\'e uniquement les 500 mots
 les plus utilis\'es. 
@@ -286,49 +290,48 @@ moteur d{\textquoteright}indexation. Ainsi, les mots les plus
 pro\'eminents sont ceux qui sont \`a l{\textquoteright}origine de la
 constitution du corpus.
 
-\begin{figure}
+\begin{figure}[h!t]
     \centering
     \subfloat[Dufu]{
-      \label{fig:edge-a}
       \includegraphics[width=3.1661in,height=1.7594in]{figures/chap4/chapitre4-img11.png}
+      \label{fig:words-dufu}
     }
     \subfloat[Yuanfang]{
-      \label{fig:edge-a}
       \includegraphics[width=3.1835in,height=1.7697in]{figures/chap4/chapitre4-img12.png}
+      \label{fig:words-yuanfang}
     }
     
   \caption{
-    Graphe s\'emantique de co-occurences des mots pour les m\`emes absurdistes dufu et yuanfang   
+    Graphe s\'emantique de co-occurences des mots pour les m\`emes dufu et yuanfang   
   }
 \end{figure}
- 
 
 En regardant ces graphes, nous constatons tout d{\textquoteright}abord
-que les graphe des m\`emes absurdistes se compose de peu de mots
+que les graphe des m\`emes absurdistes (fig. \ref{fig:words-dufu} \& \ref{fig:words-yuanfang})se compose de peu de mots
 centraux tr\`es fortement connect\'es et entour\'e
 d{\textquoteright}une myriade de mots de faible densit\'e,
 correspondant s\^urement aux myriades de d\'eclinaisons qui font le
 propre de la blague en ligne. 
 
-\begin{figure}
+\begin{figure}[ht]
     \centering
     \subfloat[Sextape]{
-      \label{fig:edge-a}
       \includegraphics[width=3.1461in,height=1.7504in]{figures/chap4/chapitre4-img13.png}
+      \label{fig:words-sextape}
     }
     \subfloat[biaoge]{
-      \label{fig:edge-a}
       \includegraphics[width=3.2335in,height=1.7961in]{figures/chap4/chapitre4-img14.png}
+      \label{fig:words-biaoge}
     }
     
   \caption{
-    % Graphe s\'emantique de co-occurences des mots pour les m\`emes absurdistes dufu et yuanfang   
+    Graphe s\'emantique de co-occurences des mots pour les m\`emes Sextape et Biaoge
   }
 \end{figure}
 
 
 Les r\'eseaux s\'emantiques de la discussion concernant les faits divers
-politiques sont plus structur\'es. Ils sont organis\'es en
+politiques (fig. \label{fig:words-sextape} \& \label{fig:words-biaoge}) sont plus structur\'es. Ils sont organis\'es en
 communaut\'es de mots et de sens plut\^ot bien d\'efinies : une
 communaut\'e d\'ecrit les d\'etails de l{\textquoteright}affaire (noms
 de lieux et de personnes, verbes d{\textquoteright}actions),
@@ -339,22 +342,22 @@ faite de mots plus anecdotiques.
 \begin{figure}
     \centering
     \subfloat[ccp]{
-      \label{fig:edge-a}
       \includegraphics[width=3.0843in,height=1.7134in]{figures/chap4/chapitre4-img15.png}
+      \label{fig:words-ccp}
     }
     \subfloat[The Voice]{
-      \label{fig:edge-a}
       \includegraphics[width=3.0752in,height=1.7122in]{figures/chap4/chapitre4-img16.png}
+      \label{fig:words-voice}
     }
     
   \caption{
-    % Graphe s\'emantique de co-occurences des mots pour les m\`emes absurdistes dufu et yuanfang   
+    Graphe s\'emantique de co-occurences des mots pour les m\`emes CCP et The Voice
   }
 \end{figure}
 
 La structure lexicale qui entoure \textit{The Voice }et \textit{CCP
 }semble tr\`es architectur\'ee, avec des associations plus convenues.
-Pour \textit{The Voice }(4)\textit{, }nous sommes sans surprise en
+Pour \textit{The Voice} (fig. \ref{fig:words-voice}), nous sommes sans surprise en
 pr\'esence du champ lexical du chant (voix-chant, chant-chanson...)
 entour\'e par de nombreuses \'emotions et sentiments
 (arc-en-ciel-amour, trac-courage, etc.). Nous voyons \'egalement que de
@@ -364,7 +367,9 @@ d{\textquoteright}ailleurs reconnus algorithmiquement comme une seule
 communaut\'e. Il int\'eressant de constater qu{\textquoteright}on y
 trouve notamment le vocabulaire propre de l{\textquoteright}\'emission,
 qui apparemment ne s{\textquoteright}int\`egre pas aux discussions.
-Dans le cas du congr\`es du parti communiste chinois, on retrouve
+
+
+Dans le cas du congr\`es du parti communiste chinois (fig. \ref{fig:words-ccp}), on retrouve
 \'egalement cette organisation s\'emantique tr\`es hi\'erarchique
 autour du mot central {\textquotedblleft}parti{\textquotedblright},
 avec un ensemble de signifiants issus du programme politique
@@ -381,25 +386,25 @@ peu reli\'ee avec le reste de l{\textquoteright}activit\'e.
 \begin{figure}
     \centering
     \subfloat[qiegao]{
-      \label{fig:edge-a}
       \includegraphics[width=2.9248in,height=1.6252in]{figures/chap4/chapitre4-img17.png}
+      \label{fig:words-qiegao}
     }
     \subfloat[moyan]{
-      \label{fig:edge-a}
-      \includegraphics[width=2.978in,height=1.6551in]{figures/chap4/chapitre4-img18}.png 
+      \includegraphics[width=2.978in,height=1.6551in]{figures/chap4/chapitre4-img18}.png
+      \label{fig:words-moyan} 
     }
     
   \caption{
-    % Graphe s\'emantique de co-occurences des mots pour les m\`emes absurdistes dufu et yuanfang   
+    Graphe s\'emantique de co-occurences des mots pour les m\`emes Qiegao et Moyan
   }
 \end{figure}
 
 
-\textit{Qiegao}, quant \`a lui, poss\`ede une structure tr\`es
+\textit{Qiegao} (fig. \ref{fig:words-qiegao}), quant \`a lui, poss\`ede une structure tr\`es
 centralis\'ee articul\'ee autour d{\textquoteright}un mot-cl\'e
 pr\'ecis qui relie plusieurs groupes s\'emantiques (communaut\'es de
 mots par couleurs) autour de lui. On retrouve cette caract\'eristique
-d{\textquoteright}ensemble dans le graphe de \textit{moyan }m\^eme si
+d{\textquoteright}ensemble dans le graphe de \textit{moyan} (fig. \ref{fig:words-moyan}) m\^eme si
 la structuration des communaut\'es s\'emantiques est plus accentu\'ee -
 on peut penser que cela est d\^u aux plus grands volumes de messages
 \'echang\'es.
@@ -447,46 +452,50 @@ L{\textquoteright}\'epaisseur des traits exprime le volume
 d{\textquoteright}\'echanges en pourcentage du total sur la p\'eriode
 observ\'ee.
 
-\begin{figure}
+\begin{figure}[H]
     \centering
-    
+
     \includegraphics[width=4.6606in,height=2.913in]{figures/chap4/chapitre4-img19.png}
-  \caption{
-    The Voice: Interaction des utilisateurs par province entre le 9 et le 29 Juillet 2012
-  }
+    \label{fig:geo-voice-t1}
+    \caption{
+      The Voice: Interaction des utilisateurs par province entre le 9 et le 29 Juillet 2012
+    }
 \end{figure}
 
-Dans le cas de \textit{The Voice}, nous pouvons voir que
+Dans le cas de \textit{The Voice} (fig. \ref{fig:geo-voice-t1}), nous pouvons voir que
 l{\textquoteright}interaction est structur\'e autour
 d{\textquoteright}un axe fort entre la province de Zhejiang et P\'ekin.
 Cela s{\textquoteright}explique assez simplement par le fait que
 l{\textquoteright}\'emission est diffus\'e par Zhejiang T\'el\'evision
 dont le compte officiel joue un r\^ole important dans la diffusion et
 la promotion de la discussion.
-\begin{figure}
+
+\begin{figure}[H]
     \centering
     \includegraphics[width=4.3858in,height=2.7413in]{figures/chap4/chapitre4-img20.png}
+    \label{fig:geo-voice-t2}
     
-  \caption{
-    Figure (1)The Voice: Interaction des utilisateurs par province entre le 16 et le 17 Juillet 2012
-  }
+    \caption{
+      The Voice: Interaction des utilisateurs par province entre le 16 et le 17 Juillet 2012
+    }
 \end{figure}
 
-En isolant uniquement le soir de la premi\`ere diffusion, on voit que
+En isolant uniquement le soir de la premi\`ere diffusion (fig. \ref{fig:geo-voice-t2}), on voit que
 cette structure s{\textquoteright}accentue encore davantage et que les
 interactions se structurent entre le Zhejiang P\'ekin et Shanghai avec
 quelques autres axes plus minoritaires.
 
-\begin{figure}
+\begin{figure}[H]
     \centering
     \includegraphics[width=5.7059in,height=3.5661in]{figures/chap4/chapitre4-img21.png}
+    \label{fig:geo-qiegao-t0}
   \caption{
     Qiegao: Interaction des utilisateurs par province entre le 19 Novembre et le 15 D\'ecembre 2012
   }
 \end{figure}
 
 
-A l{\textquoteright}inverse, nous voyons que pour \textit{Qiegao} les
+A l{\textquoteright}inverse, nous voyons que pour \textit{Qiegao} (fig. \ref{fig:geo-qiegao-t0}) les
 patterns semblent beaucoup plus diversifi\'es. Guangzhou joue un r\^ole
 de diffuseur important et beaucoup d{\textquoteright}informations
 converge vers Shanghai et P\'ekin. De nombreuses conversations se
@@ -495,136 +504,122 @@ effet, la discussion concerne ici les peuples Uyghur et on constate que
 les habitants du Xinjiang participent davantage \`a la conversation que
 dans d{\textquoteright}autres m\`emes. 
 
-\begin{figure}
+\begin{figure}[th]
     \centering
-    \subfloat[Jour 1: 3 D\'ecembre 2012]{
-      \label{fig:edge-a}
-      \includegraphics[width=2.9579in,height=1.8488in]{figures/chap4/chapitre4-img22.png}
+    \subfloat[J1: 3 D\'ecembre 2012]{
+      \includegraphics[width=2in,height=1.61in]{figures/chap4/chapitre4-img22.png}
+      \label{fig:geo-qiegao-t1}
     }
-    \subfloat[Jour 2-3: 4-5 D\'ecembre 2012]{
-      \label{fig:edge-a}
-      \includegraphics[width=2.8039in,height=1.7531in]{figures/chap4/chapitre4-img23.png}    }
-    \subfloat[Jour 4-6: 6-8 D\'ecembre 2012]{
-      \label{fig:edge-a}
-      \includegraphics[width=2.8886in,height=1.8059in]{figures/chap4/chapitre4-img24.png}
+    \subfloat[J2-3: 4-5 D\'ecembre 2012]{
+      \includegraphics[width=2in,height=1.61in]{figures/chap4/chapitre4-img23.png} 
+      \label{fig:geo-qiegao-t2}   
     }
-    \subfloat[Jour 7+: 9-16 D\'ecembre 2012]{
-      \label{fig:edge-a}
-      \includegraphics[width=2.8724in,height=1.7961in]{figures/chap4/chapitre4-img25.png}   
+    \newline
+    \subfloat[J4-6: 6-8 D\'ecembre 2012]{
+      \includegraphics[width=2in,height=1.61in]{figures/chap4/chapitre4-img24.png}
+      \label{fig:geo-qiegao-t3}
+    }
+    \subfloat[J7+: 9-16 D\'ecembre 2012]{
+      \includegraphics[width=2.8724in,height=1.7961in]{figures/chap4/chapitre4-img25.png}  
+      \label{fig:geo-qiegao-t4}
   
     }
     
   \caption{
-    Qiegao: Interaction des utilisateurs par province
+    Qiegao: Interaction des utilisateurs par province (Jours)
   }
 \end{figure}
-
-  
-
 
 En consid\'erant l{\textquoteright}\'evolution du m\`eme dans le temps,
 nous voyons qu{\textquoteright}il \'emane d{\textquoteright}abord de
-Canton, puis se diffuse \`a P\'ekin et Shanghai qui semble jouer un
-r\^ole d{\textquoteright}amplificateur en le diffusant plus largement,
-notamment vers l{\textquoteright}Ouest. 
+Canton (fig. \ref{fig:geo-qiegao-t1}), puis se diffuse \`a P\'ekin et Shanghai (fig. \ref{fig:geo-qiegao-t2}) qui semble jouer un r\^ole d{\textquoteright}amplificateur en le diffusant plus largement (fig. \ref{fig:geo-qiegao-t4}), notamment vers l{\textquoteright}Ouest (fig. \ref{fig:geo-qiegao-t3}). 
 
 
-
-\begin{figure}
+\begin{figure}[H]
     \centering
     
-    \subfloat[Jour 1: 22 Novembre 2012]{
-      \label{fig:edge-a}
-    
-    \includegraphics[width=1.9587in,height=1.2248in]{figures/chap4/chapitre4-img26.png}
+    \subfloat[J1: 22 Novembre 2012]{
+      \includegraphics[width=1.9587in,height=1.2248in]{figures/chap4/chapitre4-img26.png}
+      \label{fig:geo-sextape-t1}
     }
-    \subfloat[Jour 2-5: 23-25 Novembre 2012]{
-      \label{fig:edge-a}
+    \subfloat[J2-5: 23-25 Novembre 2012]{
       \includegraphics[width=1.9386in,height=1.2114in]{figures/chap4/chapitre4-img27.png}
+      \label{fig:geo-sextape-t2}
     }
-    \subfloat[Jour 5+: 26 Nov-15 D\'ec 2012]{
-      \label{fig:edge-a}
+    \subfloat[J5+: 26 Nov-15 D\'ec 2012]{
       \includegraphics[width=2.0012in,height=1.2512in]{figures/chap4/chapitre4-img28.png}
+      \label{fig:geo-sextape-t3}
     }    
   \caption{
-    Sextape: Interaction des utilisateurs par province
+    Sextape: Interaction des utilisateurs par province (Jours)
   }
 \end{figure}
 
-\begin{figure}
-    \subfloat[Jour 1-3 : 26-28 Aout 2012 ]{
-      \label{fig:edge-a}
-      \includegraphics[width=1.9004in,height=1.1878in]{figures/chap4/chapitre4-img29.png} 
+
+\begin{figure}[H]
+    \subfloat[J1-3 : 26-28 Aout 2012 ]{
+      \includegraphics[width=1.9004in,height=1.1878in]{figures/chap4/chapitre4-img29.png}
+      \label{fig:geo-biaoge-t1}
     }
-    \subfloat[Jour 4-5 : 29-30 Aout 2012 ]{
-      \label{fig:edge-a}
+    \subfloat[J4-5 : 29-30 Aout 2012 ]{
       \includegraphics[width=1.9004in,height=1.1878in]{figures/chap4/chapitre4-img30.png} 
+      \label{fig:geo-biaoge-t2}
     }
-    \subfloat[Jour 5+ : 1-3 Septembre2012]{
-      \label{fig:edge-a}
+    \subfloat[J5+ : 1-3 Septembre2012]{
       \includegraphics[width=1.9004in,height=1.1878in]{figures/chap4/chapitre4-img31.png} 
+      \label{fig:geo-biaoge-t3}
     }
   \caption{
-    Fig (3) Biaoge: Interaction des utilisateurs par province
+    Biaoge: Interaction des utilisateurs par province
   }
 \end{figure}
 
-On retrouve \'egalement ce pattern pour d{\textquoteright}autres faits
-de soci\'et\'e comme \textit{sextape} ou \textit{biaoge. }Cela illustre
-bien le r\^ole particulier des m\'edias du sud de la Chine et plus
-sp\'ecialement celui de Guangzhou. Avec une plus grande libert\'e de
-ton et une plus grande latitude dans leur propos, les m\'edias
-cantonais sont bien souvent instigateurs d{\textquoteright}affaires
-importantes alors que les m\'edias p\'ekinois, plus conservateurs joue
-plut\^ot un r\^ole de diffuseur. 
+On retrouve \'egalement ce pattern pour d{\textquoteright}autres faits de soci\'et\'e comme \textit{sextape} ou \textit{biaoge}. Cela illustre bien le r\^ole particulier des m\'edias du sud de la Chine et plus sp\'ecialement celui de Guangzhou (fig. \ref{fig:geo-sextape-t1} \& \ref{fig:geo-biaoge-t1}). Avec une plus grande libert\'e de ton et une plus grande latitude dans leur propos, les m\'edias cantonais sont bien souvent instigateurs d{\textquoteright}affaires importantes alors que les m\'edias p\'ekinois, plus conservateurs joue plut\^ot un r\^ole de diffuseur. 
 
-% \begin{figure}
-%   \includegraphics[width=0.0012in,height=0.0012in]{figures/chap4/chapitre4-img32.png}
-% \end{figure}
 
-\begin{figure}
+\begin{figure}[H]
     \subfloat[ Qiegao]{
-      \label{fig:edge-a}
       \includegraphics[width=1.9016in,height=1.9016in]{figures/chap4/chapitre4-img33.png}
     }
     \subfloat[Sextape]{
-      \label{fig:edge-a}
       \includegraphics[width=1.9016in,height=1.9016in]{figures/chap4/chapitre4-img34.png}
     }
     \subfloat[Biaoge]{
-      \label{fig:edge-a}
       \includegraphics[width=1.9016in,height=1.9016in]{figures/chap4/chapitre4-img35.png}
     }
   \caption{
     R\'epartition des utilisateurs par province (en \% du total)
+    \label{fig:users-share}
   }
 \end{figure}
 
 
-
 En observant la r\'epartition des utilisateurs par province pour chacun
-de ces trois m\`emes, on remarque que Beijing, Canton, Shanghai ont une
+de ces trois m\`emes (fig. \ref{fig:users-share}), on remarque que Beijing, Canton, Shanghai ont une
 place importante, ainsi que les personnes situ\'ees \`a
 l{\textquoteright}\'etranger (Haiwai) et le Zhejiang. N\'eanmoins, le
 reste des provinces (repr\'esent\'es ici par
 {\textquotedblleft}Others{\textquotedblright} en gris) constitue une
 part importante des \'echanges.
 
-\begin{figure}
-    \centering
+% \begin{figure}
+%   \includegraphics[width=0.0012in,height=0.0012in]{figures/chap4/chapitre4-img32.png}
+% \end{figure}
 
-    \subfloat[Jour 1: 12 Octobre 2012]{
-      \label{fig:time-moyan1}
+\begin{figure}[H]
+    \centering
+    \subfloat[J1: 12 Octobre 2012]{
+      \label{fig:geo-moyan-t1}
       \includegraphics[width=1.9004in,height=1.1878in]{figures/chap4/chapitre4-img36.png}
     }
      
-    \subfloat[Jour 2: 13 Octobre 2012]{
-      \label{fig:time-moyan2}
+    \subfloat[J2: 13 Octobre 2012]{
+      \label{fig:geo-moyan-t2}
       \includegraphics[width=1.9004in,height=1.1878in]{figures/chap4/chapitre4-img37.png}
     }
 
-    \subfloat[Jour 3+: 14-21 Octobre 2012]{
-      \label{fig:time-moyan3}
+    \subfloat[J3+: 14-21 Octobre 2012]{
+      \label{fig:geo-moyan-t3}
       \includegraphics[width=1.9004in,height=1.1878in]{figures/chap4/chapitre4-img38.png}
     }
 
@@ -634,44 +629,35 @@ part importante des \'echanges.
 
 \end{figure}
 
-
 Dans le cas de nouvelles plus officielles comme pour \textit{Moyan
 }notamment, nous pouvons voir que l{\textquoteright}information
-s{\textquoteright}origine g\'en\'eralement de P\'ekin et se diffuse
-vers le sud et le centre. 
+s{\textquoteright}origine g\'en\'eralement de P\'ekin (fig. \ref{fig:geo-moyan-t1}) et se diffuse
+vers le sud et le centre (fig. \ref{fig:geo-moyan-t2}). 
 
-\begin{figure}
+
+\begin{figure}[H]
     \centering
     \includegraphics[width=2.6043in,height=2.6043in]{figures/chap4/chapitre4-img39.png}
   \caption{
-    R\'epartition des utilisateurs par province (en \% du total)\\
+    R\'epartition des utilisateurs par province pour Moyan (en \% du total)\\
   }
+  \label{fig:geo-moyan-pie}
 \end{figure}
 
+La composition des utilisateurs (fig. \ref{fig:geo-moyan-pie}) montre bien que les d\'ebats autour de Moyan sont tr\`es largement domin\'es par P\'ekin avec plus de 50\% de l{\textquoteright}activit\'e impliquant au moins un utilisateur identifi\'e \`a P\'ekin.
 
-La composition des utilisateurs montre bien que les d\'ebats sont tr\`es
-largement domin\'es par P\'ekin avec plus de 50\% de
-l{\textquoteright}activit\'e impliquant au moins un utilisateur
-identifi\'e \`a P\'ekin.
+Dans le cas des m\`emes absurdistes et comiques, il est int\'eressant de constater qu{\textquoteright}ils ne se construisent pas n\'ecessairement sur les patterns que nous avons pu observ\'es auparavant.
 
-Dans le cas des m\`emes absurdistes et comiques, il est int\'eressant de
-constater qu{\textquoteright}ils ne se construisent pas
-n\'ecessairement sur les patterns que nous avons pu observ\'es
-auparavant.
-
-\begin{figure}
+\begin{figure}[H]
     \centering
-
     \subfloat[dufu]{
-      \label{fig:time-moyan1}
       \includegraphics[width=2.9252in,height=1.828in]{figures/chap4/chapitre4-img40.png}
+      \label{geo-dufu}
     }
-     
-    \subfloat[yuanfang]{
-      \label{fig:time-moyan2}
+    \subfloat[yuanfang]{ 
       \includegraphics[width=2.9252in,height=1.828in]{figures/chap4/chapitre4-img41.png}
+      \label{geo-yuanfang}
     }
-
     \caption{
         Interaction des utilisateurs par province
     }
@@ -679,53 +665,50 @@ auparavant.
 \end{figure}
 
 
-On voit notamment que le m\`eme \textit{dufu }d\'ebute dans la r\'egion
-du Hubei alors que le Liaoning joue un r\^ole cl\'e dans la diffusion
-de \textit{yuanfang.} 
-\begin{figure}
+On voit notamment que le m\`eme \textit{dufu } (fig. \ref{geo-dufu}) d\'ebute dans la r\'egion
+du Hubei alors que le Liaoning joue un r\^ole cl\'e dans la diffusion de \textit{yuanfang} (fig. \ref{geo-yuanfang}). 
+
+\begin{figure}[H]
     \centering
 
-    \subfloat[(Dufu) Jour 1-2 : 23 au 25 Mars 2012 ]{
-      \label{fig:time-moyan1}
+    \subfloat[(Dufu) J1-2 : 23 au 25 Mars 2012 ]{
       \includegraphics[width=2.9252in,height=1.828in]{figures/chap4/chapitre4-img42.png}
+      \label{geo-dufu-t1}
     }
-     
-    \subfloat[(Dufu) Jour 3+ : 25 Mars au 15 Avril]{
-      \label{fig:time-moyan2}
+    \subfloat[(Dufu) J3+ : 25 Mars au 15 Avril]{
       \includegraphics[width=2.9713in,height=1.8571in]{figures/chap4/chapitre4-img43.png}
+      \label{geo-dufu-t2}
     }
-    \subfloat[(Yuanfang) Jour 1-2: 15 au 17 Octobre 2012]{
-      \label{fig:time-moyan2}
+    \newline
+    \subfloat[(Yuanfang) 1-2: 15 au 17 Octobre 2012]{
       \includegraphics[width=2.9252in,height=1.828in]{figures/chap4/chapitre4-img44.png}
+      \label{geo-yuanfang-t1}
     }
-    \subfloat[(Yuanfang) Jour 3+: 18 Oct au 16 D\'ecembre 2012]{
-      \label{fig:time-moyan2}
+    \subfloat[(Yuanfang) J3+: 18 Oct au 16 D\'ecembre 2012]{
       \includegraphics[width=2.9252in,height=1.828in]{figures/chap4/chapitre4-img45.png}
+      \label{geo-yuanfang-t2}
     }
     
     \caption{
-        Interaction des utilisateurs par province
+        Evolution des interactions des utilisateurs par province pour Dufu et Yuanfang
     }
 
 \end{figure}
 
 
+En consid\'erant les graphes de temps, on remarque \'egalement que si P\'ekin est bien pr\'esent, les \'echanges des premiers jours se font principalement avec le Hubei (fig. \ref{geo-dufu-t1}) et le Yunnan (fig. \ref{geo-yuanfang-t1}), deux provinces typiquement peu actives. Dans un second temps, l'activité se concentre sur les régions cotières (fig. \ref{geo-yuanfang-t2}).
 
-En consid\'erant les graphes de temps, on remarque \'egalement que si
-P\'ekin est bien pr\'esent, les \'echanges des premiers jours se font
-avec le Hubei et le Yunnan, deux provinces typiquement peu actives. 
-
-\begin{figure}
+\begin{figure}[H]
     \centering
 
     \subfloat[dufu]{
-      \label{fig:time-moyan1}
       \includegraphics[width=2.9252in,height=1.828in]{figures/chap4/chapitre4-img46.png}
+      \label{geo-same-dufu}
     }
      
     \subfloat[yuanfang]{
-      \label{fig:time-moyan2}
       \includegraphics[width=2.9252in,height=1.828in]{figures/chap4/chapitre4-img47.png}
+      \label{geo-same-yuanfang}
     }
 
     \caption{
@@ -736,23 +719,22 @@ avec le Hubei et le Yunnan, deux provinces typiquement peu actives.
 
 En s{\textquoteright}int\'eressant aux \'echanges qui se d\'eroulent au
 sein de chaque province (d{\textquoteright}un utilisateur situ\'e dans
-une province vers un autre utilisateur situ\'e dans la meme province),
-nous constatons que les \'echanges internes sont \'egalement importants
+une province vers un autre utilisateur situ\'e dans la meme province) (fig. \ref{geo-same-yuanfang} \& \ref{geo-same-dufu}),nous constatons que les \'echanges internes sont \'egalement importants
 au sein des villes principales (Canton, P\'ekin et Shanghai) mais de
-nombreuses villes prennent aussi par \`a la discussion. 
+nombreuses villes prennent aussi par \`a la discussion (fig. \ref{geo-pie-yuanfang} \& \ref{geo-pie-dufu}). 
 
 
-\begin{figure}
+\begin{figure}[H]
     \centering
 
     \subfloat[dufu]{
-      \label{fig:time-moyan1}
-      \includegraphics[width=2.6043in,height=2.6043in]{figures/chap4/chapitre4-img48.png}
+      \includegraphics[scale=0.5]{figures/chap4/chapitre4-img48.png}
+      \label{geo-pie-dufu}
     }
      
     \subfloat[yuanfang]{
-      \label{fig:time-moyan2}
-      \includegraphics[width=2.6043in,height=2.6043in]{figures/chap4/chapitre4-img49.png}
+      \includegraphics[scale=0.5]{figures/chap4/chapitre4-img49.png}
+      \label{geo-pie-yuanfang}
     }
 
     \caption{
@@ -762,9 +744,9 @@ nombreuses villes prennent aussi par \`a la discussion.
 \end{figure}
 
 
-\subsubsection{4122. Communaut\'es, clusters et groupes de provinces}
+\subsubsection{Communaut\'es, clusters et groupes de provinces}
 Un r\'ecent article du d\'epartement d{\textquoteright}urbanisme de
-l{\textquoteright}Universit\'e de Nanjing (Zhen \&al., 2014) analyse
+l{\textquoteright}Universit\'e de Nanjing \citep{Zhen2013} analyse
 les relations entre le r\'eseau urbain et le r\'eseau
 qu{\textquoteright}il est possible d{\textquoteright}inf\'erer au sein
 des relations friends/followers entre les utilisateurs sur Sina Weibo .
@@ -777,18 +759,18 @@ smalls{\textquotedblright} }montrant aussi une diff\'erence tr\`es
 marqu\'e entre l{\textquoteright}Ouest et l{\textquoteright}Est.
 
 
-\begin{figure}
+\begin{figure}[H]
     \centering
     
     \begin{description}
-    \item Three Majors
+    \item[Three Majors]
       \begin{enumerate}
       \item Pearl River Delta (Guangzhou, Shenzhen)
       \item Beijing-Tianjin-Hebei region (Beijing)
       \item the Yangtze River Delta (Shanghai, Hangzhou, Nanjing)
       \end{enumerate}
 
-    \item Four Smalls
+    \item[Four Smalls]
       \begin{enumerate}
       \item Chengdu-Chongqing region (Chengdu, Chongqing)
       \item Hercynian region (Fuzhou, Xiamen)
@@ -799,7 +781,7 @@ marqu\'e entre l{\textquoteright}Ouest et l{\textquoteright}Est.
     \end{description}
 
    \caption{
-      Le mod\`ele urbain chinois du Three majors and four smalls d{\textquoteright}apr\`es \cite{Zhen2014}
+      Le mod\`ele urbain chinois du Three majors and four smalls d{\textquoteright}apr\`es \cite{Zhen2013}
     }
 \end{figure}
 
@@ -820,29 +802,29 @@ d{\textquoteright}utiliser le r\'eseau des interactions entre provinces
 des utilisateurs. Afin de d\'etecter les communaut\'es de discussion et
 identifier les provinces ayant interagit le plus ensemble dans chaque
 cas, nous soumettons le r\'eseau d{\textquoteright}interactions \`a un
-algorithme de Louvain (Blondel \& al., 2008). Sur les cartes, les
+algorithme de Louvain \citep{Blondel2008}. Sur les cartes, les
 couleurs repr\'esentent les diff\'erentes communaut\'es calcul\'ees
 depuis le r\'eseau d{\textquoteright}interactions.
 
-\begin{figure}
+\begin{figure}[H]
     \centering
 
     \subfloat[sextape]{
-      \label{fig:time-moyan1}
       \includegraphics[width=3.198in,height=2.0004in]{figures/chap4/chapitre4-img50.png}
+      \label{geo-clusters-sextape}
     }
-     
     \subfloat[TheVoice]{
-      \label{fig:time-moyan2}
       \includegraphics[width=3.3024in,height=2.063in]{figures/chap4/chapitre4-img51.png}
+      \label{geo-clusters-voice}
     } 
+    \newline
     \subfloat[Qiegao]{
-      \label{fig:time-moyan2}
       \includegraphics[width=3.1878in,height=1.9795in]{figures/chap4/chapitre4-img52.png}
+      \label{geo-clusters-qiegao}
     } 
     \subfloat[Dufu]{
-      \label{fig:time-moyan2}
       \includegraphics[width=3.5315in,height=2.2087in]{figures/chap4/chapitre4-img53.png}
+      \label{geo-clusters-dufu}
     }
 
     \caption{
@@ -856,16 +838,15 @@ A la premi\`ere lecture de ces cartes, nous constatons en effet que les
 provinces de l{\textquoteright}Ouest sont nettement moins engag\'ees
 que celles de la moiti\'e Est de la Chine. Ce fait refl\`ete la
 population utilisateurs de Weibo concentr\'es en majorit\'e dans les
-grandes villes en d\'eveloppement de la c\^ote et du centre (Fu \&
-Chau, 2013). 
+grandes villes en d\'eveloppement de la c\^ote et du centre \cite{Fu2013}. 
 
-Le m\`eme absurdiste \textit{dufu }poss\`ede une diffusion plus
-concentr\'ee alors que les discussions politiques semblent regrouper
-des utilisateurs d{\textquoteright}origines plus diverses. Nous
+Le m\`eme absurdiste \textit{dufu} poss\`ede une diffusion plus
+concentr\'ee (fig. \ref{geo-clusters-dufu}) alors que les discussions politiques semblent regrouper
+des utilisateurs d{\textquoteright}origines plus diverses (fig. \ref{geo-clusters-sextape} \& \ref{geo-clusters-qiegao}). Nous
 remarquons \'egalement que Taiwan est absente des discussions plus en
 lien avec la politique et la soci\'et\'e de Chine continentale, alors
 qu{\textquoteright}elle est bien pr\'esente dans le cas des m\`emes
-absurdistes et de l{\textquoteright}\'emission de loisir. 
+absurdistes et de l{\textquoteright}\'emission de loisir (fig. \ref{geo-clusters-voice}). 
 
 Devant la diversit\'e de contenus propos\'es par ces cartes, peu de
 pattern sont d\'ecelables a priori et la circulation des contenus ne
@@ -910,43 +891,40 @@ mieux comprendre comment se r\'epartissent les
 {\textquotedblleft}influenceurs{\textquotedblright} sur le territoire
 pour chacun des m\`emes choisis ici.
 
-\begin{figure}
+\begin{figure}[H]
     \centering
-
-    \subfloat[sextape]{
-      \label{fig:time-moyan1}
-      \includegraphics[width=5.9996in,height=2.5004in]{figures/chap4/chapitre4-img54.png}
-    }
-     
-    \subfloat[biaoge]{
-      \label{fig:time-moyan2}
-      \includegraphics[width=5.9996in,height=2.5004in]{figures/chap4/chapitre4-img55.png}
-    } 
-   
-
+    \includegraphics[width=5.9996in,height=2.5004in]{figures/chap4/chapitre4-img54.png}
+    \label{fig:sextape-users-pie}
     \caption{
-        % Communaut\'e de provinces dessin\'ees par les \'echanges entre utilisateurs autour de chaque m\`eme 
+        Communaut\'e de provinces dessin\'ees par les \'echanges entre utilisateurs autour de Sextape
     }
 
+\end{figure}
+
+\begin{figure}[H]
+    \centering     
+    \includegraphics[width=5.9996in,height=2.5004in]{figures/chap4/chapitre4-img55.png}
+    \label{fig:biaoge-users-pie}
+    \caption{
+        Communaut\'e de provinces dessin\'ees par les \'echanges entre utilisateurs autour de Biaoge
+    }
 \end{figure}
 
  
 
 Les communaut\'es form\'ees lors de la discussion autour des m\`emes \`a
 teneur plus politique pr\'esentent une grande diversit\'e de
-provenances. On voit dans le cas de \textit{biaoge} et \textit{sextape
-}que de nombreuses provinces sont repr\'esent\'ees. 
+provenances. On voit dans le cas de \textit{biaoge} (fig. \ref{fig:biaoge-users-pie}) et \textit{sextape} (fig. \ref{fig:sextape-users-pie}) que de nombreuses provinces sont repr\'esent\'ees. 
 
 
-\begin{figure}
+\begin{figure}[H]
     \centering
 
     \includegraphics[width=5.9996in,height=2.5004in]{figures/chap4/chapitre4-img56.png}
-   
-
+    \label{fig:voice-users-pie}
+  
     \caption{
-        % Communaut\'e de provinces dessin\'ees par les \'echanges entre utilisateurs autour de chaque m\`eme 
-        The Voice
+        Communaut\'e de provinces dessin\'ees par les \'echanges entre utilisateurs autour de The Voice
     }
 
 \end{figure}
@@ -956,28 +934,27 @@ provenances. On voit dans le cas de \textit{biaoge} et \textit{sextape
 
 A l{\textquoteright}inverse, les communaut\'es
 d{\textquoteright}utilisateurs les plus impliqu\'ees dans \textit{The
-Voice }ou \textit{Moyan} sont pour la plupart localis\'ees \`a Beijing.
+Voice } (fig. \ref{fig:voice-users-pie}) ou \textit{Moyan} (fig. \ref{fig:voice-users-pie}) sont pour la plupart localis\'ees \`a Beijing.
 Par rapport \`a la cartographie pr\'ec\'edente qui montrait les
-relations fortes avec le Zhejiang pour \textit{The Voice}, nous voyons
+relations fortes avec le Zhejiang pour \textit{The Voice} (fig. \ref{fig:voice-users-pie}), nous voyons
 ici que la province est tr\`es faiblement repr\'esent\'ee dans les
 communaut\'es majoritaires.
 
 
-  \begin{figure}
-    \centering
+\begin{figure}[H]
+  \centering
 
    \includegraphics[width=5.9996in,height=2.5004in]{figures/chap4/chapitre4-img57.png}
+   \label{fig:moyan-users-pie}
    
-
     \caption{
-        % Communaut\'e de provinces dessin\'ees par les \'echanges entre utilisateurs autour de chaque m\`eme 
-        Moyan
+        Communaut\'e de provinces dessin\'ees par les \'echanges entre utilisateurs autour de Moyan
     }
 
 \end{figure}
 
 
-Le m\`eme \textit{dufu }montre quant \`a lui un patterns diff\'erents
+Le m\`eme \textit{dufu} (fig. \ref{fig:dufu-users-pie}) montre quant \`a lui un patterns diff\'erents
 o\`u les communaut\'es sont plus organis\'ees plus r\'egionalement,
 avec moins de diversit\'e d{\textquoteright}origine des utilisateurs
 engag\'es dans les discussions.
@@ -988,23 +965,20 @@ engag\'es dans les discussions.
 
    \includegraphics[width=5.9996in,height=2.5004in]{figures/chap4/chapitre4-img58.png}
    
-
+  \label{fig:dufu-users-pie}
     \caption{
-        % Communaut\'e de provinces dessin\'ees par les \'echanges entre utilisateurs autour de chaque m\`eme 
-        Dufu
+        Communaut\'e de provinces dessin\'ees par les \'echanges entre utilisateurs autour de Dufu
     }
 
 \end{figure}
 
-
- 
 
 
 Une dimension importante du m\`eme absurdiste semble \^etre
 l{\textquoteright}organisation des conversations en communaut\'es
 plut\^ot local (utilisateurs de m\^eme provinces). Une premi\`ere
 analyse des communaut\'es les plus centrales dans le graphe de
-\textit{yuanfang }ne nous permet de retrouver ce pattern. Pourtant, en
+\textit{yuanfang} ne nous permet de retrouver ce pattern. Pourtant, en
 nous int\'eressant aux communaut\'es de seconde et troisi\`eme
 importances, nous voyons que la plupart se constituent autour de 1 ou 2
 provinces seulement. 
@@ -1020,9 +994,10 @@ l{\textquoteright}unicit\'e de l{\textquoteright}origine des
 utilisateurs.
 
 
-\begin{figure}
+\begin{figure}[H]
     \centering
     \includegraphics[width=6.0087in,height=3.3386in]{figures/chap4/chapitre4-img59.png}
+    \label{fig:biaoge-words-pie-wan}
     \caption{
       biaoge : distribution des citations par provinces pour le mot wan signifiant 10000, une quantit\'e ici quantit\'e d{\textquoteright}argent pour une montre.
     }
@@ -1031,63 +1006,61 @@ utilisateurs.
 
 
 
-\begin{figure}
-    \centering
-    \subfloat[Légende 1]{
-      \label{fig:edge-a}
-      \includegraphics[width=6.0087in,height=3.3386in]{figures/chap4/chapitre4-img60.png}
-    }
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=6.0087in,height=3.3386in]{figures/chap4/chapitre4-img60.png}
+  \label{fig:biaoge-words-pie-biao}
   \caption{
      biaoge : distribution des citations par provinces pour le mot biao (montre)
   }
 \end{figure}
 
 
-Dans le cas du m\`eme biaoge, nous voyons que les mots principaux
+Dans le cas du m\`eme biaoge (fig. \ref{fig:biaoge-words-pie-biao} \& \ref{fig:biaoge-words-pie-biao}), nous voyons que les mots principaux
 portent une forte diversit\'e et confirme l{\textquoteright}hypoth\`ese
 d{\textquoteright}une diffusion g\'eographique plus large de la
 discussion.
 
 
-\begin{figure}
+\begin{figure}[H]
     \centering
 
     \subfloat[\textit{zhen}, signifiant {\textquotedblleft}vrai{\textquotedblright}]{
-      \label{fig:edge-a}
-      \includegraphics[width=6.0087in,height=3.3386in]{figures/chap4/chapitre4-img61.png}
+      \includegraphics[scale=0.3]{figures/chap4/chapitre4-img61.png}
     }
     \subfloat[\textit{chang}, signifiant {\textquotedblleft}chanter{\textquotedblright}]{
-      \label{fig:edge-a}
-      \includegraphics[width=6.0087in,height=3.3386in]{figures/chap4/chapitre4-img62.png}
+      \includegraphics[scale=0.3]{figures/chap4/chapitre4-img62.png}
     }
+    \newline
     \subfloat[\textit{shengyin}, signifiant "la voix"]{
-      \label{fig:edge-a}
-      \includegraphics[width=6.0087in,height=3.3386in]{figures/chap4/chapitre4-img63.png}
+      \includegraphics[scale=0.5]{figures/chap4/chapitre4-img63.png}
     }
-
+    \label{fig:voice-words-pie}
   \caption{
     The Voice : distribution des citations de mots par provinces 
   }
 \end{figure}
 
 
-A l{\textquoteright}inverse, les mots-cl\'es de \textit{The Voice} sont
+A l{\textquoteright}inverse, les mots-cl\'es de \textit{The Voice} (fig. \ref{fig:voice-words-pie}) sont
 nettement domin\'es par des communaut\'es d{\textquoteright}utilisateurs de P\'ekin ou du Zhejiang qui semble r\'eellement fixer les termes de la discussion.
 
 \begin{figure}
     \centering
-    \subfloat{  
-      \includegraphics[width=6.0087in,height=3.3386in]{figures/chap4/chapitre4-img64.png}
+    \subfloat[\textit{zuijin}, signifiant {\textquotedblleft}ces derniers temps{\textquotedblright}]{  
+      \includegraphics[scale=0.3]{figures/chap4/chapitre4-img65.png}
     }
-    \subfloat{  
-      \includegraphics[width=6.0087in,height=3.3386in]{figures/chap4/chapitre4-img65.png}
+    \subfloat[\textit{mang}, signifiant {\textquotedblleft}occupé{\textquotedblright}]{  
+      \includegraphics[scale=0.3]{figures/chap4/chapitre4-img66.png}
     }
-    \subfloat{  
-      \includegraphics[width=6.0087in,height=3.3386in]{figures/chap4/chapitre4-img66.png}
+    \newline
+    \subfloat[\textit{dufu}, le nom d'un lettré chinois célèbre]{  
+      \includegraphics[scale=0.5]{figures/chap4/chapitre4-img64.png}
     }
-
+    
+    \label{fig:biaoge-words-pie}
     \caption{
-      Légende ???
+      Dufu : distribution des citations de mots par provinces 
     }
 \end{figure}
 
@@ -1095,7 +1068,7 @@ Dans le cas de dufu, les trois mots les plus importants
 \textit{dufu}, \textit{zuijin} et \textit{mang} qui forme la
 phrase-m\`eme \textit{dufu est tr\`es occup\'e
 r\'ecemment }sont tous tr\`es fortement reli\'e \`a
-la r\'egion de Canton. Cette information, pas forc\'ement pro\'eminente
+la r\'egion de Canton (fig. \ref{fig:biaoge-words-pie}). Cette information, pas forc\'ement pro\'eminente
 dans les analyses pr\'ec\'edentes, montrent que le d\'eveloppement de
 ce m\`eme est largement le fait d{\textquoteright}utilisateurs de la
 r\'egion de Canton.

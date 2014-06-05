@@ -58,6 +58,13 @@
 \addto\captionsfrench{\def\figurename{Graphique}} % francisation des légendes
 \addto\captionsfrench{\def\tablename{Tableau}}
 \RequirePackage{subfig}
+\RequirePackage{float}
+
+% table settings
+\RequirePackage{tabulary}
+\RequirePackage{colortbl}
+\RequirePackage{longtable}
+
 
 % colors
 \RequirePackage{color}
@@ -71,6 +78,7 @@
 \RequirePackage{booktabs} % for much better looking tables
 \RequirePackage[palatino]{quotchap} % dec­o­ra­tive chap­ter head­ings with quo­ta­tions
 \pagestyle{plain} % options: empty , plain , fancy
+\RequirePackage{lscape}
 
 % typo
 \RequirePackage{lettrine} % big letter at start of chapter
@@ -171,3 +179,25 @@
    \addvspace{1.0\baselineskip plus 0.5ex minus 0.2ex}%
    \noindent\textsc{#1}}
 
+% multipage tabulary
+\def\ltabulary{%
+\small
+\def\endfirsthead{\\}%
+\def\endhead{\\}%
+\def\endfoot{\\}%
+\def\endlastfoot{\\}%
+\def\tabulary{%
+  \def\TY@final{%
+\def\endfirsthead{\LT@end@hd@ft\LT@firsthead}%
+\def\endhead{\LT@end@hd@ft\LT@head}%
+\def\endfoot{\LT@end@hd@ft\LT@foot}%
+\def\endlastfoot{\LT@end@hd@ft\LT@lastfoot}%
+\longtable}%
+  \let\endTY@final\endlongtable
+  \TY@tabular}%
+\dimen@\columnwidth
+\advance\dimen@-\LTleft
+\advance\dimen@-\LTright
+\tabulary\dimen@}
+
+\def\endltabulary{\endtabulary}
