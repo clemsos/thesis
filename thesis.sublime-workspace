@@ -1050,7 +1050,7 @@
 						],
 						"settings":
 						{
-							"origPos": 180.0,
+							"origPos": 581.0,
 							"syncScroll": false,
 							"syntax": "Packages/LaTeX/LaTeX.tmLanguage"
 						},

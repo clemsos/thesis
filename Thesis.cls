@@ -112,6 +112,7 @@
 \def\degree#1{\gdef\@degree{#1}}
 \def\advisor#1{\gdef\@advisor{#1}}
 \def\department#1{\gdef\@department{#1}}
+\def\datesoutenance#1{\gdef\@datesoutenance{#1}}
 \def\field#1{\gdef\@field{#1}}
 \def\university#1{\gdef\@university{#1}}
 \def\universitycity#1{\gdef\@universitycity{#1}}
@@ -126,21 +127,76 @@
 }
 
 \renewcommand{\maketitle}{
-    \singlespacing
+
     \thispagestyle{empty}
-    \vspace*{\fill} \vspace{150pt} \begin{center}
-    \includegraphics[scale=0.4]{media/logoTPT.png}
-    \Huge \textcolor{Crimson}{\textit{\thetitle}} \normalsize \\ \sc \vspace{100pt}
-    Une dissertation écrite\\ par\\
-    \theauthor\\ pour\\ l'\@department\\
-    \vspace{12pt}
-    pour l'obtention\\
-    du grade de \\ \@degree\\
-    dans la discipline \\ \@field\\
-    \vspace{12pt}
-    \@university\\ \@universitycity, \@universitystate\\
-    \@degreemonth\ \@degreeyear
-    \end{center} \vspace*{\fill}
+    %\vspace*{\fill}
+
+    \includegraphics[scale=0.12]{media/logoTPT.png}
+    \vspace*{1cm}
+    %header
+    \begin{center}
+
+        \textbf{TH\`ESE DE DOCTORAT} \\
+        \vspace*{0.5cm}
+        % dans la discipline  \@field\\
+        \textbf{\@department}\\
+        \vspace*{1cm}
+        Pr\'esent\'ee par \ \\ 
+        \vspace*{0.5cm}
+        {\Large \theauthor}\\
+        \vspace*{1cm}
+
+        Pour obtenir le grade de \ \\[1ex]
+        \textbf{\@degree  \ ès  \@field} \ \\
+    \end{center}
+    
+    % title 
+    \vspace*{1cm}
+    { \Huge 
+      \begin{spacing}{1.2}
+        \textcolor{Crimson}{\thetitle} \\
+      \end{spacing}
+    } 
+    \vspace{10pt} 
+
+    % soutenance
+    \small
+    \flushleft{Soutenue le \@datesoutenance}\\
+    \flushleft{devant le jury composé de : }\\[2ex]
+    \flushleft{\begin{tabular}{r@{\ }ll}
+      & Mme. Valérie {\sc Fernandez} & Directeur de thèse\\
+      & M. Gilles {\sc Puel} & Examinateur  \\
+      & M. Prénom {\sc Nom} & Rapporteur \\
+      & M. Prénom {\sc Nom} & Rapporteur  \\
+      & M. Prénom {\sc Nom} & Examinateur  \\
+    \end{tabular}}
+
+    \vspace{30pt} 
+    \begin{center}
+      \textbf{
+        \@university - \@universitycity, \@universitystate\\
+        \@degreemonth\ \@degreeyear
+      }
+    \end{center}
+
+    % \singlespacing
+    % \thispagestyle{empty}
+    % \vspace*{\fill} \vspace{150pt} \begin{center}
+    % \includegraphics[scale=0.4]{media/logoTPT.png}
+    % \Huge \textcolor{Crimson}{\textit{\thetitle}} \normalsize \\ \sc \vspace{100pt}
+    % Une dissertation écrite\\ par\\
+    % \theauthor\\ pour\\ l'\@department\\
+    % \vspace{12pt}
+    % pour l'obtention\\
+    % du grade de \\ \@degree\\
+    % dans la discipline \\ \@field\\
+    % \vspace{12pt}
+    % \@university\\ \@universitycity, \@universitystate\\
+    % \@degreemonth\ \@degreeyear
+    % \end{center} \vspace*{\fill}
+    %\vspace*{1cm}
+    % \singlespacing
+
 }
 
 \newcommand{\abstractpage}{
@@ -148,7 +204,7 @@
     \pagenumbering{roman}
     \setcounter{page}{3}
     \pagestyle{fancy}
-    \lhead{Sous la direction de: \@advisor} \rhead{\@author}
+    \lhead{Sous la direction de \@advisor} \rhead{\@author}
     \renewcommand{\headrulewidth}{0.0pt}
     \begin{center}
     \vspace*{1pt}
@@ -181,23 +237,23 @@
 
 % multipage tabulary
 \def\ltabulary{%
-\small
-\def\endfirsthead{\\}%
-\def\endhead{\\}%
-\def\endfoot{\\}%
-\def\endlastfoot{\\}%
-\def\tabulary{%
-  \def\TY@final{%
-\def\endfirsthead{\LT@end@hd@ft\LT@firsthead}%
-\def\endhead{\LT@end@hd@ft\LT@head}%
-\def\endfoot{\LT@end@hd@ft\LT@foot}%
-\def\endlastfoot{\LT@end@hd@ft\LT@lastfoot}%
-\longtable}%
-  \let\endTY@final\endlongtable
-  \TY@tabular}%
-\dimen@\columnwidth
-\advance\dimen@-\LTleft
-\advance\dimen@-\LTright
+  \small
+  \def\endfirsthead{\\}%
+  \def\endhead{\\}%
+  \def\endfoot{\\}%
+  \def\endlastfoot{\\}%
+  \def\tabulary{%
+    \def\TY@final{%
+  \def\endfirsthead{\LT@end@hd@ft\LT@firsthead}%
+  \def\endhead{\LT@end@hd@ft\LT@head}%
+  \def\endfoot{\LT@end@hd@ft\LT@foot}%
+  \def\endlastfoot{\LT@end@hd@ft\LT@lastfoot}%
+  \longtable}%
+    \let\endTY@final\endlongtable
+    \TY@tabular}%
+  \dimen@\columnwidth
+  \advance\dimen@-\LTleft
+  \advance\dimen@-\LTright
 \tabulary\dimen@}
 
 \def\endltabulary{\endtabulary}
