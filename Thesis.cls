@@ -161,15 +161,17 @@
 
     % soutenance
     \small
-    \flushleft{Soutenue le \@datesoutenance}\\
-    \flushleft{devant le jury composé de : }\\[2ex]
-    \flushleft{\begin{tabular}{r@{\ }ll}
+    {\flushleft{Soutenue le \@datesoutenance\\
+    devant le jury composé de : \\[2ex]
+      
+      \begin{tabular}{r@{\ }ll}
       & Mme. Valérie {\sc Fernandez} & Directeur de thèse\\
       & M. Gilles {\sc Puel} & Examinateur  \\
       & M. Prénom {\sc Nom} & Rapporteur \\
       & M. Prénom {\sc Nom} & Rapporteur  \\
       & M. Prénom {\sc Nom} & Examinateur  \\
-    \end{tabular}}
+    \end{tabular}
+    }}
 
     \vspace{30pt} 
     \begin{center}
