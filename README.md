@@ -10,18 +10,14 @@ Convert Word to Latex :
 Save as .odt ave OpenOffice puis utiliser word2latex
     
     # doc here : http://writer2latex.sourceforge.net/doc1.2/user-manual14.html
-    w2l -config /home/clemsos/phD/thesis/w2l-config.xml 03-CORRIGE-Chapitre3reluGP.odt chapitre3.tex
+    w2l -config ./scripts/w2l-config.xml 03-CORRIGE-Chapitre3reluGP.odt chapitre3.tex
 
-regexp find quotes
+Convert citations into latex format
+
+Support : (Nivre et al., 2007) , (Sagae and Tsujii 2007), Nivre (2007), (Chen et al., 2007; Dredze et al., 2007).
+
+    # edit file name in the script
+    python ./scripts/quotes.py
     
-    # all parentheses
-     \([^([0-9])]+\)  
 
-    \(\D*\d\d\d\d\)
-
-    # date only
-    (\()([0-9]+)(\))
-    (?<=\()([0-9]+)(?=\)) 
-
-    #format (author, date)
 
