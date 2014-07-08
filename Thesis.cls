@@ -55,9 +55,11 @@
 }
 
 % algorithms
-\RequirePackage{algorithmic}
-\RequirePackage{algorithm2e}
-% \RequirePackage{algpseudocode}
+\RequirePackage{algorithm}
+\RequirePackage{algpseudocode}
+% \RequirePackage{algorithm2e}
+
+
 
 % figures settings
 \addto\captionsfrench{\def\figurename{Graphique}} % francisation des légendes

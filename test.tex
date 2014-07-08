@@ -3,50 +3,13 @@
 
 
 % encoding
-\documentclass[11pt,a4paper]{thesis}
-\usepackage[english, frenchb]{babel}
-\usepackage{lmodern}
-\usepackage[utf8]{inputenc} 
-\usepackage[T1]{fontenc}
+\documentclass[11pt,a4paper]{Thesis}
 
-% images
-\usepackage{graphicx}
 
-% typo
-\usepackage{lettrine}
-\usepackage{setspace}
-
-% macros
-\usepackage[tight]{shorttoc}
-\newcommand{\sommaire}{\shorttoc{Sommaire}{1}}
-\newcommand{\myTitle}{A Classic Thesis Style\xspace}
-
-% \newcommand{\wbalsup}[1] {
-%   This is the Wikibook about LaTeX
-%   supported by #1}
 
 
 \begin{document}
-\begin{spacing}{1.2} % line spacing
-\frenchspacing % disable specific space after coma
-\raggedbottom %  makes all pages the height of the text on that page. No extra vertical space is added.
-\pagenumbering{roman}
-\pagestyle{plain}
 
-\frontmatter 
-\maketitle % \include{pages/title}
-% \include{pages/abstract}
-% \include{pages/thanks}
-\sommaire
+\include{annexes/algos}
 
-\mainmatter
-
-\include{pages/test}
-\cleardoublepage
-
-\backmatter
-\part{ Annexes }
-\appendix
-\tableofcontents  % table des matières à la fin
-\end{spacing}
 \end{document}
