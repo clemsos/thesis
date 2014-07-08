@@ -54,6 +54,11 @@
     urlcolor=Crimson,
 }
 
+% algorithms
+\RequirePackage{algorithmic}
+\RequirePackage{algorithm2e}
+% \RequirePackage{algpseudocode}
+
 % figures settings
 \addto\captionsfrench{\def\figurename{Graphique}} % francisation des légendes
 \addto\captionsfrench{\def\tablename{Tableau}}
@@ -107,6 +112,7 @@
 \newcommand{\sommaire}{\shorttoc{Sommaire}{1}}
 
 % some definitions
+\def\subtitle#1{\gdef\@subtitle{#1}}
 \def\degreeyear#1{\gdef\@degreeyear{#1}}
 \def\degreemonth#1{\gdef\@degreemonth{#1}}
 \def\degree#1{\gdef\@degree{#1}}
@@ -154,9 +160,17 @@
     \vspace*{1cm}
     { \Huge 
       \begin{spacing}{1.2}
-        \textcolor{Crimson}{\thetitle} \\
+        \begin{center}
+          \textcolor{Crimson}{
+            \thetitle \\
+            \Large{\@subtitle} \\
+          }
+        \end{center}
       \end{spacing}
-    } 
+    }
+    
+
+    
     \vspace{10pt} 
 
     % soutenance
@@ -167,9 +181,9 @@
       \begin{tabular}{r@{\ }ll}
       & Mme. Valérie {\sc Fernandez} & Directeur de thèse\\
       & M. Gilles {\sc Puel} & Examinateur  \\
-      & M. Prénom {\sc Nom} & Rapporteur \\
-      & M. Prénom {\sc Nom} & Rapporteur  \\
-      & M. Prénom {\sc Nom} & Examinateur  \\
+      & Mme. Karine {\sc ??} & Rapporteur  \\
+      & M. Thierry {\sc Joliveau} & Examinateur  \\
+      & M. \'Eric {\sc Guichard} & Rapporteur \\
     \end{tabular}
     }}
 

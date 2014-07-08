@@ -523,31 +523,15 @@
 			"file": "thesis.tex",
 			"settings":
 			{
-				"buffer_size": 1238,
+				"buffer_size": 1347,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "refs.bib",
+			"file": "annexes/algos.tex",
 			"settings":
 			{
-				"buffer_size": 3237534,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/home/clemsos/Desktop/new file",
-			"settings":
-			{
-				"buffer_size": 30,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "chapters/chapitre3.tex",
-			"settings":
-			{
-				"buffer_size": 141365,
+				"buffer_size": 849,
 				"line_ending": "Unix"
 			}
 		},
@@ -555,7 +539,23 @@
 			"file": "Thesis.cls",
 			"settings":
 			{
-				"buffer_size": 7375,
+				"buffer_size": 7643,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/clemsos/phD/Papers/CIRC2014/Renaud/CIRC14-Renaud.tex",
+			"settings":
+			{
+				"buffer_size": 25363,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/clemsos/Downloads/demonstration-algorithme.tex",
+			"settings":
+			{
+				"buffer_size": 13683,
 				"line_ending": "Unix"
 			}
 		}
@@ -567,16 +567,20 @@
 		"selected_items":
 		[
 			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
 				"sync",
 				"SyncScroll: Toggle Current View Scroll Sync"
 			],
 			[
 				"syn",
 				"SyncScroll: Toggle Current View Scroll Sync"
-			],
-			[
-				"in",
-				"Package Control: Install Package"
 			],
 			[
 				"l",
@@ -663,10 +667,6 @@
 				"Set Syntax: JSON"
 			],
 			[
-				"ins",
-				"Package Control: Install Package"
-			],
-			[
 				"ipy",
 				"Open IPython Notebook"
 			],
@@ -724,13 +724,24 @@
 	},
 	"file_history":
 	[
+		"/home/clemsos/Downloads/algexample.tex",
+		"/home/clemsos/Downloads/KAISsampl.tex",
+		"/home/clemsos/phD/thesis/annexes/algos.tex",
+		"/home/clemsos/phD/thesis/Thesis.cls",
+		"/home/clemsos/phD/thesis/chapters/chapitre3.tex",
+		"/home/clemsos/phD/thesis/chapters/chapitre1.tex",
+		"/home/clemsos/phD/thesis/thesis.tex",
+		"/home/clemsos/phD/thesis/info.tex",
+		"/home/clemsos/Documents/Paperasses/WIFI",
+		"/home/clemsos/phD/thesis/chapters/chapitre2.tex",
+		"/home/clemsos/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/clemsos/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
+		"/home/clemsos/phD/thesis/chapters/_chapitre3.tex",
+		"/home/clemsos/phD/thesis/chapters/.~lock.chapitre2.tex#",
+		"/home/clemsos/Desktop/new file",
 		"/home/clemsos/phD/thesis/thesis.log",
 		"/home/clemsos/phD/thesis/chapters/chapitre4.tex",
-		"/home/clemsos/phD/thesis/chapters/chapitre3.tex",
 		"/home/clemsos/Softwares/freetunnel",
-		"/home/clemsos/phD/thesis/info.tex",
-		"/home/clemsos/phD/thesis/Thesis.cls",
-		"/home/clemsos/phD/thesis/thesis.tex",
 		"/home/clemsos/phD/thesis/pages/title.tex",
 		"/home/clemsos/phD/thesis/thesis.out",
 		"/home/clemsos/phD/thesis/pages/title.aux",
@@ -740,14 +751,10 @@
 		"/home/clemsos/phD/thesis/pages/abstract.tex",
 		"/home/clemsos/Softwares/Dropbox",
 		"/home/clemsos/phD/thesis/chapters/conclusion.tex",
-		"/home/clemsos/phD/thesis/chapters/chapitre1.tex",
-		"/home/clemsos/phD/thesis/chapters/chapitre2.tex",
 		"/home/clemsos/phD/thesis/thesis.bbl",
 		"/home/clemsos/phD/thesis/thesis.lof",
-		"/home/clemsos/Desktop/new file",
 		"/home/clemsos/phD/thesis/chapters/introduction.tex",
 		"/home/clemsos/phD/thesis/quotes.py",
-		"/home/clemsos/phD/thesis/chapters/_chapitre3.tex",
 		"/home/clemsos/phD/drafts/Latex/chap4/chapitre4.tex",
 		"/home/clemsos/phD/thesis/chapters/_chapitre2.tex",
 		"/home/clemsos/phD/thesis/w2l-config.xml",
@@ -768,7 +775,6 @@
 		"/home/clemsos/.local/share/gnome-shell/extensions/MultiClock@mibus.org/extension.js",
 		"/home/clemsos/.local/share/gnome-shell/extensions/MultiClock@mibus.org/metadata.json",
 		"/home/clemsos/.local/share/gnome-shell/extensions/MultiClock@mibus.org/schemas/gschemas.compiled",
-		"/home/clemsos/Documents/Paperasses/WIFI",
 		"/home/clemsos/phD/thesis/chapters/chap1.aux",
 		"/home/clemsos/phD/thesis/chapters/chapter1.tex",
 		"/home/clemsos/phD/thesis/chapters/chapitre1.aux",
@@ -845,13 +851,7 @@
 		"/home/clemsos/Dev/mitras/ui/public/js/d3custom.js",
 		"/home/clemsos/Dev/mitras/ui/public/libs/bootstrap-slider.js",
 		"/home/clemsos/Dev/mitras/ui/public/js/d3time.js",
-		"/home/clemsos/Dev/mitras/ui/.gitignore",
-		"/home/clemsos/Dev/mitras/ui/etherapp.js",
-		"/home/clemsos/Dev/ethermashup/ethermashup-ui/package.json",
-		"/home/clemsos/Dev/ethermashup/ethermashup-ui/.Rhistory",
-		"/home/clemsos/Dev/mitras/ui/js/d3flatlayers.js",
-		"/home/clemsos/Dev/mitras/ui/meme.html",
-		"/home/clemsos/Dev/mitras/ui/js/main.js"
+		"/home/clemsos/Dev/mitras/ui/.gitignore"
 	],
 	"find":
 	{
@@ -877,6 +877,29 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"algo",
+			"adviso",
+			"thetitle",
+			"thetilte",
+			"thetile",
+			"title",
+			"interfa",
+			"Big Data",
+			"Big Da",
+			" \n",
+			"\\`e",
+			"\\`a",
+			"\\'e",
+			"rhét",
+			"perspec",
+			"\\^e",
+			"\\^o",
+			"\\`e",
+			"\\`a",
+			"\\'e",
+			"pansentier",
+			"pans entier",
+			"\\'e",
 			"\n\\",
 			"Nettl",
 			"biblio",
@@ -981,30 +1004,7 @@
 			" YouTube ",
 			" Facebook ",
 			" Twitter ",
-			"Twitter",
-			" Sina Weibo ",
-			"bib",
-			"bibi",
-			"watsu",
-			"carto",
-			"cart",
-			"carto",
-			"cartogra",
-			"facebook",
-			"face",
-			"hyper",
-			"quote",
-			"Error: Reference source not found",
-			"include",
-			"figure",
-			"comments",
-			"figure",
-			"{fig:",
-			"Lieux,espa",
-			"Lieux, espa",
-			"Lieu, esp",
-			"subsection",
-			"&"
+			"Twitter"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1053,7 +1053,7 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 4,
 			"sheets":
 			[
 				{
@@ -1062,15 +1062,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1238,
+						"buffer_size": 1347,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1069,
-								1069
+								1062,
+								1062
 							]
 						],
 						"settings":
@@ -1080,37 +1080,39 @@
 							"syntax": "Packages/LaTeX/LaTeX.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 840.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "refs.bib",
-					"semi_transient": true,
+					"file": "annexes/algos.tex",
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3237534,
+						"buffer_size": 849,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								832,
+								832
 							]
 						],
 						"settings":
 						{
-							"origPos": 383199.0,
+							"origPos": 0.0,
 							"syncScroll": false,
-							"syntax": "Packages/LaTeX/Bibtex.tmLanguage"
+							"syntax": "Packages/LaTeX/LaTeX.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 383199.0,
+						"translation.y": 240.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 3,
@@ -1118,94 +1120,96 @@
 				},
 				{
 					"buffer": 2,
-					"file": "/home/clemsos/Desktop/new file",
+					"file": "Thesis.cls",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 30,
+						"buffer_size": 7643,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								1633,
+								1633
 							]
 						],
 						"settings":
 						{
 							"origPos": 0.0,
 							"syncScroll": false,
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "chapters/chapitre3.tex",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 141365,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1431,
-								1431
-							]
-						],
-						"settings":
-						{
-							"origPos": 175.0,
-							"syncScroll": false,
-							"syntax": "Packages/LaTeX/LaTeX.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 175.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "Thesis.cls",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 7375,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3098,
-								3098
-							]
-						],
-						"settings":
-						{
-							"origPos": 1845.0,
-							"syncScroll": false,
 							"syntax": "Packages/LaTeX/TeX.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1845.0,
+						"translation.y": 780.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/home/clemsos/phD/Papers/CIRC2014/Renaud/CIRC14-Renaud.tex",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 25363,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								16633,
+								16633
+							]
+						],
+						"settings":
+						{
+							"origPos": 0.0,
+							"syncScroll": false,
+							"syntax": "Packages/LaTeX/LaTeX.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 6240.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/home/clemsos/Downloads/demonstration-algorithme.tex",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 13683,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6863,
+								6863
+							]
+						],
+						"settings":
+						{
+							"origPos": 0.0,
+							"syncScroll": false,
+							"syntax": "Packages/LaTeX/LaTeX.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 5701.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
@@ -1253,7 +1257,7 @@
 	"project": "thesis.sublime-project",
 	"replace":
 	{
-		"height": 66.0
+		"height": 52.0
 	},
 	"save_all_on_build": true,
 	"select_file":
