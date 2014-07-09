@@ -519,46 +519,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "thesis.tex",
-			"settings":
-			{
-				"buffer_size": 1347,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "annexes/algos.tex",
-			"settings":
-			{
-				"buffer_size": 849,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "Thesis.cls",
-			"settings":
-			{
-				"buffer_size": 7643,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/home/clemsos/phD/Papers/CIRC2014/Renaud/CIRC14-Renaud.tex",
-			"settings":
-			{
-				"buffer_size": 25363,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/home/clemsos/Downloads/demonstration-algorithme.tex",
-			"settings":
-			{
-				"buffer_size": 13683,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -724,17 +684,35 @@
 	},
 	"file_history":
 	[
+		"/home/clemsos/phD/thesis/chapters/chapitre4-3.tex",
+		"/home/clemsos/phD/thesis/chapters/chapitre4-2.tex",
+		"/home/clemsos/phD/thesis/chapters/chapitre4-1.tex",
+		"/home/clemsos/phD/thesis/chapters/chapitre3-1.tex",
+		"/home/clemsos/phD/thesis/chapters/chapitre3-2.tex",
+		"/home/clemsos/phD/thesis/annexes/protocole.tex",
+		"/home/clemsos/phD/thesis/test.tex",
+		"/home/clemsos/phD/thesis/thesis.tex",
+		"/home/clemsos/phD/thesis/chapters/chapitre3-4.tex",
+		"/home/clemsos/phD/thesis/chapters/chapitre3-3.tex",
+		"/home/clemsos/phD/thesis/chapters/chapitre2.tex",
+		"/home/clemsos/phD/thesis/Thesis.cls",
+		"/home/clemsos/phD/thesis/README.md",
+		"/home/clemsos/phD/thesis/test.pdf",
+		"/home/clemsos/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/clemsos/phD/thesis/annexes/algos.tex",
+		"/home/clemsos/Downloads/demonstration-algorithme.tex",
+		"/home/clemsos/Downloads/dijkstra.tex",
+		"/home/clemsos/phD/thesis/pages/abstract.tex",
+		"/home/clemsos/phD/thesis/.gitignore",
+		"/home/clemsos/phD/thesis/resume.tex",
+		"/home/clemsos/phD/Papers/CIRC2014/Renaud/CIRC14-Renaud.tex",
+		"/home/clemsos/Downloads/TemplateACA2013.tex",
 		"/home/clemsos/Downloads/algexample.tex",
 		"/home/clemsos/Downloads/KAISsampl.tex",
-		"/home/clemsos/phD/thesis/annexes/algos.tex",
-		"/home/clemsos/phD/thesis/Thesis.cls",
 		"/home/clemsos/phD/thesis/chapters/chapitre3.tex",
 		"/home/clemsos/phD/thesis/chapters/chapitre1.tex",
-		"/home/clemsos/phD/thesis/thesis.tex",
 		"/home/clemsos/phD/thesis/info.tex",
 		"/home/clemsos/Documents/Paperasses/WIFI",
-		"/home/clemsos/phD/thesis/chapters/chapitre2.tex",
-		"/home/clemsos/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
 		"/home/clemsos/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
 		"/home/clemsos/phD/thesis/chapters/_chapitre3.tex",
 		"/home/clemsos/phD/thesis/chapters/.~lock.chapitre2.tex#",
@@ -748,7 +726,6 @@
 		"/home/clemsos/phD/thesis/pages/PageDeGarde.log",
 		"/home/clemsos/phD/LatEX/page-de-garde1.tex",
 		"/home/clemsos/phD/thesis/pages/PageDeGarde.tex",
-		"/home/clemsos/phD/thesis/pages/abstract.tex",
 		"/home/clemsos/Softwares/Dropbox",
 		"/home/clemsos/phD/thesis/chapters/conclusion.tex",
 		"/home/clemsos/phD/thesis/thesis.bbl",
@@ -759,15 +736,12 @@
 		"/home/clemsos/phD/thesis/chapters/_chapitre2.tex",
 		"/home/clemsos/phD/thesis/w2l-config.xml",
 		"/home/clemsos/phD/drafts/Latex/chap3/chapitre3.tex",
-		"/home/clemsos/phD/thesis/README.md",
 		"/home/clemsos/phD/drafts/Latex/chap3/chapitre2.tex",
 		"/home/clemsos/phD/thesis/chapters/typo.tex",
 		"/home/clemsos/Dev/mitras/tests/test_population.py",
 		"/home/clemsos/phD/thesis/refs.bib",
-		"/home/clemsos/phD/thesis/test.tex",
 		"/home/clemsos/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
 		"/home/clemsos/phD/drafts/Latex/chap2/chapitre2.tex",
-		"/home/clemsos/phD/thesis/.gitignore",
 		"/home/clemsos/phD/thesis/chapters/_model_chapitre1.tex",
 		"/home/clemsos/phD/thesis/bib/library.bib",
 		"/home/clemsos/Documents/Untitled 1.txt",
@@ -837,25 +811,11 @@
 		"/home/clemsos/Dev/mitras/ui/public/js/example_flat.js",
 		"/home/clemsos/Dev/mitras/.gitmodules",
 		"/home/clemsos/Dev/mitras/user_stats.py",
-		"/home/clemsos/Taf/Teaching/Processing/Processing Lyon #01/I_DataViz/Modes.pde",
-		"/home/clemsos/Taf/Teaching/Processing/Processing Lyon #01/I_DataViz/I_DataViz.pde",
-		"/home/clemsos/Taf/Teaching/Processing/Processing Lyon #01/Programme de la journee.txt",
-		"/home/clemsos/Dev/mitras/ui/public/js/oldies/d3multilayer.js",
-		"/home/clemsos/Dev/mitras/ui/config/config.json",
-		"/home/clemsos/Dev/mitras/ui/public/js/Config.js",
-		"/home/clemsos/Dev/mitras/ui/public/js/oldies/routes.js",
-		"/home/clemsos/Dev/mitras/results/biaoge/biaoge_timeframes.json",
-		"/home/clemsos/Dev/mitras/viz_meme_analyze.py",
-		"/home/clemsos/Dev/mitras/ui/views/timeline.html",
-		"/home/clemsos/Dev/mitras/ui/public/js/d3flatlayers.js",
-		"/home/clemsos/Dev/mitras/ui/public/js/d3custom.js",
-		"/home/clemsos/Dev/mitras/ui/public/libs/bootstrap-slider.js",
-		"/home/clemsos/Dev/mitras/ui/public/js/d3time.js",
-		"/home/clemsos/Dev/mitras/ui/.gitignore"
+		"/home/clemsos/Taf/Teaching/Processing/Processing Lyon #01/I_DataViz/Modes.pde"
 	],
 	"find":
 	{
-		"height": 36.0
+		"height": 37.0
 	},
 	"find_in_files":
 	{
@@ -877,6 +837,22 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"enjeux",
+			"mots-c",
+			"hash",
+			"subsec",
+			"subs",
+			"subsection",
+			"analyse de don",
+			"dans les ",
+			"dans les rés",
+			"subsec",
+			"\\sect",
+			"ibid",
+			"données",
+			"messages",
+			"mèmes",
+			"corpus",
 			"algo",
 			"adviso",
 			"thetitle",
@@ -988,23 +964,7 @@
 			"(\\()([a-z]+)([0-9]+)(\\))",
 			"(\\()([0-9]+)(\\))",
 			"(?<=\\()([0-9]+)(?=\\))",
-			"\"(?<=\\()([0-9]+)(?=\\))\"",
-			"(*,*)",
-			"]\n",
-			"figure",
-			"2.1.2\n",
-			"} ",
-			"subsection",
-			"a mémétique",
-			"\\liststyleWWNumiii",
-			"\\bigskip",
-			"{\\selectlanguage{english}\\color{black}",
-			"QZone",
-			" QQ ",
-			" YouTube ",
-			" Facebook ",
-			" Twitter ",
-			"Twitter"
+			"\"(?<=\\()([0-9]+)(?=\\))\""
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1053,171 +1013,14 @@
 	"groups":
 	[
 		{
-			"selected": 4,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "thesis.tex",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1347,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1062,
-								1062
-							]
-						],
-						"settings":
-						{
-							"origPos": 0.0,
-							"syncScroll": false,
-							"syntax": "Packages/LaTeX/LaTeX.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 840.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "annexes/algos.tex",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 849,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								832,
-								832
-							]
-						],
-						"settings":
-						{
-							"origPos": 0.0,
-							"syncScroll": false,
-							"syntax": "Packages/LaTeX/LaTeX.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 240.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "Thesis.cls",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 7643,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1633,
-								1633
-							]
-						],
-						"settings":
-						{
-							"origPos": 0.0,
-							"syncScroll": false,
-							"syntax": "Packages/LaTeX/TeX.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 780.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "/home/clemsos/phD/Papers/CIRC2014/Renaud/CIRC14-Renaud.tex",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 25363,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								16633,
-								16633
-							]
-						],
-						"settings":
-						{
-							"origPos": 0.0,
-							"syncScroll": false,
-							"syntax": "Packages/LaTeX/LaTeX.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 6240.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "/home/clemsos/Downloads/demonstration-algorithme.tex",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 13683,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								6863,
-								6863
-							]
-						],
-						"settings":
-						{
-							"origPos": 0.0,
-							"syncScroll": false,
-							"syntax": "Packages/LaTeX/LaTeX.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 5701.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 28.0
+		"height": 29.0
 	},
 	"input":
 	{
@@ -1257,7 +1060,7 @@
 	"project": "thesis.sublime-project",
 	"replace":
 	{
-		"height": 52.0
+		"height": 54.0
 	},
 	"save_all_on_build": true,
 	"select_file":

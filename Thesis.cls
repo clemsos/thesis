@@ -14,30 +14,6 @@
 \DeclareUnicodeCharacter{FB01}{ }
 \DeclareUnicodeCharacter{FEFF}{ }
 
-%feature to identify UTF8 errors
-% from http://tex.stackexchange.com/questions/119060/problem-after-copying-text-inputenc-error-unicode-char-u8-not-set-up-for-us
-\renewcommand*{\UTFviii@defined}[1]{%
-  \ifx#1\relax
-    \begingroup
-      % Remove prefix "\u8:"
-      \def\x##1:{}%
-      % Extract Unicode char from command name
-      % (utf8.def does not support surrogates)
-      \edef\x{\expandafter\x\string#1}%
-      \StringEncodingConvert\x\x{utf8}{utf16be}% convert to UTF-16BE
-      % Hexadecimal representation
-      \EdefEscapeHex\x\x
-      % Enhanced error message
-      \PackageError{inputenc}{Unicode\space char\space \string#1\space
-                              (U+\x)\MessageBreak
-                              not\space set\space up\space
-                              for\space use\space with\space LaTeX}\@eha
-    \endgroup
-  \else\expandafter
-    #1%
-  \fi
-}
-
 % display Chinese 
 \RequirePackage{CJKutf8} 
 \newcommand{\zh}[1]{\begin{CJK}{UTF8}{gbsn}#1\end{CJK}}
@@ -59,12 +35,11 @@
 \RequirePackage{algpseudocode}
 % \RequirePackage{algorithm2e}
 
-
-
 % figures settings
 \addto\captionsfrench{\def\figurename{Graphique}} % francisation des légendes
 \addto\captionsfrench{\def\tablename{Tableau}}
 \RequirePackage{subfig}
+% \RequirePackage{subfigure}
 \RequirePackage{float}
 
 % table settings
@@ -275,3 +250,27 @@
 \tabulary\dimen@}
 
 \def\endltabulary{\endtabulary}
+
+%feature to identify UTF8 errors
+% from http://tex.stackexchange.com/questions/119060/problem-after-copying-text-inputenc-error-unicode-char-u8-not-set-up-for-us
+\renewcommand*{\UTFviii@defined}[1]{%
+  \ifx#1\relax
+    \begingroup
+      % Remove prefix "\u8:"
+      \def\x##1:{}%
+      % Extract Unicode char from command name
+      % (utf8.def does not support surrogates)
+      \edef\x{\expandafter\x\string#1}%
+      \StringEncodingConvert\x\x{utf8}{utf16be}% convert to UTF-16BE
+      % Hexadecimal representation
+      \EdefEscapeHex\x\x
+      % Enhanced error message
+      \PackageError{inputenc}{Unicode\space char\space \string#1\space
+                              (U+\x)\MessageBreak
+                              not\space set\space up\space
+                              for\space use\space with\space LaTeX}\@eha
+    \endgroup
+  \else\expandafter
+    #1%
+  \fi
+}
