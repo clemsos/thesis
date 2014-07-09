@@ -519,6 +519,30 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "chapters/chapitre3-2.tex",
+			"settings":
+			{
+				"buffer_size": 37871,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "chapters/chapitre4-1.tex",
+			"settings":
+			{
+				"buffer_size": 17733,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "chapters/chapitre4-2.tex",
+			"settings":
+			{
+				"buffer_size": 49775,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -526,6 +550,14 @@
 		"height": 392.0,
 		"selected_items":
 		[
+			[
+				"inde",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"inden",
+				"Indentation: Reindent Lines"
+			],
 			[
 				"ins",
 				"Package Control: Install Package"
@@ -663,7 +695,7 @@
 				"Generate Random Text"
 			]
 		],
-		"width": 647.0
+		"width": 449.0
 	},
 	"console":
 	{
@@ -837,6 +869,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"\\^e",
+			"\\`a",
+			"\\`e",
+			"\\'e",
 			"enjeux",
 			"mots-c",
 			"hash",
@@ -960,11 +996,7 @@
 			"\\([^()]+\\)  ",
 			"(\\()([a-z])(\\))",
 			"(\\()([a-z]+,[0-9]+)(\\))",
-			"(\\()([a-z]+)(,)([0-9]+)(\\))",
-			"(\\()([a-z]+)([0-9]+)(\\))",
-			"(\\()([0-9]+)(\\))",
-			"(?<=\\()([0-9]+)(?=\\))",
-			"\"(?<=\\()([0-9]+)(?=\\))\""
+			"(\\()([a-z]+)(,)([0-9]+)(\\))"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1013,8 +1045,105 @@
 	"groups":
 	[
 		{
+			"selected": 1,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "chapters/chapitre3-2.tex",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 37871,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								37871,
+								37871
+							]
+						],
+						"settings":
+						{
+							"origPos": 0.0,
+							"syncScroll": false,
+							"syntax": "Packages/LaTeX/LaTeX.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 10269.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "chapters/chapitre4-1.tex",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 17733,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								692,
+								692
+							]
+						],
+						"settings":
+						{
+							"origPos": 0.0,
+							"syncScroll": false,
+							"syntax": "Packages/LaTeX/LaTeX.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "chapters/chapitre4-2.tex",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 49775,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5221,
+								5221
+							]
+						],
+						"settings":
+						{
+							"origPos": 0.0,
+							"syncScroll": false,
+							"syntax": "Packages/LaTeX/LaTeX.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 252.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
 			]
 		}
 	],
