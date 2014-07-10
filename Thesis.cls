@@ -43,6 +43,7 @@
 \RequirePackage{subfig}
 % \RequirePackage{subfigure}
 \RequirePackage{float}
+\RequirePackage{rotating}
 
 % table settings
 \RequirePackage{tabulary}
