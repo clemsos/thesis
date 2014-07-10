@@ -2,12 +2,9 @@
 
 Clément Renaud phD Thesis (LaTex)
 
-Convert Word to Latex :
-- Save as .txt w Open Office
-- replace & by blank space
+## Convert Word to Latex
 
-
-## Save as .odt ave OpenOffice puis utiliser word2latex
+Save as .odt with OpenOffice then use [Writer2LaTeX](http://writer2latex.sourceforge.net)
     
     # doc here : http://writer2latex.sourceforge.net/doc1.2/user-manual14.html
     w2l -config ./scripts/w2l-config.xml 03-CORRIGE-Chapitre3reluGP.odt chapitre3.tex
