@@ -13,7 +13,7 @@
 
 % the front matter
 \frontmatter 
-\input{media/info}
+\input{media/info} % some data about the work of the author
 
 \maketitle
 \copyrightpage
@@ -27,8 +27,7 @@
 \sommaire
 \addcontentsline{toc}{section}{Sommaire}
 
-% the main course
-\mainmatter
+\mainmatter % the main course
 
 \begin{spacing}{1.5} % line spacing
 
@@ -42,13 +41,8 @@
 \include{chapters/chapitre3-2}
 
 \include{chapters/chapitre4-1}
-
-% \begin{spacing}{1.2} % line spacing
 \include{chapters/chapitre4-2}
-% \end{spacing}
-
 \include{chapters/chapitre4-3}
-
 
 \include{chapters/conclusion}
 \addcontentsline{toc}{chapter}{Conclusion}
@@ -59,16 +53,22 @@
 
 \backmatter
 \appendix
+
 \tableofcontents
 \addcontentsline{toc}{chapter}{Table des Matières}
+
 \bibliography{refs}
 \addcontentsline{toc}{chapter}{Bibliographie}
+
 \listoffigures
-\addcontentsline{toc}{chapter}{Liste des Figures}
+\addcontentsline{toc}{chapter}{Listes}
+\addcontentsline{toc}{section}{Liste des Figures}
+
 \listofalgorithms
-\addcontentsline{toc}{chapter}{Liste des algorithmes}
+\addcontentsline{toc}{section}{Liste des algorithmes}
+
 \listoftables
-\addcontentsline{toc}{chapter}{Liste des tableaux}
+\addcontentsline{toc}{section}{Liste des tableaux}
 
 \chapter{Annexes}
 \include{annexes/algos}
