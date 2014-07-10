@@ -7,7 +7,7 @@ Clément Renaud phD Thesis (LaTex)
 Save as .odt with OpenOffice then use [Writer2LaTeX](http://writer2latex.sourceforge.net)
     
     # doc here : http://writer2latex.sourceforge.net/doc1.2/user-manual14.html
-    w2l -config ./scripts/w2l-config.xml 03-CORRIGE-Chapitre3reluGP.odt chapitre3.tex
+    w2l -config ./scripts/w2l-config.xml chapitre-xxx.odt chapters/chapitre-xxx.tex
 
 ## Convert citations into latex format
 
