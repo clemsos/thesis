@@ -21,7 +21,7 @@
 % Media & images
 \RequirePackage{graphicx}
 \RequirePackage{hyperref}
-\RequirePackage[hyphens]{url}
+\g@addto@macro{\UrlBreaks}{\UrlOrds} % hyphenate URLs
 \hypersetup{
     linktocpage,
     colorlinks,
@@ -31,11 +31,11 @@
     urlcolor=Crimson,
 }
 
-
 % algorithms
 \RequirePackage{algorithm}
 \RequirePackage{algpseudocode}
 % \RequirePackage{algorithm2e}
+\renewcommand\listalgorithmname{Liste des algorithmes}
 
 % figures settings
 \addto\captionsfrench{\def\figurename{Graphique}} % francisation des légendes
@@ -88,6 +88,11 @@
 % sommaire
 \RequirePackage[tight]{shorttoc}
 \newcommand{\sommaire}{\shorttoc{Sommaire}{1}}
+
+
+\renewcommand*\l@figure{\@dottedtocline{1}{1.5em}{3.3em}}
+
+
 
 % some definitions
 \def\subtitle#1{\gdef\@subtitle{#1}}
