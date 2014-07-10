@@ -34,14 +34,9 @@
 % algorithms
 \RequirePackage{algorithm}
 \RequirePackage{algpseudocode}
-% \RequirePackage{algorithm2e}
-\renewcommand\listalgorithmname{Liste des algorithmes}
 
 % figures settings
-\addto\captionsfrench{\def\figurename{Graphique}} % francisation des légendes
-\addto\captionsfrench{\def\tablename{Tableau}}
 \RequirePackage{subfig}
-% \RequirePackage{subfigure}
 \RequirePackage{float}
 \RequirePackage{rotating}
 
@@ -49,6 +44,11 @@
 \RequirePackage{tabulary}
 \RequirePackage{colortbl}
 \RequirePackage{longtable}
+
+% francisation
+\renewcommand\listalgorithmname{Liste des algorithmes} 
+\addto\captionsfrench{\def\figurename{Graphique}} % francisation des légendes
+\addto\captionsfrench{\def\tablename{Tableau}}
 
 % colors
 \RequirePackage{color}
