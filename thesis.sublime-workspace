@@ -520,26 +520,10 @@
 	"buffers":
 	[
 		{
-			"file": "chapters/chapitre3-2.tex",
+			"file": "thesis.tex",
 			"settings":
 			{
-				"buffer_size": 37871,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "chapters/chapitre4-1.tex",
-			"settings":
-			{
-				"buffer_size": 17733,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "chapters/chapitre4-2.tex",
-			"settings":
-			{
-				"buffer_size": 49775,
+				"buffer_size": 1595,
 				"line_ending": "Unix"
 			}
 		}
@@ -547,12 +531,20 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 392.0,
+		"height": 194.0,
 		"selected_items":
 		[
 			[
+				"fold",
+				"Code Folding: Fold Tag Attributes"
+			],
+			[
 				"inde",
 				"Indentation: Reindent Lines"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
 			],
 			[
 				"inden",
@@ -687,10 +679,6 @@
 				"Package Control: Install Package"
 			],
 			[
-				"fold",
-				"Code Folding: Fold Tag Attributes"
-			],
-			[
 				"rand",
 				"Generate Random Text"
 			]
@@ -716,22 +704,27 @@
 	},
 	"file_history":
 	[
-		"/home/clemsos/phD/thesis/chapters/chapitre4-3.tex",
-		"/home/clemsos/phD/thesis/chapters/chapitre4-2.tex",
-		"/home/clemsos/phD/thesis/chapters/chapitre4-1.tex",
+		"/home/clemsos/phD/thesis/chapters/introduction.tex",
 		"/home/clemsos/phD/thesis/chapters/chapitre3-1.tex",
-		"/home/clemsos/phD/thesis/chapters/chapitre3-2.tex",
-		"/home/clemsos/phD/thesis/annexes/protocole.tex",
-		"/home/clemsos/phD/thesis/test.tex",
-		"/home/clemsos/phD/thesis/thesis.tex",
-		"/home/clemsos/phD/thesis/chapters/chapitre3-4.tex",
-		"/home/clemsos/phD/thesis/chapters/chapitre3-3.tex",
+		"/home/clemsos/phD/thesis/chapters/chapitre1.tex",
+		"/home/clemsos/phD/thesis/chapters/chapitre4-1.tex",
 		"/home/clemsos/phD/thesis/chapters/chapitre2.tex",
 		"/home/clemsos/phD/thesis/Thesis.cls",
+		"/home/clemsos/phD/thesis/annexes/memelist.tex",
+		"/home/clemsos/phD/thesis/test.tex",
+		"/home/clemsos/phD/LatEX/templates/classicthesis/Chapters/Chapter01.tex",
+		"/home/clemsos/phD/thesis/annexes/algos.tex",
+		"/home/clemsos/phD/thesis/chapters/chapitre3-2.tex",
+		"/home/clemsos/phD/thesis/chapters/chapitre4-2.tex",
+		"/home/clemsos/phD/thesis/chapters/chapitre4-3.tex",
 		"/home/clemsos/phD/thesis/README.md",
+		"/home/clemsos/phD/thesis/thesis.tex",
+		"/home/clemsos/phD/Backup/Latex/chapitre43.tex",
+		"/home/clemsos/phD/thesis/annexes/protocole.tex",
+		"/home/clemsos/phD/thesis/chapters/chapitre3-4.tex",
+		"/home/clemsos/phD/thesis/chapters/chapitre3-3.tex",
 		"/home/clemsos/phD/thesis/test.pdf",
 		"/home/clemsos/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
-		"/home/clemsos/phD/thesis/annexes/algos.tex",
 		"/home/clemsos/Downloads/demonstration-algorithme.tex",
 		"/home/clemsos/Downloads/dijkstra.tex",
 		"/home/clemsos/phD/thesis/pages/abstract.tex",
@@ -742,7 +735,6 @@
 		"/home/clemsos/Downloads/algexample.tex",
 		"/home/clemsos/Downloads/KAISsampl.tex",
 		"/home/clemsos/phD/thesis/chapters/chapitre3.tex",
-		"/home/clemsos/phD/thesis/chapters/chapitre1.tex",
 		"/home/clemsos/phD/thesis/info.tex",
 		"/home/clemsos/Documents/Paperasses/WIFI",
 		"/home/clemsos/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
@@ -762,7 +754,6 @@
 		"/home/clemsos/phD/thesis/chapters/conclusion.tex",
 		"/home/clemsos/phD/thesis/thesis.bbl",
 		"/home/clemsos/phD/thesis/thesis.lof",
-		"/home/clemsos/phD/thesis/chapters/introduction.tex",
 		"/home/clemsos/phD/thesis/quotes.py",
 		"/home/clemsos/phD/drafts/Latex/chap4/chapitre4.tex",
 		"/home/clemsos/phD/thesis/chapters/_chapitre2.tex",
@@ -840,14 +831,11 @@
 		"/home/clemsos/Dev/mitras/results/2012_sina-weibo-memes_list.json",
 		"/home/clemsos/Dev/mitras/ui/start.sh",
 		"/home/clemsos/Dev/mitras/ui/public/js/main.js",
-		"/home/clemsos/Dev/mitras/ui/public/js/example_flat.js",
-		"/home/clemsos/Dev/mitras/.gitmodules",
-		"/home/clemsos/Dev/mitras/user_stats.py",
-		"/home/clemsos/Taf/Teaching/Processing/Processing Lyon #01/I_DataViz/Modes.pde"
+		"/home/clemsos/Dev/mitras/ui/public/js/example_flat.js"
 	],
 	"find":
 	{
-		"height": 37.0
+		"height": 38.0
 	},
 	"find_in_files":
 	{
@@ -869,6 +857,23 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"réponses",
+			"toc",
+			"listoffigures",
+			"algo:message-graph",
+			"algo:hashtags-graph",
+			"h!",
+			"subsection",
+			"[H]",
+			"subs",
+			"sub",
+			"Blondel",
+			"force",
+			"   ",
+			"effectuer",
+			"hex",
+			"Apach",
+			"Apac",
 			"\\^e",
 			"\\`a",
 			"\\`e",
@@ -979,24 +984,7 @@
 			"table",
 			"\\liststyleWWNumi",
 			"{\\textquotesingle}",
-			"è",
-			"à",
-			"é",
-			"chapitre3-img",
-			"% Unhandled or unsupported graphics:",
-			"\\par}",
-			"{\\centering   [Warning: Image ignored]",
-			"\\bigskip",
-			"textit",
-			"\\(\\D*\\d{4}(;\\D*\\d{4})*\\)",
-			"\\(\\D*\\d\\d\\d\\d\\)",
-			"/\\(\\D*\\d\\d\\d\\d(?:,\\D*\\d\\d\\d\\d)*\\)/",
-			"\\([^([0-9])]+\\)  ",
-			"(\\([^()]+\\) )",
-			"\\([^()]+\\)  ",
-			"(\\()([a-z])(\\))",
-			"(\\()([a-z]+,[0-9]+)(\\))",
-			"(\\()([a-z]+)(,)([0-9]+)(\\))"
+			"è"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1045,103 +1033,37 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "chapters/chapitre3-2.tex",
+					"file": "thesis.tex",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 37871,
+						"buffer_size": 1595,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								37871,
-								37871
+								438,
+								438
 							]
 						],
 						"settings":
 						{
 							"origPos": 0.0,
 							"syncScroll": false,
-							"syntax": "Packages/LaTeX/LaTeX.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/LaTeX/LaTeX.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 10269.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "chapters/chapitre4-1.tex",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 17733,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								692,
-								692
-							]
-						],
-						"settings":
-						{
-							"origPos": 0.0,
-							"syncScroll": false,
-							"syntax": "Packages/LaTeX/LaTeX.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 660.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "chapters/chapitre4-2.tex",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 49775,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								5221,
-								5221
-							]
-						],
-						"settings":
-						{
-							"origPos": 0.0,
-							"syncScroll": false,
-							"syntax": "Packages/LaTeX/LaTeX.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 252.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -1149,7 +1071,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 29.0
+		"height": 30.0
 	},
 	"input":
 	{
@@ -1180,7 +1102,7 @@
 	"menu_visible": true,
 	"output.exec":
 	{
-		"height": 287.0
+		"height": 238.0
 	},
 	"output.find_results":
 	{
@@ -1189,7 +1111,7 @@
 	"project": "thesis.sublime-project",
 	"replace":
 	{
-		"height": 54.0
+		"height": 56.0
 	},
 	"save_all_on_build": true,
 	"select_file":

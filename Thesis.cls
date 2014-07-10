@@ -64,11 +64,21 @@
 \RequirePackage{lscape}
 
 % typo
+\RequirePackage{lipsum} % Lorem ipsum
 \RequirePackage{lettrine} % big letter at start of chapter
 \RequirePackage{setspace} %spacing between lines
-\RequirePackage[labelfont={sf,bf,small},textfont={sf,small},justification=RaggedRight,margin=0pt, figurewithin=section, tablewithin=section]{caption} % caption
+\RequirePackage[
+  labelfont={sf,bf,small},
+  textfont={sf,small},
+  justification=RaggedRight,
+  margin=0pt, 
+  figurewithin=section, 
+  tablewithin=section
+  ]{caption} % caption
 
 \onehalfspacing
+\setlength{\parskip}{.6em} %paragraph spacing
+
 
 % footnote
 \addtolength{\footnotesep}{\footnotesep}
@@ -90,10 +100,7 @@
 \RequirePackage[tight]{shorttoc}
 \newcommand{\sommaire}{\shorttoc{Sommaire}{1}}
 
-
 \renewcommand*\l@figure{\@dottedtocline{1}{1.5em}{3.3em}}
-
-
 
 % some definitions
 \def\subtitle#1{\gdef\@subtitle{#1}}
