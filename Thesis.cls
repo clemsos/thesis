@@ -21,6 +21,7 @@
 % Media & images
 \RequirePackage{graphicx}
 \RequirePackage{hyperref}
+\RequirePackage[hyphens]{url}
 \hypersetup{
     linktocpage,
     colorlinks,
@@ -29,6 +30,7 @@
     linkcolor=black,
     urlcolor=Crimson,
 }
+
 
 % algorithms
 \RequirePackage{algorithm}
@@ -47,12 +49,10 @@
 \RequirePackage{colortbl}
 \RequirePackage{longtable}
 
-
 % colors
 \RequirePackage{color}
 \definecolor{Crimson}{rgb}{0.6471, 0.1098, 0.1882}
 \definecolor{chaptergrey}{rgb}{0.6,0,0}
-
 
 % page layout
 \RequirePackage[a4paper, margin=2.5cm]{geometry} % cus­tomize page lay­out
@@ -73,6 +73,7 @@
 \addtolength{\footnotesep}{\footnotesep}
 \setlength{\skip\footins}{0.0469in}
 \renewcommand\footnoterule{\vspace*{-0.0071in}\setlength\leftskip{0pt}\setlength\rightskip{0pt plus 1fil}\noindent\textcolor{black}{\rule{0.25\columnwidth}{0.0071in}}\vspace*{0.0398in}}
+
 
 % info & data
 \RequirePackage{titling} %  \ti­tle, \au­thor avail­able per­ma­nently 
