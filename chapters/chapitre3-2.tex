@@ -108,41 +108,26 @@ Si cette approche offre des résultats probants sur de petits volumes (quelques 
 
 Les travaux en sciences humaines sur les mèmes \citep{Bauckhage2011, Coscia2013, Knobel2007} et les sites spécialisés \citep{Buchel2012, Bernstein2011} présentent bien souvent un mème sous la forme d{\textquoteright}un titre (mot ou groupe de mots) accompagné d{\textquoteright}une collection d{\textquoteright}images ou/et de vidéos, ainsi qu{\textquoteright}un texte explicatif (mise en contexte) et des indications sur les dates de parution et son évolution dans le temps. Ici, un ou des auteurs se saisissent des matériaux bruts du web et les rassemblent pour reconstituer une vision particulière du mème, aussi représentative que possible. Cette approche nécessite peu de déploiement technologique (un copier/coller suffit souvent), mais exige néanmoins une forte connaissance et un suivi régulier du terrain Internet pour y dénicher ces représentations du mèmes. Cette démarche que nous nommerons \textit{ethnographique }s{\textquoteright}apparente à de la curation de contenu \citep{Buckingham2006}. Les \textit{hashtags }(en fran\c{c}ais {\textquotedblleft}mots-dièses{\textquotedblright}) sont utilisés dans l{\textquoteright}écriture sur les réseaux sociaux et se présentent dans Sina Weibo sous la forme d{\textquoteright}un mot entouré de deux dièses - ex. \textit{\#mot-clé\#}. Marqueur particulier, le hashtag permet à un interlocuteur de procéder à une dénotation ou connotation du message original \citep{Romero2011} ou d{\textquoteright}affirmer son caractère évènementiel (lors d{\textquoteright}un évènement sportif, d{\textquoteright}une conférence, etc). Facile à identifier dans la masse des données en ligne, il permet de désigner un ensemble de contenus sous un m\^eme signe. Ainsi, il est un vecteur important permettant de collecter simplement une large masse d{\textquoteright}informations autour d{\textquoteright}un mème. La constitution d{\textquoteright}un corpus autour d{\textquoteright}un {\textquotedblleft}hashtag{\textquotedblright} présente néanmoins plusieurs limites. Premièrement, le mème est par définition un objet en mutation. Ainsi, il est souvent difficile de l{\textquoteright}identifier une bonne fois pour toute par un ou plusieurs de mot-clés. De plus, le mème existe bien souvent sous la forme d{\textquoteright}images ou de vidéos qui ne sont pas nécessairement légendées ou référencées et donc peu accessible à une recherche {\textquotedblleft}plein texte{\textquotedblright}. Ainsi, une approche pour la recherche de mèmes ne peut \^etre entièrement textuelle et doit s{\textquoteright}intéresser aux autres forme de contenus web (notamment les liens et les hashtags). De plus, l{\textquoteright}ajout de hashtags dans les messages est un acte volontaire non systématique. Ainsi, si l{\textquoteright}identification de certains mèmes peut se faire gr\^ace à la recherche de hashtags, l{\textquoteright}ensemble des messages contenant des hashtags ne recouvrent pas systématiquement un mème. Comme nous le verrons, les hashtags sont bien souvent de simples artefacts de campagne marketing en ligne.
 
-Afin de procéder à l{\textquoteright}analyse des mèmes, nous avons donc indexé l{\textquoteright}ensemble des contenus du corpus Weiboscope contenant des hashtags sur toute l{\textquoteright}année 2012 (30 millions sur un total de 200 millions tweets environs). Nous avons donc dans un premier temps extrait l{\textquoteright}ensemble des messages contenant un ou des hashtags de l{\textquoteright}ensemble des données avant de les classifier pour obtenir des jeux de données cohérents par hashtags. Une première contrainte ici est propre au traitement informatique de la langue chinoise qui constitue le langage majoritaire de notre corpus. L{\textquoteright}absence d{\textquoteright}espace entre les différents caractères de la phrase en chinois oblige à prendre en compte la sémantique de la phrase pour procéder à sa segmentation. Cette question usuelle pour les usagers du NLP (\textit{Natural Language Processing}) en chinois est un sujet de recherche encore très discuté \citep{Qiu2013}. L{\textquoteright}identification de la meilleure option parmi la multitude des librairies et logiciels disponibles pour la segmentation puis le NLP en chinois a été un aspect préliminaire importants de notre travail d{\textquoteright}analyse de données. Nous avons ainsi réalisé de nombreux benchmark afin de comparer les différentes technologies existantes. Un travail mené avec l{\textquoteright}équipe du site Internet d{\textquoteright}actualité scientifique \textit{Guokr }à Pékin nous a amené à choisir en premier lieu un algorithme de segmentation développé sur la base de textes en chinois ancien\footnote{ gkSeg : \textit{{\textquotedblleft}Yet another Chinese word segmentation package based on character-based tagging heuristics and CRF algorithm{\textquotedblright} }\url{https://github.com/guokr/gkseg}, consulté le 14 Mars à 18:28}. Après plusieurs tentatives, nous avons préféré le segmenteur open-source Jieba\footnote{ \url{https://github.com/fxsjy/jieba}, consulté le 14 Mars à 18:30} plus généreux en termes de fonctionnalités et permettant de meilleures performances. Une fois la phrase chinoise segmentée, la seconde étape consiste à supprimer tous les mots les plus communs \textit{(stopwords)}\footnote{
-    La liste des mots ignorés (\textit{stopwords}) dans cette recherche est disponible en ligne à \url{https://github.com/clemsos/mitras/tree/master/lib/stopwords}
-}
-, ainsi que la ponctuation et d{\textquoteright}autres caractères trop courants afin de préserver uniquement les mots riches de sens dans les phrases (les mots-clés). L{\textquoteright}extraction des hashtags est effectuée gr\^ace à une expression régulière qui scanne le texte pour identifier et préserver uniquement les caractères situés entre les deux signes dièse (\#).
+Afin de procéder à l{\textquoteright}analyse des mèmes, nous avons donc indexé l{\textquoteright}ensemble des contenus du corpus Weiboscope contenant des hashtags sur toute l{\textquoteright}année 2012 (30 millions sur un total de 200 millions tweets environs). Nous avons donc dans un premier temps extrait l{\textquoteright}ensemble des messages contenant un ou des hashtags de l{\textquoteright}ensemble des données avant de les classifier pour obtenir des jeux de données cohérents par hashtags. L{\textquoteright}extraction des hashtags est effectuée gr\^ace à une expression régulière qui scanne le texte pour identifier et préserver uniquement les caractères situés entre les deux signes dièse (\#). Pour ce faire, nous utilisons une expression régulière qui permet de détecter très simplement des patterns définis dans un corps de texte (voir \ref{alg:hasthag regexp}). 
 
 
-% Process text messages
+
+% Process Hashtags
 \begin{figure}[h]
     \begin{algorithm}[H]
-        \caption{Extract Entities from Message}
+        \caption{Extract Hashtags from Message}
         \label{algo:message-graph}
         \begin{algorithmic}
 
             \Require{$m$ is a microblog text message}
-            \Require{$stopwords$ is a list of common words that should be excluded}
-            \Require{\Call{Jieba NLP}{$text$} is a Chinese language word segmenter}
 
             \Function{ExtractEntities}{$m$}
                 
-                \Comment{Sina Weibo hashtag pattern}
                 \If{begins with \# and ends with \#}
                     \State $h\gets hashtag$
                     \State $text\gets u$ from 
                     % \State $H\gets->$h$
                 \EndIf
-
-                \Comment{Weiboscope user pattern}
-                \If{begins with ``u'' and ends with \textvisiblespace }
-                    \State $U$ be a set of all users $u$
-                    \State remove $u$ from $m$
-                \EndIf
-
-                \Comment{Extract keywords}
-                \State $words \gets \Call{Jieba NLP}{$m$}$ segment the sentence
-                \State remove $stopwords$ from $words$
 
             \EndFunction
         \end{algorithmic}

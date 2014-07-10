@@ -1,0 +1,170 @@
+
+% http://tex.stackexchange.com/questions/51359/including-algorithms-in-latex
+% doc : http://get-software.net/macros/latex/contrib/algorithm2e/doc/algorithm2e.pdf
+
+\begin{figure}
+    \caption{hasthag regexp}
+    \label{alg:hasthag regexp}
+    \begin{verbatim}
+        r"#([^#\s]+)#" 
+    \end{verbatim}
+\end{figure}
+
+% Process text messages
+\begin{algorithm}[H]
+    \caption{Extract Entities from Message}
+    \label{algo:message-graph}
+    \begin{algorithmic}
+
+        \Require{$m$ is a microblog text message}
+        \Require{$stopwords$ is a list of common words that should be excluded}
+        \Require{\Call{Jieba NLP}{$text$} is a Chinese language word segmenter}
+
+        \Function{ExtractEntities}{$m$}
+            
+            \Comment{Sina Weibo hashtag pattern}
+            \If{begins with \# and ends with \#}
+                \State $h\gets hashtag$
+                \State $text\gets u$ from 
+                % \State $H\gets->$h$
+            \EndIf
+
+            \Comment{Weiboscope user pattern}
+            \If{begins with ``u'' and ends with \textvisiblespace }
+                \State $U$ be a set of all users $u$
+                \State remove $u$ from $m$
+            \EndIf
+
+            \Comment{Extract keywords}
+            \State $words \gets \Call{Jieba NLP}{$m$}$ segment the sentence
+            \State remove $stopwords$ from $words$
+
+        \EndFunction
+    \end{algorithmic}
+\end{algorithm}
+
+% Hashtags
+\begin{algorithm}[H]
+    \caption{Hashtags conversational graphs}
+    \label{algo:hashtags-graph}
+    \begin{algorithmic}
+        \Require{$M$ is a set of microblog messages}
+        \State $H(h,Gh)$ is a set of all hashtags conversational graphs
+
+        \Function{HashtagsGraph}{$M$}
+            \For{message $m$ in $M$}
+
+                \If{hashtag $h$ in $m$} 
+                    \State $Gh=(Vh,Eh)$ is $h$ conversational graph
+                    \If{ quotes or rt $e(userA,userB)$ in $m$}
+                        \State $Eh \gets e(userA,userB)$ and $Vh \gets userA,userB $
+                    \EndIf
+                    \State $H \gets (h,Gh)$ 
+                \EndIf
+            \EndFor
+        \EndFunction
+    \end{algorithmic}
+\end{algorithm}
+
+% Word Graph
+\begin{algorithm}[H]
+    \caption{Word Graph extraction from Meme messages corpus}
+    \label{algo:meme-graph}
+    \begin{algorithmic}
+
+        \Require $M$ is a set of messages representing a meme
+        \State $topWords$ is the 500 most used words in $M$
+        \State $G_w(N_w,E_w)$ is a weighted directed graph of words co-occurence
+        \\
+        \Function{CreateWordGraph}{$M$}
+            \For{ message $m$ in $M$ }
+                \State \Call{ExtractEntities}{$m$}  $ \gets words$
+
+                \If $word$ in $topWords$
+                    \For{$word_A$,$word_B$ in $words$}
+                        \If{ $\exists G_w(word_A,word_B)$}
+                            \State $G_u(user_A,user_B)$ weight +1
+                        \Else
+                            \State $G_w \gets (word_A,word_B, 1)$
+                        \EndIf
+                    \EndFor
+                \EndIf
+            \EndFor
+        \EndFunction
+
+    \end{algorithmic}
+\end{algorithm}
+
+% User Graph
+\begin{algorithm}[H]
+    \caption{Extract User Graph from Meme Corpus}
+    \label{algo:meme-user-graph}
+    \begin{algorithmic}
+        \Require $M$ is a set of messages representing a meme
+        \State $topUsers$ is the 500 most active users in $M$
+        \State $G_u(N_u,E_u)$ is a weighted directed graph of user conversations
+        \\
+        \Function{CreateUserGraph}{$M$}
+            \For{message $m$ in $M$ }
+            \State \Call{ExtractEntities}{$m$}  $ \gets mentions, RTuser$
+                \State $m  \gets author$
+                \If $author$, $RT$, $mentions$ in $topUser$ 
+        
+                    \If{$RTuser$ in $m$}
+                        \State $m \gets RTuser$
+                        \If{ $\exists G_u(RTuser,author)$}
+                            \State $G_u(RTuser,author)$ weight + 1
+                        \Else
+                            \State $G_u \gets (RTuser,author, 1)$
+                        \EndIf
+                    \EndIf
+
+                    \For{$user$ in $mentions$}
+                        \If{ $\exists G_u(author,@user)$}
+                            \State $G_u(author,@user)$ weight + 1
+                        \Else
+                            \State $G_u \gets (author,@user, 1)$
+                        \EndIf
+                    \EndFor
+                \EndIf
+
+            \EndFor
+
+        \EndFunction
+
+
+
+    \end{algorithmic}
+\end{algorithm}
+
+% User Graph
+\begin{algorithm}[H]
+    \caption{User-Word Graph extraction for Meme corpus}
+    \label{algo:meme-graph}
+    \begin{algorithmic}
+        \Require $M$ is a set of messages representing a meme
+
+        \State $topUsers$ is a set of representing the 500 most active users in $M$
+        \State $topWords$ is a set of representing the 500 most used words in $M$
+
+        \State $G_c(N_c,E_c)$ is a weighted graph of words quoted by user
+        \\
+        \Function{CreateWordUserGraph}{$M$}
+            \For{ message $m$ in $M$ }
+                \State \Call{ExtractEntities}{$m$}  $ \gets words, users$
+
+                \For{$user$ in $users$ and $word$ in $words$}
+                    \If $user$ in $topUser$ and $word$ in $topWords$ 
+                        \If{ $\exists G_c(user,word)$}
+                            \State $G_c(user,word)$ weight + 1
+                        \Else
+                            \State $G_c \gets (user,word,1)$
+                        \EndIf
+                    \EndIf
+                \EndFor
+
+            \EndFor
+        \EndFunction
+
+    \end{algorithmic}
+\end{algorithm}

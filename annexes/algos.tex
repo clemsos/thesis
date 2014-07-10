@@ -1,112 +1,21 @@
+\section[Algorithmes]{Algorithmes}
 
-% http://tex.stackexchange.com/questions/51359/including-algorithms-in-latex
-% doc : http://get-software.net/macros/latex/contrib/algorithm2e/doc/algorithm2e.pdf
+\begin{landscape}
+\begin{figure}
+    \label{fig:ui-map}
+    \centering
+    \includegraphics[scale=0.45]{figures/annexes/Protomemesm_workflow.png}
+    \caption{Protomemes algortithm workflow}
+\end{figure}
+\end{landscape}
 
-% Process text messages
-\begin{algorithm}[H]
-    \caption{Extract Entities from Message}
-    \label{algo:message-graph}
-    \begin{algorithmic}
 
-        \Require{$m$ is a microblog text message}
-        \Require{$stopwords$ is a list of common words that should be excluded}
-        \Require{\Call{Jieba NLP}{$text$} is a Chinese language word segmenter}
+\begin{landscape}
+\begin{figure}
+    \label{fig:ui-map}
+    \centering
+    \includegraphics[scale=0.59]{figures/annexes/UI_mitras.png}
+    \caption{Data mining and visualisation workflow}
+\end{figure}
+\end{landscape}
 
-        \Function{ExtractEntities}{$m$}
-            
-            \Comment{Sina Weibo hashtag pattern}
-            \If{begins with \# and ends with \#}
-                \State $h\gets hashtag$
-                \State $text\gets u$ from 
-                % \State $H\gets->$h$
-            \EndIf
-
-            \Comment{Weiboscope user pattern}
-            \If{begins with ``u'' and ends with \textvisiblespace }
-                \State $U$ be a set of all users $u$
-                \State remove $u$ from $m$
-            \EndIf
-
-            \Comment{Extract keywords}
-            \State $words \gets \Call{Jieba NLP}{$m$}$ segment the sentence
-            \State remove $stopwords$ from $words$
-
-        \EndFunction
-    \end{algorithmic}
-\end{algorithm}
-
-% Hashtags
-\begin{algorithm}[H]
-    \caption{Hashtags conversational graphs}
-    \label{algo:hashtags-graph}
-    \begin{algorithmic}
-        \Require{$M$ is a set of microblog messages}
-        \State $H(h,Gh)$ is a set of all hashtags conversational graphs
-
-        \Function{HashtagsGraph}{$M$}
-            \For{message $m$ in $M$}
-
-                \If{hashtag $h$ in $m$} 
-                    \State $Gh=(Vh,Eh)$ is $h$ conversational graph
-                    \If{ quotes or rt $e(userA,userB)$ in $m$}
-                        \State $Eh \gets e(userA,userB)$ and $Vh \gets userA,userB $
-                    \EndIf
-                    \State $H \gets (h,Gh)$ 
-                \EndIf
-            \EndFor
-        \EndFunction
-    \end{algorithmic}
-\end{algorithm}
-
-% Process Memes
-\begin{algorithm}[H]
-    \caption{Meme graph algorithm}
-    \label{algo:meme-graph}
-    \begin{algorithmic}
-
-        \Require $M$ is a set of messages representing a meme
-        \State $G_w(N_w,E_w)$ is a weighted directed graph of words co-occurence
-        \State $G_u(N_u,E_u)$ is a weighted directed graph of user conversations
-        \State $G_c(N_c,E_c)$ is a weighted graph of words quoted by user
-        \\
-        \Function{CreateWordGraph}{$M$}
-            \For{ message $m$ in $M$ }
-                \State \Call{ExtractEntities}{$m$}  $ \gets words, users$
-
-                \Comment Word Co-occurence Graph
-                \For{$word_A$,$word_B$ in $words$}
-                    \If{ $\exists G_w(word_A,word_B)$}
-                        \State $G_u(user_A,user_B)$ weight +1
-                    \Else
-                        \State $G_w \gets (word_A,word_B, 1)$
-                    \EndIf
-
-                \EndFor
-
-                \Comment User Conversation Graph
-                \If{$RT$ in $m$}
-                    \State $users \gets RT$
-                \EndIf
-
-                \For{$user_A$,$user_B$ in $users$}
-                    \If{ $\exists G_u(user_A,user_B)$}
-                        \State $G_u(user_A,user_B)$ weight + 1
-                    \Else
-                        \State $G_u \gets (user_A,user_B, 1)$
-                    \EndIf
-                \EndFor
-
-                \Comment User Word Graph
-                \For{$user$ in $users$ and $word$ in $words$}
-                    \If{ $\exists G_c(user,word)$}
-                        \State $G_c(user,word)$ weight + 1
-                    \Else
-                        \State $G_c \gets (user,word,1)$
-                    \EndIf
-                \EndFor
-
-            \EndFor
-        \EndFunction
-
-    \end{algorithmic}
-\end{algorithm}
