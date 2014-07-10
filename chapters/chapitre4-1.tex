@@ -82,6 +82,8 @@ Dans ce chapitre, nous décrirons tout d'abord dans le détail le fonctionnement
 
     Une fois les corpus pour différents mèmes extraits, nous pouvons procéder à l'analyse. Il s'agit donc pour nous d'observer plusieurs aspects importants de la diffusion des mèmes : champ sémantique, dynamique des discussions et dimension actuelle et localisée de ces échanges. Principalement, nous choisissons de représenter différents réseaux sémantiques, conversationnels et géographiques qu'ils s'agit d'extraire du corpus de message des mèmes afin de les représenter. Nous souhaitons également  pouvoir observer les relations existantes entre ces différents réseaux présents lors de la diffusion. En effet, les croisements de ces différentes dimensions peuvent montrer les phénomènes les plus intéressantes, en ramenant de la géographie dans le langage où en affichant l'existence locale des conversations.
 
+    Les choix méthodologiques de cette étude cherchent notamment à démontrer que les actes de communication ne peuvent simplement se comprendre comme des échanges {\textquotedblleft}sociaux{\textquotedblright} mais doivent être appréhendés plus largement comme des actes d{\textquoteright}énonciation complexes possédant de multiples dimensions sémantiques, temporelles, conversationnelles toutes localisées.
+
     Nous définissons ces trois dimensions comme suit :
 
     \begin{description}
@@ -94,7 +96,6 @@ Dans ce chapitre, nous décrirons tout d'abord dans le détail le fonctionnement
         \item[Réel] 
         Au-delà des échanges en ligne, ces discussions possèdent une existence physique, premièrement sous la forme de l{\textquoteright}activité électrique des machines qui sont utilisées lors de ce processus. Néanmoins, dans l{\textquoteright}approche d{\textquoteright}une géographie humaine des échanges numériques, nous considérerons ici l{\textquoteright}existence physique des mèmes par celle des utilisateurs - de leurs corps - et non pas des machines. 
     \end{description}
-
 
     Afin d{\textquoteright}étudier chacun de ces aspects du mème, nous allons donc procéder à la collection de connaissances sur chacun de ces aspects d'après le corpus de données du ou des mèmes sélectionnés. Nous procédons ensuite au traitement de chaque corpus selon une série de procédures que nous allons maintenant définir. 
 
@@ -223,7 +224,7 @@ Dans ce chapitre, nous décrirons tout d'abord dans le détail le fonctionnement
     Une fois l{\textquoteright}ensemble du graphe constitué, nous utilisons l{\textquoteright}algorithme dit de Louvain et son implémentation par\citep{Blondel2008}\footnote{Pour la version Python voir : \url{http://perso.crans.org/aynaud/communities/index.html} consulté le 22 Avril 2014 à 14:24} afin d'identifier les  communautés dans notre réseau. Cet algorithme relativement simple permet d'attribuer à chaque utilisateur un groupe unique. De plus, il est rapide et ainsi permet de procéder plus rapidement à la détection des communautés que \textit{k-means} ou d'autres algorithmes répandus pour cet usage.
 
 \subsubsection[Localisation des utilisateurs]{Localisation des utilisateurs}
-
+\label{sec:geoloc}
     Les données de géo-localisation contenus dans le corpus Weiboscope sont seulement partielles et ne permettent pas réellement d'utiliser directement le géo-tag attaché à chaque message comme support pour l'analyse. En effet, très peu de messages possèdent une information de géo-localisation. Néanmoins, le jeu de données \textit{Weiboscope} possède une annexe qui comprend les localités mentionnées par les utilisateurs dans leurs profils. Cette information doit être utilisée avec précaution : les utilisateurs peuvent indiquer ce que bon leur semble et mettent rarement à jour leurs informations de profil lors de leurs déplacements, voire leurs déménagements. Néanmoins, la présence d'une information de vérification du compte dans les données permet de savoir si le compte appartient à une personne clairement identifiée (par la firme Sina). Il s'agit bien souvent de personnalités publiques, de stars ou de compagnies privées qui possèdent des comptes officiels. Pour ce type d'utilisateur, l'information de localisation revêt plus d'intérêt car elle a été  précédemment acceptée comme valide. Le nombre des localités proposées par Sina Weibo aux utilisateurs est restreinte par l{\textquoteright}interface  elle-même : l{\textquoteright}ensemble des provinces de Chine continentale, Hong Kong, Macau, Taiwan, {\textquotedblleft}à l{\textquoteright}étranger{\textquotedblright} (\textit{haiwai})et {\textquotedblleft}autres{\textquotedblright} (\textit{qita} \footnote{Voir la liste des choix disponibles sur \url{https://github.com/clemsos/mitras/blob/master/lib/cities/provinces.csv}, consulté le 7 Juillet 2014}.
 
     Afin d'observer les aspects géographiques des discussions, nous nous assignons donc pour chaque utilisateur l{\textquoteright}information géographique mentionnée dans son profil. Afin de pouvoir accéder facilement à cette information, nous avons mis en place une petite base de données utilisant \textit{MongoDB} regroupant toutes les informations de localisation des utilisateurs disponibles, accessibles grâce à leur nom d'utilisateurs\footnote{Voir le code \url{https://github.com/clemsos/mitras/blob/master/lib/users.py}, consulté le 8 Juillet 2014 à 17:22}.
@@ -245,7 +246,6 @@ Nous avons donc identifié plusieurs dimensions que nous souhaitons observer :
     \item \textbf{Socio-géographique} relations entre les utilisateurs et les provinces
     \item \textbf{Géo-sémantique} relations entre les mots et les provinces
 \end{itemize}
-
 
 Nous avons donc plusieurs niveaux de lecture interdépendants qui nous permettent de considérer différents aspects de chaque mème. Néanmoins, les informations de graphe sont peu claires et difficilement exploitables sous forme de données, à l{\textquoteright}exception d{\textquoteright}une série de mesures indicatives sur leurs structures. Afin d{\textquoteright}explorer ces différentes relations, il nous faut pouvoir visualiser différentes dimensions du mème afin d{\textquoteright}observer les articulations et phénomènes possibles émergents de cette lecture. 
 
@@ -270,87 +270,9 @@ disponible, il est nécessaire de résoudre plusieurs problèmes :
 
     \item[\textbf{Publication}]
     L{\textquoteright}exigence de rigueur scientifique et surtout la rigidité des formats de publications scientifiques actuelles rajoutent à la complexité de cette entreprise. En effet, il est nécessaire de pouvoir exporter les résultats de façon propre et ordonner.
-
 \end{itemize} 
 
-Nous avons donc choisi de construire un espace sur plusieurs niveaux hiérachisés.
-
-\subsubsection{Organisation de l'espace visuel et perceptif}
-
-    Devant la disparité des données en présence, nous devons donc construire un espace de représentation ou plut\^ot une interface de représentation propice à l{\textquoteright}exploration et la découverte des phénomènes dans les relations entre les différents graphes. Dans la définition de cet espace perceptif se joue la réconciliation d{\textquoteright}entités dissemblables (des utilisateurs, des lieux, des mots, leurs relations mutuelles). La t\^ache consiste à réconcilier dans le plan de l{\textquoteright}espace graphique de la visualisation (ici celui de l{\textquoteright}écran) les différents espaces o\`u projeter ces différents graphes. 
-
-    L'organisation de cet espace suppose tout d'abord une hiérarchisation de l'importance des contenus pour leur affichage. Ici, nous devons prendre en compte la nature des données affichées. La première décisions est d'utiliser un défilement vertical qui permet de naviguer entre les différents graphes. Le centre de la visualisation est occupé par le réseau représentant les utilisateurs. Nous souhaitons ainsi représenté l{\textquoteright}intérêt central des
-
-    reflétant à la fois  de cette étude pour l{\textquoteright}étude des processus d{\textquoteright}individuation et le r\^ole charnière des utilisateurs dans la structuration des données.
-
-
-  Plus exactement, nous avons choisi de regrouper les utilisateurs par communautés afin de considérer les liens qui les unissaient entre elles et la structure générale de la discussion plut\^ot que de s{\textquoteright}intéresser aux individus. Les individus sont symbolisés par des points au sein des communautés dont la couleur indique leur centralité dans le réseau global.
-
-    \begin{figure}
-        \label{fig:schema-viz}
-        \centering
-        % \includegraphics[width=6.7213in,height=8.3894in]{figures/chap3/chapitre3-img21.png}
-        \caption{Structure de l'interface d'exploration et de visualisation des données}
-    \end{figure}
-
-    Si la carte se prête assez bien à la visualisation de quantité, les visualisations de graphe deviennent facilement confuses. Ainsi, nous avons choisi d{\textquoteright}ajouter une option de visualisation des provinces sous la forme d{\textquoteright}une liste, au moins toute aussi parlante. Cela nous permet en plus d{\textquoteright}organiser cette liste selon différents critères afin d{\textquoteright}étudier plusieurs aspects qui peuvent être intéressants.
-
-    Le graphe de mots revêt ici la forme la plus simple. Les relations entre les mots sont matérialisées par un graphe utilisant un algorihme force-based pour disposer les mots entre eux, recréant ainsi des groupes de mots intéressants d{\textquoteright}après leur proximité dans les phrases lors des discussions. Un positionnement des mots selon leur importance (nombre de citations) est également disponible à loisir.
-
-    \begin{figure}
-        \label{fig:ui-timeline}
-        \centering
-        \includegraphics[scale=0.4]{figures/chap4/ui/ui-timeline.png}
-        \caption{Timeline interactive}
-    \end{figure}
-
-
-\subsubsection{La cartographie interactive : axes et relations} % (fold)
-\label{ssub:le_temps_et_la_carte}
-
-    Notre première idée a été de représenter l{\textquoteright}ensemble des utilisateurs sur une carte pour comprendre comment s{\textquoteright}agencaient spatialement chacune des discussions. La première étape a donc été de reconstituer une carte de la Chine comprenant Taiwan, Hong Kong et Macau. Chacun de ces territoires possèdent une influence médiatique certaine en Chine et méritent à ce titre d{\textquoteright}être représenté. Néanmoins, le statut politique particulier de chacun de ces territoires nous a obligé à reconstituer une carte o\`u ils figuraient tous. Nous avons choisi d{\textquoteright}aggrandir l{\textquoteright}échelle de Hong Kong et Macau afin qu{\textquoteright}il soit visible sur la carte. Egalement, nous avons choisi de ne pas restituer les données concernant les utilisateurs ayant choisi {\textquotedblleft}autres{\textquotedblright} ou {\textquotedblleft}reste du monde{\textquotedblright} comme leurs lieux de résidence. 
-
-    Carte de la Chine\footnote{Code disponible à \url{https://github.com/clemsos/d3-china-map}, consulté le 9 Juillet 2014 à 10:41}
-
-    For the countries, we use ISO 3166-1 alpha-3 standard names of the countries : 'CHN', 'HKG', 'TWN' and 'MAC' to generate 2 maps : PRC+Taiwan borders, Aomen+HK borders
-
-    Map data map need to be downloaded from Natural Earth 1:10m Cultural Vectors
-
-    topojson 
-
-    \begin{figure}
-        \label{fig:ui-map}
-        \centering
-        \includegraphics[scale=0.4]{figures/chap4/ui/ui-map.png}
-        \caption{Carte interactive de la Chine (exemple contenant des données générées aléatoirement)}
-    \end{figure}
-
-
-% subsubsection le_temps_et_la_carte (end)
-
-\subsubsection{Moteur de visualisation} % (fold)
-\label{ssub:moteur_de_visualisation}
-
-Egalement, l{\textquoteright}ensemble de l{\textquoteright}outil de visualisation se fonde sur HTML5, CSS3 et Javascript qui sont des langages ouverts issues d{\textquoteright}un travail collectif de l{\textquoteright}ingénierie du Web permettant la réutilisation partielle ou totale des travaux produits par d{\textquoteright}autres et contribuant ainsi à davantage d{\textquoteright}interopérabilité entre les différents design scientifiques de recherche. La mise en forme des données utilise la librairie {\textquotedblleft}Data-Driven Documents{\textquotedblright} (d3.js)\footnote{ D3js at \url{http://d3js.org/,} consulté le 24 Avril 2014 à 14:58}, les données elles-mêmes sont stockées en JSON pour les graphes et GeoJSON pour les données cartographiques. 
-
-\begin{figure}
-    \label{fig:ui-graph}
-    \centering
-    % \includegraphics[width=6.7213in,height=8.3894in]{figures/chap3/chapitre3-img21.png}
-    \caption{Schéma de communication du serveur de visualisation}
-\end{figure}
-
-
-\begin{figure}
-    \label{fig:ui-menu}
-    \centering
-    \includegraphics[scale=0.3]{figures/chap4/ui/ui-menu.png}
-    \caption{Menu de sélection des mèmes}
-\end{figure}
-
-
-
-Afin d{\textquoteright}explorer les différentes dimensions du graphes, nous avons également ajouté des interactions qui permettent de focaliser sur des zones ou des caractéristiques précises des graphes \citep{Bostock2011}.
+Nous avons donc choisi de construire un espace sur plusieurs niveaux hiérarchisés.
 
 \begin{figure}
     \label{fig:ui-screenshot}
@@ -359,8 +281,87 @@ Afin d{\textquoteright}explorer les différentes dimensions du graphes, nous avo
     \caption{Interface d'exploration et de visualisation des données}
 \end{figure}
 
-% subsubsection moteur_de_visualisation (end)
+\subsubsection{Organisation de l'espace visuel et perceptif}
+\label{sec:viz}
+    Devant la disparité des données en présence, nous devons donc construire un espace de représentation ou plut\^ot une interface de représentation propice à l{\textquoteright}exploration et la découverte des phénomènes dans les relations entre les différents graphes. Dans la définition de cet espace perceptif se joue la réconciliation d{\textquoteright}entités dissemblables (des utilisateurs, des lieux, des mots, leurs relations mutuelles). La t\^ache consiste à réconcilier dans le plan de l{\textquoteright}espace graphique de la visualisation (ici celui de l{\textquoteright}écran) les différents espaces o\`u projeter ces différents graphes. L'organisation de cet espace suppose tout d'abord une hiérarchisation de l'importance des contenus pour leur affichage. Ici, nous devons prendre en compte la nature des données affichées. La première décision est d'utiliser un défilement vertical qui permet de naviguer entre les différents graphes. Nous structurons l'espace en cinq parties clairement identifiées.
 
-\subsection[Validité et validation de l outil]{Validité et validation de l outil}
 
-validité interne/externe (Tannery)
+    \begin{figure}[h!]
+        \label{fig:schema-viz}
+        \centering
+
+        \begin{tabular}{ | p{5cm} | p{2cm} | }
+            \hline
+            \multicolumn{2}{|c|}{Menu} \\[.3cm] 
+            \hline
+            Words  &         \\
+            Semantic graph &  \\[.5cm] \cline{1-1}
+            Users &  \\
+            Conversational graph & Options\\[.5cm] \cline{1-1}
+            Geo &  \\
+            Map of China &  \\[.5cm] \cline{1-1}
+            Time   & \\
+            Timeline &  \\[.5cm]
+            \hline 
+        \end{tabular}
+        \caption{Structure de l'interface d'exploration et de visualisation des données}
+    \end{figure}
+
+
+    Le centre de la visualisation est occupé par le réseau représentant les utilisateurs. En structurant l'espace autour des  utilisateurs, nous souhaitons montrer le r\^ole central des processus humains dans cette étude. Dans notre repr\'esentation, chaque utilisateur est un point et chaque interaction correspond \`a un trait. La couleur des points montre l{\textquoteright}appartenance de l{\textquoteright}utilisateur \`a une m\^eme communaut\'e de conversation calcul\'e gr\^ace \`a un algorithme de Louvain \citep{Blondel2008}. La taille des points expriment le nombre total de connexions entrantes et sortantes d{\textquoteright}un utilisateur. La distance entre les groupes d{\textquoteright}utilisateurs est d\'efinie en utilisant l{\textquoteright}algorithme \textit{force} de d3js \citep{Bostock2011} pour calculer leur r\'epulsion : plus les utilisateurs sont proches dans la conversation, plus les points les repr\'esentant sont proches dans le graphe. La forme circulaire du graphe est due aux propri\'et\'es physiques d{\textquoteright}attraction utilis\'ees lors du calcul qui permettent aux diff\'erents nodes du graphe de rester agr\'eger ensemble sans se diss\'eminer. Pour des questions de lisibilit\'e, seuls les 500 utilisateurs les plus actifs ont \'et\'e repr\'esent\'es. Les utilisateurs poss\'edant moins de deux interactions ont \'et\'e supprim\'es pour rendre le graphe lisible. 
+    
+    Le graphe de mots occupe lui la position haute. Éthérique et peu enraciné, la représentation de ce nuage sémantique trouve sa place dans le haut de l'espace visuel permettant de saisir d'un coup d’œil la teneur général des débats et de s'attarder sur les nœuds mystérieux créées dans le langage lors des conversations. Les graphes de mots pr\'esent\'es sont construits gr\^ace aux co-occurences de mots dans les messages. Si deux mots sont utilis\'es dans un m\^eme message, un \textit{edge} est ajout\'e entre eux, recr\'eant ainsi un graphe pond\'er\'e repr\'esentant une structure s\'emantique relationnelle d{\textquoteright}ensemble entre les mots. La taille des mots repr\'esente le nombre de fois o\`u il sont \'et\'e cit\'es dans l{\textquoteright}ensemble du corpus. Les couleurs d\'efinissent des communaut\'es de mots qui ont \'et\'e calcul\'ees gr\^ace \`a l{\textquoteright}algorithme de Louvain \citep{Blondel2008}. L{\textquoteright}\'epaisseur des traits repr\'esentent l{\textquoteright}intensit\'e des relations (leur nombre de co-occurences dans le corpus). La disposition des mots utilise \'egalement l{\textquoteright}algorithme Force de d3js \citep{Bostock2011} pour calculer la proximit\'e des mots sur la base de l{\textquoteright}intensit\'e de leurs relations. Afin de limiter la taille du graphe, nous avons s\'electionn\'e uniquement les 500 mots les plus utilis\'es.  
+
+
+    La carte représentant la Chine, plancher des vaches, est positionnée en-dessous du graphe des utilisateurs (voir section suivante \ref{sec:le_temps_et_la_carte}). Enfin, l'axe temporel se situe tout en bas de la page, montrant le volume des conversations dans le temps. Sur la droite, un espace est laissé disponible pour permettre l'ajout de différentes options et l'affichage d'informations secondaires.
+    
+
+\subsubsection{Cartographie et visualisation interactive} 
+\label{sec:le_temps_et_la_carte}
+    
+    La représentation des échanges entre les utilisateurs sur une carte géographique a présenté plusieurs difficultés. 
+
+    La première étape a été de reconstituer une carte de la Chine par provinces comprenant également Taiwan, Hong Kong et Macau. Chacun de ces territoires possèdent une influence médiatique certaine en Chine et méritent à ce titre d{\textquoteright}être représenté. De plus, il était important de faire correspondre les informations géographiques disponibles dans le jeu de données (voir chapitre \ref{sec:geoloc}). Néanmoins, le statut politique particulier de chacun de ces territoires nous a obligé à reconstituer une carte o\`u ils figuraient tous. Nous avons pour ce faire utilisé les fichier Shapefile disponibles via \textit{Natural Earth} (Adminsitrative 1:10m)\footnote{\url{http://www.naturalearthdata.com/}, consulté le 9 Juillet 2014 à 10:42} pour constituer un seul et même fichier compatible au format \textit{geoJson} utilisant les noms standard \textit{ISO 3166-1 alpha-3} pour nommer les différents lieux.\footnote{Le détail des procédures utilisées ainsi que le code pour générer la carte sont disponibles à \url{https://github.com/clemsos/d3-china-map}, consulté le 9 Juillet 2014 à 10:41}. Nous avons choisi d{\textquoteright}aggrandir l{\textquoteright}échelle de Hong Kong et Macau en les mettant en exergue sur la droite de la carte afin qu{\textquoteright}il soit visible à l'échelle choisie pour le reste du territoire chinois. Egalement, nous avons choisi d'ignorer les données concernant les utilisateurs ayant choisi {\textquotedblleft}autres{\textquotedblright} ou {\textquotedblleft}reste du monde{\textquotedblright} comme leurs lieux de résidence dans leurs informations de profil. Ce choix a été motivé par notre réflexion sur l'Internet chinois  dans le cadre national et également linguistique (voir chapitre \ref{sec:internet-chine}).
+
+
+    \begin{figure}
+        \centering
+        \includegraphics[scale=0.4]{figures/chap4/ui/ui-map.png}
+        \caption{Carte interactive de la Chine (exemple contenant des données générées aléatoirement)}
+        \label{fig:ui-map}
+    \end{figure}
+
+    La représentation des dynamiques entre province basée sur les échanges entre utilisateurs a également été le sujet de nombreuses réflexions. Nous avons pr\'ec\'edemment extrait pour chaque m\^eme le r\'eseau conversationnel des interactions entre utilisateurs. En associant chaque utilisateur \`a sa province d{\textquoteright}origine, \ nous pouvons reconstituer le r\'eseau des interactions entre provinces. 
+
+    Afin de comprendre comment comment s{\textquoteright}agençaient spatialement chacune des discussions, nous avons d'abord choisi de représenter l{\textquoteright}ensemble des utilisateurs par province. Néanmoins, cette approche reflète essentiellement le nombre d'utilisateurs par ville, recréant bien souvent une carte des grandes villes contenant très peu d'informations. Pour faire face au biais de la carte, nous avons décidé de représenter les relations entre provinces sous formes d'une liste de noms reliées par des traits. La complexité de la figure rendait cette approche peu intéressante.
+
+    Afin d{\textquoteright}observer comment les provinces s{\textquoteright}associent lors de la discussion, nous pr\'esentons le r\'eseau des interactions sous la forme d{\textquoteright}une graphe pond\'er\'e et dirig\'e. Pour des raisons de lisibilit\'e, les liens entre les provinces sont dirig\'es non pas vers la capitale de la province mais vers le \textit{centroid (barycentre) }de la forme g\'eom\'etrique qui la repr\'esente. Afin de r\'etablir un \'equilibre est de faire appara\^itre des dynamiques plus particuli\`eres, les r\'esultats ont \'et\'e pond\'er\'e par le pourcentage de population totale repr\'esent\'ee par chaque province dans le corpus utilis\'e (Weiboscope).
+
+    Afin d{\textquoteright}explorer les différentes dimensions du graphes, nous avons également ajouté des interactions qui permettent de focaliser sur des zones ou des caractéristiques précises des graphes. Nous pouvons également exporter des graphes précis ou l'ensemble des graphes sous forme d'image qui peuvent être ensuite utilisés comme figures (voir \ref{sec:results-memes}). Nous avons mis en place des raccourcis claviers qui offrent notamment la possibilité de capturer des instantanés obtenus par la manipulation des graphes.
+    
+\subsubsection{Moteur de visualisation} 
+\label{sec:moteur_de_visualisation}
+
+    Les protocoles de communication entre base de données, serveur et affichage des graphes sont une des clés qui rendent possible la visualisation interactive. En effet, afin de pouvoir se concentrer sur des résultats ou des éléments spécifiques, il est nécessaire de pouvoir isoler un ensemble de données intéressants. L'utilisateur doit d'abord sélectionner un mème parmi ceux déjà traités existant dans la base de données. Il dispose d'un menu décrivant succinctement le mème par un titre et les mots clés utilisés lors de la recherche qui lui permettent de le reconnaître. En cliquant sur les boutons du menu, il accède à une page spécifique présentant le mème (voir figure \ref{fig:ui-menu}).
+
+    \begin{figure}[h!]
+        \centering
+        \includegraphics[scale=0.3]{figures/chap4/ui/ui-menu.png}
+        \caption{Menu de sélection des mèmes}
+        \label{fig:ui-menu}
+    \end{figure}
+
+
+    Une fois le mème affiché, l'utilisateur peut sélectionner les différentes parties qui l'intéressent. Une des caractéristiques importantes de ce logiciel est qu'il permet de choisir une période de temps à afficher. En déplaçant le curseur situé au dessus du graphe temporel, les données et leur affichage sont automatiquement mises à jour ce qui permet de se concentrer sur un temps de début et de fin. Afin de voir l'évolution sur une période donnée, un bouton \textit{play} permet d'animer automatiquement les graphes, montrant leurs évolutions sur la période de temps choisie (figure \ref{fig:ui-timeline}).
+
+    \begin{figure}[h]
+        \centering
+        \includegraphics[scale=0.4]{figures/chap4/ui/ui-timeline.png}
+        \caption{Cette timeline interactive permet de sélectionner une période de temps}
+        \label{fig:ui-timeline}
+    \end{figure}
+
+    Pour obtenir cette fluidité dans l'interface, de nombreux composants doivent être synchronisés pour permettre 1) la communication avec la base de données, 2) l'obtention des données suivant la limite de temps et 3) la mise à jour de l'affichage. Pour ce faire, nous utilisons des technologies fondées sur le langage \textit{Javascript}. Le serveur chargé de communiquer avec la base de données est une application écrite en \textit{Node}\footnote{ \textit{"Node.js is a platform built on Chrome's JavaScript runtime for easily building fast, scalable network applications."} d'après url{http://nodejs.org/}, consulté le 8 Juillet à 15:05} qui est un framework généraliste de Javascript pour les serveurs. L{\textquoteright}ensemble de l{\textquoteright}outil de visualisation dans le navigateur se fonde sur HTML5, CSS3 et Javascript. La gestion des données dans le navigateur et la communication avec le serveur se fait grâce à la librairie \textit{AngularJS}\footnote{\textit{"HTML enhanced for web apps"} d'après\url{https://angularjs.org/}, consulté le 8 Juillet à 15:08}. Conçu par \textit{Google}, \textit{AngularJS} nous permet de standardiser et d'optimiser les fonctionnalités de traitement des données coté client. La visualisation des données utilise la librairie {\textquotedblleft}Data-Driven Documents{\textquotedblright} \citep{Bostock2011}\footnote{ D3js at \url{http://d3js.org/,} consulté le 24 Avril 2014 à 14:58}. L'interface des menus et boutons utilise le framework \textit{Bootstrap}\footnote{\textit{"Bootstrap is the most popular HTML, CSS, and JS framework for developing responsive, mobile first projects on the web."}, d'après \url{http://getbootstrap.com/}, consulté le 8 Juillet 2014 à 15:16}. L'ensemble du schéma de communication entre le serveur et le moteur de visualisation est disponibles dans les annexes de ce document (figure \ref{fig:ui-algo}).
+
+
+    Nous avons fait ici le choix d'utiliser des technologies largement testées et reconnues parmi l'immensité des solutions disponibles. Ces frameworks et librairies possèdent déjà une grand fiabilité, étant utilisé en production par de très nombreux sites possèdant de grands nombre d'utilisateurs (comme Twitter pour Bootstrap ou Youtube pour Angular). La mise en place de ces framework permet également d'obtenir des résultats rapides lors des processus itératifs de prototypage. Enfin, l'usage d'outils déjà reconnus permet une meilleure lisibilité pour des utilisateurs ou ré-utilisateurs qui voudraient se saisir de cet outil.
