@@ -76,7 +76,6 @@
   tablewithin=section
   ]{caption} % caption
 
-\onehalfspacing
 \setlength{\parskip}{.6em} %paragraph spacing
 
 
