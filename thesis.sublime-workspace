@@ -523,7 +523,7 @@
 			"file": "thesis.tex",
 			"settings":
 			{
-				"buffer_size": 1595,
+				"buffer_size": 2024,
 				"line_ending": "Unix"
 			}
 		}
@@ -704,23 +704,29 @@
 	},
 	"file_history":
 	[
+		"/home/clemsos/phD/thesis/annexes/algos.tex",
+		"/home/clemsos/phD/thesis/annexes/protocole.tex",
+		"/home/clemsos/phD/thesis/chapters/chapitre4-3.tex",
+		"/home/clemsos/phD/thesis/chapters/hypotheses.tex",
+		"/home/clemsos/phD/thesis/test.tex",
+		"/home/clemsos/phD/thesis/annexes/calendrier.tex",
+		"/home/clemsos/phD/thesis/chapters/chapitre4-21.tex",
+		"/home/clemsos/phD/thesis/thesis.tex",
+		"/home/clemsos/phD/thesis/chapters/chapitre4-2.tex",
+		"/home/clemsos/phD/thesis/annexes/resultats.tex",
+		"/home/clemsos/phD/thesis/annexes/memes.tex",
+		"/home/clemsos/phD/thesis/chapters/conclusion.tex",
+		"/home/clemsos/phD/thesis/Thesis.cls",
 		"/home/clemsos/phD/thesis/chapters/introduction.tex",
 		"/home/clemsos/phD/thesis/chapters/chapitre3-1.tex",
 		"/home/clemsos/phD/thesis/chapters/chapitre1.tex",
 		"/home/clemsos/phD/thesis/chapters/chapitre4-1.tex",
 		"/home/clemsos/phD/thesis/chapters/chapitre2.tex",
-		"/home/clemsos/phD/thesis/Thesis.cls",
 		"/home/clemsos/phD/thesis/annexes/memelist.tex",
-		"/home/clemsos/phD/thesis/test.tex",
 		"/home/clemsos/phD/LatEX/templates/classicthesis/Chapters/Chapter01.tex",
-		"/home/clemsos/phD/thesis/annexes/algos.tex",
 		"/home/clemsos/phD/thesis/chapters/chapitre3-2.tex",
-		"/home/clemsos/phD/thesis/chapters/chapitre4-2.tex",
-		"/home/clemsos/phD/thesis/chapters/chapitre4-3.tex",
 		"/home/clemsos/phD/thesis/README.md",
-		"/home/clemsos/phD/thesis/thesis.tex",
 		"/home/clemsos/phD/Backup/Latex/chapitre43.tex",
-		"/home/clemsos/phD/thesis/annexes/protocole.tex",
 		"/home/clemsos/phD/thesis/chapters/chapitre3-4.tex",
 		"/home/clemsos/phD/thesis/chapters/chapitre3-3.tex",
 		"/home/clemsos/phD/thesis/test.pdf",
@@ -751,7 +757,6 @@
 		"/home/clemsos/phD/LatEX/page-de-garde1.tex",
 		"/home/clemsos/phD/thesis/pages/PageDeGarde.tex",
 		"/home/clemsos/Softwares/Dropbox",
-		"/home/clemsos/phD/thesis/chapters/conclusion.tex",
 		"/home/clemsos/phD/thesis/thesis.bbl",
 		"/home/clemsos/phD/thesis/thesis.lof",
 		"/home/clemsos/phD/thesis/quotes.py",
@@ -826,12 +831,7 @@
 		"/home/clemsos/Dev/mitras/tests/mongo_cookbook.py",
 		"/home/clemsos/Dev/mitras/ui/public/js/app.js",
 		"/home/clemsos/Dev/mitras/ui/views/__index.html",
-		"/home/clemsos/Dev/mitras/meme_list.py",
-		"/home/clemsos/Dev/mitras/ui/views/index.html",
-		"/home/clemsos/Dev/mitras/results/2012_sina-weibo-memes_list.json",
-		"/home/clemsos/Dev/mitras/ui/start.sh",
-		"/home/clemsos/Dev/mitras/ui/public/js/main.js",
-		"/home/clemsos/Dev/mitras/ui/public/js/example_flat.js"
+		"/home/clemsos/Dev/mitras/meme_list.py"
 	],
 	"find":
 	{
@@ -857,6 +857,18 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"\\`e",
+			"\\`a",
+			"\\'e",
+			"co-occ",
+			"moyan.pn",
+			"Fig",
+			"\\^a",
+			"\\^e",
+			"\\'e",
+			"\\`e",
+			"somma",
+			"font",
 			"réponses",
 			"toc",
 			"listoffigures",
@@ -972,19 +984,7 @@
 			"bib",
 			"bibla",
 			"headheight",
-			"markus",
-			"\\begin{figure}",
-			"includegraphics",
-			"{\\centering   [Warning: Image ignored]",
-			"includegraphics",
-			"section",
-			"\\liststyleWWNumv",
-			"\\bigskip",
-			"\\bigskip\n",
-			"table",
-			"\\liststyleWWNumi",
-			"{\\textquotesingle}",
-			"è"
+			"markus"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1042,15 +1042,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1595,
+						"buffer_size": 2024,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								438,
-								438
+								1863,
+								1863
 							]
 						],
 						"settings":
@@ -1060,7 +1060,7 @@
 							"syntax": "Packages/LaTeX/LaTeX.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 660.0,
+						"translation.y": 1518.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -1071,7 +1071,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 30.0
+		"height": 38.0
 	},
 	"input":
 	{
@@ -1145,7 +1145,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 229.0,
+	"side_bar_width": 245.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
