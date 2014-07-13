@@ -520,18 +520,18 @@
 	"buffers":
 	[
 		{
-			"file": "test.tex",
+			"file": "thesis.tex",
 			"settings":
 			{
-				"buffer_size": 931,
+				"buffer_size": 2024,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "chapters/chapitre4-3.tex",
+			"file": "chapters/hypotheses.tex",
 			"settings":
 			{
-				"buffer_size": 38947,
+				"buffer_size": 8319,
 				"line_ending": "Unix"
 			}
 		}
@@ -713,6 +713,9 @@
 	"file_history":
 	[
 		"/home/clemsos/phD/thesis/chapters/conclusion.tex",
+		"/home/clemsos/phD/thesis/test.tex",
+		"/home/clemsos/phD/thesis/chapters/chapitre3-2.tex",
+		"/home/clemsos/phD/thesis/chapters/chapitre4-3.tex",
 		"/home/clemsos/phD/thesis/chapters/chapitre3-1.tex",
 		"/home/clemsos/phD/thesis/chapters/chapitre1.tex",
 		"/home/clemsos/phD/thesis/thesis.tex",
@@ -721,9 +724,6 @@
 		"/home/clemsos/phD/thesis/pages/thanks.tex",
 		"/home/clemsos/phD/thesis/chapters/hypotheses.tex",
 		"/home/clemsos/phD/thesis/chapters/chapitre4-21.tex",
-		"/home/clemsos/phD/thesis/chapters/chapitre3-2.tex",
-		"/home/clemsos/phD/thesis/chapters/chapitre4-3.tex",
-		"/home/clemsos/phD/thesis/test.tex",
 		"/home/clemsos/phD/thesis/annexes/algos.tex",
 		"/home/clemsos/phD/thesis/annexes/protocole.tex",
 		"/home/clemsos/phD/thesis/annexes/calendrier.tex",
@@ -1041,75 +1041,67 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "test.tex",
+					"file": "thesis.tex",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 931,
+						"buffer_size": 2024,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								390,
-								390
+								962,
+								962
 							]
 						],
 						"settings":
 						{
-							"origPos": 163.0,
+							"origPos": 0.0,
 							"syncScroll": false,
 							"syntax": "Packages/LaTeX/LaTeX.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 163.0,
+						"translation.y": 648.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "chapters/chapitre4-3.tex",
+					"file": "chapters/hypotheses.tex",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 38947,
+						"buffer_size": 8319,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								38947,
-								38947
+								7712,
+								7712
 							]
 						],
 						"settings":
 						{
-							"ignored_words":
-							[
-								"mèmes",
-								"mème",
-								"topogrammes",
-								"topogramme",
-								"hashtag"
-							],
-							"origPos": 2244.0,
+							"origPos": 0.0,
 							"syncScroll": false,
 							"syntax": "Packages/LaTeX/LaTeX.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 12658.0,
+						"translation.y": 3096.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
