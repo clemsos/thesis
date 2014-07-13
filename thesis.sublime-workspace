@@ -520,10 +520,18 @@
 	"buffers":
 	[
 		{
-			"file": "thesis.tex",
+			"file": "test.tex",
 			"settings":
 			{
-				"buffer_size": 2024,
+				"buffer_size": 931,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "chapters/chapitre4-3.tex",
+			"settings":
+			{
+				"buffer_size": 38947,
 				"line_ending": "Unix"
 			}
 		}
@@ -704,27 +712,28 @@
 	},
 	"file_history":
 	[
+		"/home/clemsos/phD/thesis/chapters/conclusion.tex",
+		"/home/clemsos/phD/thesis/chapters/chapitre3-1.tex",
+		"/home/clemsos/phD/thesis/chapters/chapitre1.tex",
+		"/home/clemsos/phD/thesis/thesis.tex",
+		"/home/clemsos/phD/thesis/chapters/chapitre2.tex",
+		"/home/clemsos/phD/thesis/Thesis.cls",
+		"/home/clemsos/phD/thesis/pages/thanks.tex",
+		"/home/clemsos/phD/thesis/chapters/hypotheses.tex",
+		"/home/clemsos/phD/thesis/chapters/chapitre4-21.tex",
+		"/home/clemsos/phD/thesis/chapters/chapitre3-2.tex",
+		"/home/clemsos/phD/thesis/chapters/chapitre4-3.tex",
+		"/home/clemsos/phD/thesis/test.tex",
 		"/home/clemsos/phD/thesis/annexes/algos.tex",
 		"/home/clemsos/phD/thesis/annexes/protocole.tex",
-		"/home/clemsos/phD/thesis/chapters/chapitre4-3.tex",
-		"/home/clemsos/phD/thesis/chapters/hypotheses.tex",
-		"/home/clemsos/phD/thesis/test.tex",
 		"/home/clemsos/phD/thesis/annexes/calendrier.tex",
-		"/home/clemsos/phD/thesis/chapters/chapitre4-21.tex",
-		"/home/clemsos/phD/thesis/thesis.tex",
 		"/home/clemsos/phD/thesis/chapters/chapitre4-2.tex",
 		"/home/clemsos/phD/thesis/annexes/resultats.tex",
 		"/home/clemsos/phD/thesis/annexes/memes.tex",
-		"/home/clemsos/phD/thesis/chapters/conclusion.tex",
-		"/home/clemsos/phD/thesis/Thesis.cls",
 		"/home/clemsos/phD/thesis/chapters/introduction.tex",
-		"/home/clemsos/phD/thesis/chapters/chapitre3-1.tex",
-		"/home/clemsos/phD/thesis/chapters/chapitre1.tex",
 		"/home/clemsos/phD/thesis/chapters/chapitre4-1.tex",
-		"/home/clemsos/phD/thesis/chapters/chapitre2.tex",
 		"/home/clemsos/phD/thesis/annexes/memelist.tex",
 		"/home/clemsos/phD/LatEX/templates/classicthesis/Chapters/Chapter01.tex",
-		"/home/clemsos/phD/thesis/chapters/chapitre3-2.tex",
 		"/home/clemsos/phD/thesis/README.md",
 		"/home/clemsos/phD/Backup/Latex/chapitre43.tex",
 		"/home/clemsos/phD/thesis/chapters/chapitre3-4.tex",
@@ -794,7 +803,6 @@
 		"/home/clemsos/phD/thesis/pages/abstract.aux",
 		"/home/clemsos/phD/LatEX/templates/template-Harvard/thesis.tex",
 		"/home/clemsos/phD/thesis/thesis.cls",
-		"/home/clemsos/phD/thesis/pages/thanks.tex",
 		"/home/clemsos/phD/thesis/pages/test.tex",
 		"/home/clemsos/phD/LatEX/templates/classicthesis/classicthesis-config.tex",
 		"/home/clemsos/phD/LatEX/templates/classicthesis/ClassicThesis.tex",
@@ -835,7 +843,7 @@
 	],
 	"find":
 	{
-		"height": 38.0
+		"height": 40.0
 	},
 	"find_in_files":
 	{
@@ -857,6 +865,19 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"Zuckerberg",
+			"\\`u",
+			"fragm",
+			"cat ",
+			"cat",
+			"zuck",
+			"\\^e",
+			"viz",
+			"hash",
+			"sina",
+			"\\`a",
+			"\\`e",
+			"\\'e",
 			"\\`e",
 			"\\`a",
 			"\\'e",
@@ -971,20 +992,7 @@
 			"Leet",
 			"\\label{fig:time-moyan2}",
 			"fig:time-moyan2",
-			"\\label{fig:time-moyan1}",
-			"fig:time-moyan1",
-			"\\label{}",
-			"fig:edge-a",
-			"fig:time-moyan2",
-			"extraction des",
-			"}.png",
-			"includegraphics",
-			"\\bigskip",
-			"\\cite",
-			"bib",
-			"bibla",
-			"headheight",
-			"markus"
+			"\\label{fig:time-moyan1}"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1033,34 +1041,72 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "thesis.tex",
+					"file": "test.tex",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2024,
+						"buffer_size": 931,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1863,
-								1863
+								390,
+								390
 							]
 						],
 						"settings":
 						{
-							"origPos": 0.0,
+							"origPos": 163.0,
 							"syncScroll": false,
 							"syntax": "Packages/LaTeX/LaTeX.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 1518.0,
+						"translation.y": 163.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "chapters/chapitre4-3.tex",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 38947,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								38947,
+								38947
+							]
+						],
+						"settings":
+						{
+							"ignored_words":
+							[
+								"mèmes",
+								"mème",
+								"topogrammes",
+								"topogramme",
+								"hashtag"
+							],
+							"origPos": 2244.0,
+							"syncScroll": false,
+							"syntax": "Packages/LaTeX/LaTeX.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 12658.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -1071,7 +1117,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 38.0
+		"height": 32.0
 	},
 	"input":
 	{
@@ -1111,7 +1157,7 @@
 	"project": "thesis.sublime-project",
 	"replace":
 	{
-		"height": 56.0
+		"height": 60.0
 	},
 	"save_all_on_build": true,
 	"select_file":
