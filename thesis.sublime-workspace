@@ -520,10 +520,26 @@
 	"buffers":
 	[
 		{
-			"file": "thesis.tex",
+			"file": "test.tex",
 			"settings":
 			{
-				"buffer_size": 2024,
+				"buffer_size": 997,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "chapters/introduction.tex",
+			"settings":
+			{
+				"buffer_size": 9386,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "chapters/conclusion.tex",
+			"settings":
+			{
+				"buffer_size": 5712,
 				"line_ending": "Unix"
 			}
 		},
@@ -712,17 +728,18 @@
 	},
 	"file_history":
 	[
+		"/home/clemsos/phD/thesis/chapters/intro2.tex",
+		"/home/clemsos/phD/thesis/chapters/hypotheses.tex",
+		"/home/clemsos/phD/thesis/thesis.tex",
 		"/home/clemsos/phD/thesis/chapters/conclusion.tex",
 		"/home/clemsos/phD/thesis/test.tex",
 		"/home/clemsos/phD/thesis/chapters/chapitre3-2.tex",
 		"/home/clemsos/phD/thesis/chapters/chapitre4-3.tex",
 		"/home/clemsos/phD/thesis/chapters/chapitre3-1.tex",
 		"/home/clemsos/phD/thesis/chapters/chapitre1.tex",
-		"/home/clemsos/phD/thesis/thesis.tex",
 		"/home/clemsos/phD/thesis/chapters/chapitre2.tex",
 		"/home/clemsos/phD/thesis/Thesis.cls",
 		"/home/clemsos/phD/thesis/pages/thanks.tex",
-		"/home/clemsos/phD/thesis/chapters/hypotheses.tex",
 		"/home/clemsos/phD/thesis/chapters/chapitre4-21.tex",
 		"/home/clemsos/phD/thesis/annexes/algos.tex",
 		"/home/clemsos/phD/thesis/annexes/protocole.tex",
@@ -838,8 +855,7 @@
 		"/home/clemsos/Dev/mitras/ui/package.json",
 		"/home/clemsos/Dev/mitras/tests/mongo_cookbook.py",
 		"/home/clemsos/Dev/mitras/ui/public/js/app.js",
-		"/home/clemsos/Dev/mitras/ui/views/__index.html",
-		"/home/clemsos/Dev/mitras/meme_list.py"
+		"/home/clemsos/Dev/mitras/ui/views/__index.html"
 	],
 	"find":
 	{
@@ -865,6 +881,12 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"\\^o",
+			"subsection",
+			"\\`a",
+			"e p",
+			"\\`e",
+			"\\'e",
 			"Zuckerberg",
 			"\\`u",
 			"fragm",
@@ -986,13 +1008,7 @@
 			"landsc",
 			"\\endhead",
 			"marketing vir",
-			"hline",
-			"typage",
-			"tabular",
-			"Leet",
-			"\\label{fig:time-moyan2}",
-			"fig:time-moyan2",
-			"\\label{fig:time-moyan1}"
+			"hline"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1041,24 +1057,24 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 2,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "thesis.tex",
+					"file": "test.tex",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2024,
+						"buffer_size": 997,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								962,
-								962
+								420,
+								420
 							]
 						],
 						"settings":
@@ -1068,14 +1084,74 @@
 							"syntax": "Packages/LaTeX/LaTeX.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 648.0,
+						"translation.y": 321.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "chapters/introduction.tex",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 9386,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								97,
+								97
+							]
+						],
+						"settings":
+						{
+							"origPos": 0.0,
+							"syncScroll": false,
+							"syntax": "Packages/LaTeX/LaTeX.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "chapters/conclusion.tex",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5712,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2769,
+								2769
+							]
+						],
+						"settings":
+						{
+							"origPos": 0.0,
+							"syncScroll": false,
+							"syntax": "Packages/LaTeX/LaTeX.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 2745.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
 					"type": "text"
 				},
 				{
-					"buffer": 1,
+					"buffer": 3,
 					"file": "chapters/hypotheses.tex",
 					"semi_transient": false,
 					"settings":
@@ -1087,8 +1163,24 @@
 						"selection":
 						[
 							[
-								7712,
-								7712
+								2265,
+								2265
+							],
+							[
+								3188,
+								3188
+							],
+							[
+								4446,
+								4446
+							],
+							[
+								5505,
+								5505
+							],
+							[
+								6575,
+								6575
 							]
 						],
 						"settings":
@@ -1098,10 +1190,10 @@
 							"syntax": "Packages/LaTeX/LaTeX.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 3096.0,
+						"translation.y": 3666.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 3,
 					"type": "text"
 				}
 			]
