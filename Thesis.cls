@@ -229,6 +229,15 @@
     \onehalfspacing
 }
 
+% inspirational quote 
+\newenvironment{chapquote}[2][0.2em]
+  {\setlength{\@tempdima}{#1}%
+   \def\chapquote@author{#2}%
+   \parshape 1 \@tempdima \dimexpr\textwidth-2\@tempdima\relax%
+   \itshape}
+  { \par\normalfont\hfill--\ \chapquote@author\hspace*{\@tempdima}\par\bigskip}
+
+
 % the acknowledgments page
 \newcommand{\acknowledgments}{
   \chapter*{Remerciements}
