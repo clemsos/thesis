@@ -523,7 +523,7 @@
 			"file": "test.tex",
 			"settings":
 			{
-				"buffer_size": 1141,
+				"buffer_size": 1139,
 				"line_ending": "Unix"
 			}
 		},
@@ -579,9 +579,17 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 194.0,
+		"height": 274.0,
 		"selected_items":
 		[
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Snippet: bs3-input-search"
+			],
 			[
 				"fold",
 				"Code Folding: Fold Tag Attributes"
@@ -597,10 +605,6 @@
 			[
 				"inden",
 				"Indentation: Reindent Lines"
-			],
-			[
-				"ins",
-				"Package Control: Install Package"
 			],
 			[
 				"in",
@@ -721,10 +725,6 @@
 			[
 				"quick",
 				"QuickRef"
-			],
-			[
-				"insta",
-				"Package Control: Install Package"
 			],
 			[
 				"rand",
@@ -1090,25 +1090,25 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1141,
+						"buffer_size": 1139,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								270,
-								270
+								219,
+								219
 							]
 						],
 						"settings":
 						{
-							"origPos": 289.0,
+							"origPos": 178.0,
 							"syncScroll": false,
 							"syntax": "Packages/LaTeX/LaTeX.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 178.0,
+						"translation.y": 106.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -1133,7 +1133,7 @@
 						],
 						"settings":
 						{
-							"origPos": 0.0,
+							"origPos": 994.0,
 							"syncScroll": false,
 							"syntax": "Packages/LaTeX/LaTeX.tmLanguage"
 						},
@@ -1163,7 +1163,7 @@
 						],
 						"settings":
 						{
-							"origPos": 0.0,
+							"origPos": 432.0,
 							"syncScroll": false,
 							"syntax": "Packages/LaTeX/LaTeX.tmLanguage"
 						},
@@ -1223,7 +1223,7 @@
 						],
 						"settings":
 						{
-							"origPos": 0.0,
+							"origPos": 3649.0,
 							"syncScroll": false,
 							"syntax": "Packages/LaTeX/TeX.tmLanguage",
 							"tab_size": 2,
