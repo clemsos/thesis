@@ -9,8 +9,8 @@
 \begin{document}
 
 % the front matter
-\frontmatter 
-\input{media/info} % some data about the work of the author
+% \frontmatter 
+% \input{media/info} % some data about the work of the author
 
 % \maketitle
 
@@ -26,7 +26,7 @@
 % \abstractpage
 % \addcontentsline{toc}{section}{Abstract}
 
-% \begin{spacing}{1.5} % line spacing
+\begin{spacing}{1.5} % line spacing
 
 % \acknowledgments
 % \addcontentsline{toc}{section}{Remerciements}   
@@ -36,13 +36,9 @@
 
 \mainmatter
 
-% \include{annexes/algos}
-% \include{annexes/memelist}    
-
 % \include{chapters/introduction}
-% \include{chapters/conclusion}
 
-% \include{chapters/chapitre1}        % contexte : Sina Weibo
+\include{chapters/chapitre1}        % contexte : Sina Weibo
 % \include{chapters/chapitre2}        % objet : les mèmes Internet
 
 % \include{chapters/hypotheses}      % problématique et hypothèses
@@ -56,16 +52,18 @@
 % \include{chapters/chapitre4-21}   % résumé des résultats
 % \include{chapters/chapitre4-3}    % discussions
 
-% \end{spacing}
+% \include{chapters/conclusion}
 
-\appendix
-\begin{appendices}
-\include{annexes/protocole}
-\include{annexes/algos}
+\end{spacing}
 
-\include{annexes/memelist}
-\include{annexes/memes}
-\end{appendices}
+% \appendix
+% \begin{appendices}
+% \include{annexes/protocole}
+% \include{annexes/algos}
+
+% \include{annexes/memelist}
+% \include{annexes/memes}
+% \end{appendices}
 % \listoffigures
 
 \end{document}
