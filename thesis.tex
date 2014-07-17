@@ -16,15 +16,21 @@
 \input{media/info} % some data about the work of the author
 
 \maketitle
+
+\blankpage
 \copyrightpage
 
+\blankpage
+\titlelight
 
+\blankpage
 \include{pages/quote}
 
 \abstractpage
 \addcontentsline{toc}{section}{Abstract}
 
 \begin{spacing}{1.5} % line spacing
+
 \acknowledgments
 \addcontentsline{toc}{section}{Remerciements}
 
@@ -32,7 +38,6 @@
 \addcontentsline{toc}{section}{Sommaire}
 
 \mainmatter % the main course
-
 
 \addcontentsline{toc}{chapter}{Introduction}
 \include{chapters/introduction}
@@ -51,16 +56,23 @@
 \include{chapters/chapitre4-21}     % résumé des résultats
 \include{chapters/chapitre4-3}      % discussions
 
-\include{chapters/conclusion}
 \addcontentsline{toc}{chapter}{Conclusion}
+\include{chapters/conclusion}
 
 \end{spacing}
 \cleardoublepage
 
-
-\backmatter
+% annexes
 \appendix
+\begin{appendices}
+\include{annexes/protocole}
+\include{annexes/algos}
+\include{annexes/memelist}
+\include{annexes/memes}
+\end{appendices} 
 
+% biblio etc.
+\backmatter
 \small{\bibliography{refs}}
 \addcontentsline{toc}{chapter}{Bibliographie}
 \tableofcontents
@@ -76,12 +88,6 @@
 \listoftables
 \addcontentsline{toc}{section}{Liste des tableaux}
 
-\renewcommand{\partname}{}
-\part{Annexes}
 
-\include{annexes/algos}
-\include{annexes/memelist}
-\include{annexes/memes}
-\include{annexes/protocole}
 
 \end{document}

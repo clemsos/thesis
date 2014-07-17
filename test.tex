@@ -8,18 +8,33 @@
 
 \begin{document}
 
+% the front matter
+\frontmatter 
 \input{media/info} % some data about the work of the author
 
 % \maketitle
-% \copyrightpage
-\include{pages/quote}
 
+% \blankpage
+% \copyrightpage
+
+% \blankpage
+% \include{pages/quote}
+
+% \blankpage
+% \titlelight
+
+% \abstractpage
+% \addcontentsline{toc}{section}{Abstract}
+
+% \begin{spacing}{1.5} % line spacing
+
+% \acknowledgments
+% \addcontentsline{toc}{section}{Remerciements}   
+
+\sommaire
+% \addcontentsline{toc}{section}{Sommaire}
 
 \mainmatter
-\begin{spacing}{1.5} % line spacing
-
-\acknowledgments    
-
 
 % \include{annexes/algos}
 % \include{annexes/memelist}    
@@ -41,12 +56,16 @@
 % \include{chapters/chapitre4-21}   % résumé des résultats
 % \include{chapters/chapitre4-3}    % discussions
 
-\end{spacing}
+% \end{spacing}
 
-% \include{annexes/algos}
-% \include{annexes/memelist}
-% \include{annexes/memes}
+\appendix
+\begin{appendices}
+\include{annexes/protocole}
+\include{annexes/algos}
+\include{annexes/memelist}
+\include{annexes/memes}
 
+\end{appendices}
 % \listoffigures
 
 \end{document}

@@ -31,6 +31,12 @@
     urlcolor=Crimson,
 }
 
+%annexes
+\RequirePackage[toc,page]{appendix} 
+\renewcommand{\appendixtocname}{Annexes} 
+\renewcommand\appendixpagename{Annexes}
+\renewcommand{\appendixname}{{\sffamily Annexe}} 
+
 % algorithms
 \RequirePackage{algorithm}
 \RequirePackage{algpseudocode}
@@ -101,6 +107,10 @@
 
 \renewcommand*\l@figure{\@dottedtocline{1}{1.5em}{3.3em}}
 
+% add a blank page
+
+\newcommand*\blankpage{\newpage\null\thispagestyle{empty}\newpage}
+
 % some definitions
 \def\subtitle#1{\gdef\@subtitle{#1}}
 \def\degreeyear#1{\gdef\@degreeyear{#1}}
@@ -117,11 +127,17 @@
 % Licensing CC
 \newcommand{\copyrightpage}{
     \newpage \thispagestyle{empty} \vspace*{\fill}
+    
+    \begin{flushright}
     \sc \noindent \cc~\textit{\@degreeyear \hspace{3pt}~- \theauthor} \\
     \noindent under Creative Commons.
-    \vspace*{\fill} \newpage \rm
+    \end{flushright}
+    
+    \vspace*{\fill} 
+    \newpage \rm
 }
 
+% title page
 \renewcommand{\maketitle}{
 
     \thispagestyle{empty}
@@ -161,7 +177,7 @@
     
 
     
-    \vspace{10pt} 
+    \vspace{80pt} 
 
     % soutenance
     \small
@@ -187,27 +203,44 @@
         \@degreemonth\ \@degreeyear
       }
     \end{center}
-
-    % \singlespacing
-    % \thispagestyle{empty}
-    % \vspace*{\fill} \vspace{150pt} \begin{center}
-    % \includegraphics[scale=0.4]{media/logoTPT.png}
-    % \Huge \textcolor{Crimson}{\textit{\thetitle}} \normalsize \\ \sc \vspace{100pt}
-    % Une dissertation écrite\\ par\\
-    % \theauthor\\ pour\\ l'\@department\\
-    % \vspace{12pt}
-    % pour l'obtention\\
-    % du grade de \\ \@degree\\
-    % dans la discipline \\ \@field\\
-    % \vspace{12pt}
-    % \@university\\ \@universitycity, \@universitystate\\
-    % \@degreemonth\ \@degreeyear
-    % \end{center} \vspace*{\fill}
-    %\vspace*{1cm}
-    % \singlespacing
-
 }
 
+% page de garde
+\newcommand*\titlelight{
+
+  \thispagestyle{empty}
+  \begin{center}
+  
+    \vspace*{0.5cm}
+    {\Large \theauthor}\\
+    \vspace*{5cm}
+
+
+    % title 
+    \vspace*{1cm}
+    { \Huge 
+      \begin{spacing}{1.5}
+          \textcolor{Crimson}{
+            \thetitle \\
+            \vspace*{0.5cm}
+            \Large{\@subtitle} \\
+          }
+      \end{spacing}
+    }
+
+    \vspace*{\fill}
+
+    % credits
+    \vspace{30pt} 
+    \includegraphics[scale=0.12]{media/logoTPT.png}
+
+    \textbf{\@university}  \\ 
+    \@universitycity, \@universitystate \ - \@degreeyear
+
+  \end{center}
+}
+
+% the abstract
 \newcommand{\abstractpage}{
     \newpage
     \pagenumbering{roman}
