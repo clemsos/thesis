@@ -3,7 +3,7 @@
 \LoadClass[12pt, a4paper]{book}
 
 %encoding
-\RequirePackage[english, frenchb]{babel}
+\RequirePackage[english,frenchb]{babel}
 \RequirePackage{lmodern}
 \RequirePackage[utf8]{inputenc} 
 \RequirePackage[T1]{fontenc}
@@ -17,6 +17,8 @@
 % display Chinese 
 \RequirePackage{CJKutf8} 
 \newcommand{\zh}[1]{\begin{CJK}{UTF8}{gbsn}#1\end{CJK}}
+
+
 
 % Media & images
 \RequirePackage{graphicx}
