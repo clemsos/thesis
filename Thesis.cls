@@ -143,12 +143,10 @@
 \renewcommand{\maketitle}{
 
     \thispagestyle{empty}
-    %\vspace*{\fill}
 
     \begin{center}
-    \includegraphics[scale=0.12]{media/logoTPT.png}
-    \vspace*{1cm}
-    %header
+      \includegraphics[scale=0.12]{media/logoTPT.png}
+      \vspace*{1cm}
 
         \textbf{TH\`ESE DE DOCTORAT} \\
         \vspace*{0.5cm}
@@ -182,18 +180,20 @@
     \vspace{80pt} 
 
     % soutenance
-    \small
-    {\flushleft{Soutenue le \@datesoutenance\\
-    devant le jury composé de : \\[2ex]
-      
-      \begin{tabular}{r@{\ }ll}
-      & Mme. Valérie {\sc Fernandez} & Directeur de thèse\\
-      & M. Gilles {\sc Puel} & Directeur de thèse  \\
-      & Mme. Carine {\sc Dominguez-Péry}  & Rapporteur  \\
-      & M. Thierry {\sc Joliveau} &  Rapporteur \\
-      & M. \'Eric {\sc Guichard} & Examinateur \\
-    \end{tabular}
-    }}
+  {\small
+      {\flushleft{Soutenue le \@datesoutenance\\
+      devant le jury composé de : \\[2ex]
+        
+        \begin{tabular}{r@{\ }ll}
+        & Mme. Valérie {\sc Fernandez} & Directeur de thèse\\
+        & M. Gilles {\sc Puel} & Directeur de thèse  \\
+        & Mme. Carine {\sc Dominguez-Péry}  & Rapporteur  \\
+        & M. Thierry {\sc Joliveau} &  Rapporteur \\
+        & M. \'Eric {\sc Guichard} & Examinateur \\
+      \end{tabular}
+      }
+    }
+  }
 
 
 

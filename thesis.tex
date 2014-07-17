@@ -8,7 +8,6 @@
 \raggedbottom %  makes all pages the height of the text on that page. No extra vertical space is added.
 \pagenumbering{roman}
 \pagestyle{plain}
-
 \arrayrulecolor{chaptergrey} % stroke color for tables 
 
 % the front matter
@@ -42,7 +41,10 @@
 \addcontentsline{toc}{chapter}{\protect\numberline{}Introduction}
 \include{chapters/introduction}
 
+\blankpage
 \include{chapters/chapitre1}        % Sina Weibo et web chinois
+
+\blankpage
 \include{chapters/chapitre2}        % mèmes Internet
 
 \addcontentsline{toc}{chapter}{Problématique et hypothèses}

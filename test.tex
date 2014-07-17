@@ -3,16 +3,19 @@
 
 % encoding  
 \documentclass[11pt,a4paper]{Thesis}
+\setlength{\headheight}{15pt}
+\frenchspacing % disable specific space after coma
 
 \pagestyle{plain}
+\raggedbottom %  makes all pages the height of the text on that page. No extra vertical space is added.
 
 \begin{document}
 
 % the front matter
-% \frontmatter 
-% \input{media/info} % some data about the work of the author
+\frontmatter 
+\input{media/info} % some data about the work of the author
 
-% \maketitle
+\maketitle
 
 % \blankpage
 % \copyrightpage
@@ -31,14 +34,14 @@
 % \acknowledgments
 % \addcontentsline{toc}{section}{Remerciements}   
 
-\sommaire
+% \sommaire
 % \addcontentsline{toc}{section}{Sommaire}
 
 \mainmatter
 
 % \include{chapters/introduction}
 
-% \include{chapters/chapitre1}        % contexte : Sina Weibo
+\include{chapters/chapitre1}        % contexte : Sina Weibo
 \include{chapters/chapitre2}        % objet : les mèmes Internet
 
 % \include{chapters/hypotheses}      % problématique et hypothèses
