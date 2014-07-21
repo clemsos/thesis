@@ -16,7 +16,9 @@
 
 % display Chinese 
 \RequirePackage{CJKutf8} 
-\newcommand{\zh}[1]{\begin{CJK}{UTF8}{gbsn}#1\end{CJK}}
+\newcommand{\zh}[1]{\begin{CJK}{UTF8}{gkai}#1\end{CJK}}
+\newcommand{\zht}[1]{\begin{CJK}{UTF8}{bkai}#1\end{CJK}} %traditional
+
 
 
 
