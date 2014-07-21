@@ -520,26 +520,18 @@
 	"buffers":
 	[
 		{
-			"file": "chapters/chapitre4-1.tex",
+			"file": "thesis.tex",
 			"settings":
 			{
-				"buffer_size": 51857,
+				"buffer_size": 2157,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "test.tex",
+			"file": "chapters/chapitre2.tex",
 			"settings":
 			{
-				"buffer_size": 1598,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"contents": "",
-			"settings":
-			{
-				"buffer_size": 0,
+				"buffer_size": 84596,
 				"line_ending": "Unix"
 			}
 		}
@@ -720,21 +712,24 @@
 	},
 	"file_history":
 	[
+		"/home/clemsos/phD/thesis/annexes/memes.tex",
+		"/home/clemsos/phD/thesis/test.tex",
+		"/home/clemsos/phD/thesis/chapters/chapitre4-2.tex",
 		"/home/clemsos/phD/thesis/thesis.tex",
+		"/home/clemsos/phD/thesis/annexes/protocole.tex",
+		"/home/clemsos/phD/thesis/test/typo.tex",
+		"/home/clemsos/phD/thesis/chapters/conclusion.tex",
+		"/home/clemsos/phD/thesis/chapters/chapitre4-3.tex",
+		"/home/clemsos/phD/thesis/chapters/chapitre4-21.tex",
+		"/home/clemsos/phD/thesis/chapters/chapitre4-1.tex",
 		"/home/clemsos/phD/thesis/chapters/introduction.tex",
 		"/home/clemsos/phD/thesis/chapters/chapitre3-1.tex",
 		"/home/clemsos/phD/thesis/chapters/chapitre3-2.tex",
-		"/home/clemsos/phD/thesis/chapters/chapitre4-2.tex",
-		"/home/clemsos/phD/thesis/chapters/chapitre4-1.tex",
-		"/home/clemsos/phD/thesis/test.tex",
 		"/home/clemsos/phD/thesis/chapters/hypotheses.tex",
 		"/home/clemsos/phD/thesis/chapters/chapitre2.tex",
 		"/home/clemsos/phD/thesis/Thesis.cls",
 		"/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty",
 		"/home/clemsos/phD/thesis/chapters/chapitre1.tex",
-		"/home/clemsos/phD/thesis/annexes/protocole.tex",
-		"/home/clemsos/phD/thesis/chapters/conclusion.tex",
-		"/home/clemsos/phD/thesis/annexes/memes.tex",
 		"/home/clemsos/phD/thesis/annexes/memelist.tex",
 		"/home/clemsos/phD/thesis/annexes/algos.tex",
 		"/home/clemsos/phD/thesis/pages/quote.tex",
@@ -742,8 +737,6 @@
 		"/home/clemsos/phD/thesis/pages/thanks.tex",
 		"/home/clemsos/phD/LatEX/templates/template-Harvard/chapters/chapter1.tex",
 		"/home/clemsos/phD/thesis/chapters/intro2.tex",
-		"/home/clemsos/phD/thesis/chapters/chapitre4-3.tex",
-		"/home/clemsos/phD/thesis/chapters/chapitre4-21.tex",
 		"/home/clemsos/phD/thesis/annexes/calendrier.tex",
 		"/home/clemsos/phD/thesis/annexes/resultats.tex",
 		"/home/clemsos/phD/LatEX/templates/classicthesis/Chapters/Chapter01.tex",
@@ -846,8 +839,7 @@
 		"/home/clemsos/Dev/mitras/meme_generation.log",
 		"/home/clemsos/Dev/mitras/results/nb_of_users_by_provinces.json",
 		"/home/clemsos/Dev/mitras/ui/views/_index.html",
-		"/home/clemsos/Dev/mitras/provinces_stats.py",
-		"/home/clemsos/Dev/mitras/ui/package.json"
+		"/home/clemsos/Dev/mitras/provinces_stats.py"
 	],
 	"find":
 	{
@@ -873,6 +865,14 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"cartog",
+			"mobilisé",
+			"notamm",
+			"limi",
+			"hash",
+			"carto",
+			"\\`a",
+			"\\'e",
 			"dispo",
 			"coll",
 			"algo",
@@ -992,15 +992,7 @@
 			"\\`a",
 			"\\'e",
 			"pansentier",
-			"pans entier",
-			"\\'e",
-			"\n\\",
-			"Nettl",
-			"biblio",
-			"bibl",
-			".bib",
-			"linewidth",
-			"tabular"
+			"pans entier"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1054,19 +1046,49 @@
 			[
 				{
 					"buffer": 0,
-					"file": "chapters/chapitre4-1.tex",
-					"semi_transient": false,
+					"file": "thesis.tex",
+					"semi_transient": true,
 					"settings":
 					{
-						"buffer_size": 51857,
+						"buffer_size": 2157,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								21005,
-								21005
+								344,
+								344
+							]
+						],
+						"settings":
+						{
+							"origPos": 0.0,
+							"syncScroll": false,
+							"syntax": "Packages/LaTeX/LaTeX.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "chapters/chapitre2.tex",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 84596,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5429,
+								5429
 							]
 						],
 						"settings":
@@ -1078,64 +1100,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 10189.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "test.tex",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1598,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								939,
-								939
-							]
-						],
-						"settings":
-						{
-							"origPos": 0.0,
-							"syncScroll": false,
-							"syntax": "Packages/LaTeX/LaTeX.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 1053.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 0,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/LaTeX/LaTeX.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 2612.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
@@ -1177,7 +1142,7 @@
 	"menu_visible": true,
 	"output.exec":
 	{
-		"height": 238.0
+		"height": 434.0
 	},
 	"output.find_results":
 	{
