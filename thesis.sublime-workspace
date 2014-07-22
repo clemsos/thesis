@@ -523,7 +523,15 @@
 			"file": "thesis.tex",
 			"settings":
 			{
-				"buffer_size": 2157,
+				"buffer_size": 2190,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "chapters/introduction.tex",
+			"settings":
+			{
+				"buffer_size": 8901,
 				"line_ending": "Unix"
 			}
 		},
@@ -531,7 +539,7 @@
 			"file": "chapters/chapitre2.tex",
 			"settings":
 			{
-				"buffer_size": 84596,
+				"buffer_size": 83354,
 				"line_ending": "Unix"
 			}
 		}
@@ -712,6 +720,15 @@
 	},
 	"file_history":
 	[
+		"/home/clemsos/phD/thesis/test/cn.tex",
+		"/home/clemsos/phD/thesis/Thesis.cls",
+		"/home/clemsos/phD/thesis/chapters/chapitre3-1.tex",
+		"/home/clemsos/phD/thesis/chapters/chapitre2.tex",
+		"/home/clemsos/phD/thesis/test/inc.tex",
+		"/home/clemsos/phD/thesis/chapters/chapitre1.tex",
+		"/home/clemsos/Downloads/PhD (2).tex",
+		"/home/clemsos/phD/thesis/pages/thanks.log",
+		"/home/clemsos/phD/thesis/pages/thanks.tex",
 		"/home/clemsos/phD/thesis/annexes/memes.tex",
 		"/home/clemsos/phD/thesis/test.tex",
 		"/home/clemsos/phD/thesis/chapters/chapitre4-2.tex",
@@ -723,18 +740,13 @@
 		"/home/clemsos/phD/thesis/chapters/chapitre4-21.tex",
 		"/home/clemsos/phD/thesis/chapters/chapitre4-1.tex",
 		"/home/clemsos/phD/thesis/chapters/introduction.tex",
-		"/home/clemsos/phD/thesis/chapters/chapitre3-1.tex",
 		"/home/clemsos/phD/thesis/chapters/chapitre3-2.tex",
 		"/home/clemsos/phD/thesis/chapters/hypotheses.tex",
-		"/home/clemsos/phD/thesis/chapters/chapitre2.tex",
-		"/home/clemsos/phD/thesis/Thesis.cls",
 		"/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty",
-		"/home/clemsos/phD/thesis/chapters/chapitre1.tex",
 		"/home/clemsos/phD/thesis/annexes/memelist.tex",
 		"/home/clemsos/phD/thesis/annexes/algos.tex",
 		"/home/clemsos/phD/thesis/pages/quote.tex",
 		"/home/clemsos/phD/thesis/pages/abstract.tex",
-		"/home/clemsos/phD/thesis/pages/thanks.tex",
 		"/home/clemsos/phD/LatEX/templates/template-Harvard/chapters/chapter1.tex",
 		"/home/clemsos/phD/thesis/chapters/intro2.tex",
 		"/home/clemsos/phD/thesis/annexes/calendrier.tex",
@@ -799,8 +811,6 @@
 		"/home/clemsos/phD/thesis/.~lock.chapitre1.tex#",
 		"/home/clemsos/phD/drafts/Latex/03-Chapitre3.tex",
 		"/home/clemsos/phD/LatEX/templates/template-Harvard/harvard-thesis.cls",
-		"/home/clemsos/phD/thesis/test/inc.tex",
-		"/home/clemsos/phD/thesis/test/cn.tex",
 		"/home/clemsos/phD/thesis/test/cn.pdf",
 		"/home/clemsos/Dev/mitras/data/sampleweibo.csv",
 		"/home/clemsos/phD/thesis/thesis.pdf",
@@ -837,13 +847,11 @@
 		"/home/clemsos/Dev/mitras/ui/public/js/controllers.js",
 		"/home/clemsos/Dev/mitras/ui/public/js/services.js",
 		"/home/clemsos/Dev/mitras/meme_generation.log",
-		"/home/clemsos/Dev/mitras/results/nb_of_users_by_provinces.json",
-		"/home/clemsos/Dev/mitras/ui/views/_index.html",
-		"/home/clemsos/Dev/mitras/provinces_stats.py"
+		"/home/clemsos/Dev/mitras/results/nb_of_users_by_provinces.json"
 	],
 	"find":
 	{
-		"height": 43.0
+		"height": 42.0
 	},
 	"find_in_files":
 	{
@@ -865,6 +873,21 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"copi",
+			"front",
+			"inv",
+			"agit",
+			"»",
+			"«",
+			"utilise",
+			"eronn",
+			"eron",
+			"érron",
+			"éron",
+			"publi",
+			"modernes",
+			"traitant",
+			"spa",
 			"cartog",
 			"mobilisé",
 			"notamm",
@@ -977,22 +1000,7 @@
 			"thetilte",
 			"thetile",
 			"title",
-			"interfa",
-			"Big Data",
-			"Big Da",
-			" \n",
-			"\\`e",
-			"\\`a",
-			"\\'e",
-			"rhét",
-			"perspec",
-			"\\^e",
-			"\\^o",
-			"\\`e",
-			"\\`a",
-			"\\'e",
-			"pansentier",
-			"pans entier"
+			"interfa"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1047,18 +1055,18 @@
 				{
 					"buffer": 0,
 					"file": "thesis.tex",
-					"semi_transient": true,
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2157,
+						"buffer_size": 2190,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								344,
-								344
+								269,
+								269
 							]
 						],
 						"settings":
@@ -1076,19 +1084,49 @@
 				},
 				{
 					"buffer": 1,
-					"file": "chapters/chapitre2.tex",
+					"file": "chapters/introduction.tex",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 84596,
+						"buffer_size": 8901,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								5429,
-								5429
+								57,
+								57
+							]
+						],
+						"settings":
+						{
+							"origPos": 0.0,
+							"syncScroll": false,
+							"syntax": "Packages/LaTeX/LaTeX.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1404.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "chapters/chapitre2.tex",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 83354,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								25599,
+								25599
 							]
 						],
 						"settings":
@@ -1100,7 +1138,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 2612.0,
+						"translation.y": 11160.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
@@ -1111,7 +1149,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 35.0
+		"height": 34.0
 	},
 	"input":
 	{
@@ -1142,7 +1180,7 @@
 	"menu_visible": true,
 	"output.exec":
 	{
-		"height": 434.0
+		"height": 235.0
 	},
 	"output.find_results":
 	{
@@ -1151,7 +1189,7 @@
 	"project": "thesis.sublime-project",
 	"replace":
 	{
-		"height": 66.0
+		"height": 64.0
 	},
 	"save_all_on_build": true,
 	"select_file":
