@@ -1,5 +1,5 @@
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{Thesis}[2014/05/12 v0.1 Thesis Class]
+\ProvidesClass{Thesis}[2014/05/12 v0.1 Clement Thesis Class]
 \LoadClass[12pt, a4paper]{book}
 
 %encoding
@@ -19,9 +19,6 @@
 \newcommand{\zh}[1]{\begin{CJK}{UTF8}{gkai}#1\end{CJK}}
 \newcommand{\zht}[1]{\begin{CJK}{UTF8}{bkai}#1\end{CJK}} %traditional
 
-
-
-
 % Media & images
 \RequirePackage{graphicx}
 \RequirePackage{hyperref}
@@ -29,10 +26,10 @@
 \hypersetup{
     linktocpage,
     colorlinks,
-    citecolor=Crimson,
+    citecolor=black, %Crimson,%linkgrey,
     filecolor=black,
     linkcolor=black,
-    urlcolor=Crimson,
+    urlcolor=black %Crimson%linkgrey,
 }
 
 %annexes
@@ -63,7 +60,8 @@
 % colors
 \RequirePackage{color}
 \definecolor{Crimson}{rgb}{0.6471, 0.1098, 0.1882}
-\definecolor{chaptergrey}{rgb}{0.6,0,0}
+\definecolor{chaptergrey}{gray}{0.3}
+\definecolor{linkgrey}{gray}{0.5}
 
 % page layout
 \RequirePackage[a4paper, margin=2.5cm]{geometry} % cus­tomize page lay­out

@@ -17,4 +17,11 @@ Support : (Nivre et al., 2007) , (Sagae and Tsujii 2007), Nivre (2007), (Chen et
     python ./scripts/quotes.py
     
 
+## Count pages with colors in PDF
+
+Useful for printing 
+    
+    # on Unix command line
+    chmod +x ./scripts/coloredpages.sh
+    ./scripts/coloredpages.sh thesis.pdf
 

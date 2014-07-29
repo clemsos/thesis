@@ -5,24 +5,18 @@
 \documentclass[11pt,a4paper]{Thesis}
 \setlength{\headheight}{15pt}
 \frenchspacing % disable specific space after coma
-\arrayrulecolor{chaptergrey} % stroke color for tables 
+% \arrayrulecolor{chaptergrey} % stroke color for tables 
 
 \pagestyle{plain}
 \raggedbottom %  makes all pages the height of the text on that page. No extra vertical space is added.
 
 \begin{document}
 
-\begin{figure}
-    \includegraphics[scale=.7]{figures/chap3/sondy.png}
-    \caption[Captures d'écran de l'outil d'analyse de microblog Sondy]{Captures d'écran de l'outil d'analyse de microblog \textit{Sondy} d'après \url{http://mediamining.univ-lyon2.fr/people/guille/software.php} consulté le 15 Mars 2014 à 16:12}
-    \label{fig:sondy}
-\end{figure}
-
 % the front matter
 % \frontmatter 
-% \input{media/info} % some data about the work of the author
+\input{media/info} % some data about the work of the author
 
-% \maketitle
+\maketitle
 
 % \blankpage
 % \copyrightpage
@@ -46,10 +40,11 @@
 
 \mainmatter
 
-% \include{chapters/introduction}
+\include{chapters/introduction}
 
 % \include{chapters/chapitre1}        % contexte : Sina Weibo
 % \include{chapters/chapitre2}        % objet : les mèmes Internet
+
 
 % \include{chapters/hypotheses}      % problématique et hypothèses
 % \addcontentsline{toc}{chapter}{Problématique et hypothèses}
@@ -66,9 +61,9 @@
 
 \end{spacing}
 
+\small{\bibliography{refs}}
 % \appendix
 % \begin{appendices}
-
 % \include{annexes/protocole}
 % \include{annexes/algos}
 

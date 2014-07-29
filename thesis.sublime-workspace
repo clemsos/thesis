@@ -528,18 +528,10 @@
 			}
 		},
 		{
-			"file": "chapters/introduction.tex",
+			"file": "test.tex",
 			"settings":
 			{
-				"buffer_size": 8901,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "chapters/chapitre2.tex",
-			"settings":
-			{
-				"buffer_size": 83354,
+				"buffer_size": 1691,
 				"line_ending": "Unix"
 			}
 		}
@@ -720,33 +712,39 @@
 	},
 	"file_history":
 	[
-		"/home/clemsos/phD/thesis/test/cn.tex",
+		"/home/clemsos/Dev/topogram/topogram-ui/README.md",
+		"/home/clemsos/Dev/topogram/topogram-miner/README.md",
+		"/home/clemsos/Dev/topogram/topogram-search/README.md",
+		"/home/clemsos/phD/thesis/scripts/colorpages.sh",
 		"/home/clemsos/phD/thesis/Thesis.cls",
+		"/home/clemsos/phD/thesis/annexes/algos.log",
+		"/home/clemsos/phD/thesis/chapters/chapitre4-2.tex",
+		"/home/clemsos/phD/thesis/annexes/memes.tex",
+		"/home/clemsos/phD/thesis/pages/quote.tex",
+		"/home/clemsos/phD/thesis/thesis.tex",
+		"/home/clemsos/phD/thesis/chapters/conclusion.tex",
+		"/home/clemsos/phD/thesis/chapters/chapitre4-3.tex",
+		"/home/clemsos/phD/thesis/chapters/chapitre4-21.tex",
 		"/home/clemsos/phD/thesis/chapters/chapitre3-1.tex",
+		"/home/clemsos/phD/thesis/test.tex",
 		"/home/clemsos/phD/thesis/chapters/chapitre2.tex",
+		"/home/clemsos/phD/thesis/chapters/chapitre4-1.tex",
+		"/home/clemsos/phD/thesis/annexes/algos.tex",
+		"/home/clemsos/phD/thesis/chapters/chapitre3-2.tex",
+		"/home/clemsos/phD/thesis/thesis.aux",
+		"/home/clemsos/phD/thesis/chapters/hypotheses.tex",
+		"/home/clemsos/phD/thesis/chapters/introduction.tex",
+		"/home/clemsos/phD/thesis/pages/abstract.tex",
+		"/home/clemsos/phD/thesis/test/cn.tex",
 		"/home/clemsos/phD/thesis/test/inc.tex",
 		"/home/clemsos/phD/thesis/chapters/chapitre1.tex",
 		"/home/clemsos/Downloads/PhD (2).tex",
 		"/home/clemsos/phD/thesis/pages/thanks.log",
 		"/home/clemsos/phD/thesis/pages/thanks.tex",
-		"/home/clemsos/phD/thesis/annexes/memes.tex",
-		"/home/clemsos/phD/thesis/test.tex",
-		"/home/clemsos/phD/thesis/chapters/chapitre4-2.tex",
-		"/home/clemsos/phD/thesis/thesis.tex",
 		"/home/clemsos/phD/thesis/annexes/protocole.tex",
 		"/home/clemsos/phD/thesis/test/typo.tex",
-		"/home/clemsos/phD/thesis/chapters/conclusion.tex",
-		"/home/clemsos/phD/thesis/chapters/chapitre4-3.tex",
-		"/home/clemsos/phD/thesis/chapters/chapitre4-21.tex",
-		"/home/clemsos/phD/thesis/chapters/chapitre4-1.tex",
-		"/home/clemsos/phD/thesis/chapters/introduction.tex",
-		"/home/clemsos/phD/thesis/chapters/chapitre3-2.tex",
-		"/home/clemsos/phD/thesis/chapters/hypotheses.tex",
 		"/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty",
 		"/home/clemsos/phD/thesis/annexes/memelist.tex",
-		"/home/clemsos/phD/thesis/annexes/algos.tex",
-		"/home/clemsos/phD/thesis/pages/quote.tex",
-		"/home/clemsos/phD/thesis/pages/abstract.tex",
 		"/home/clemsos/phD/LatEX/templates/template-Harvard/chapters/chapter1.tex",
 		"/home/clemsos/phD/thesis/chapters/intro2.tex",
 		"/home/clemsos/phD/thesis/annexes/calendrier.tex",
@@ -841,13 +839,7 @@
 		"/home/clemsos/Dev/mitras/ui/public/index.html",
 		"/home/clemsos/Dev/mitras/es_results_to_csv.py",
 		"/home/clemsos/Dev/mitras/analyze_meme.py",
-		"/home/clemsos/Dev/mitras/ui/public/libs/simg.js",
-		"/home/clemsos/Dev/mitras/ui/public/js/oldies/d3flatlayers.js",
-		"/home/clemsos/Dev/mitras/ui/public/js/directives.js",
-		"/home/clemsos/Dev/mitras/ui/public/js/controllers.js",
-		"/home/clemsos/Dev/mitras/ui/public/js/services.js",
-		"/home/clemsos/Dev/mitras/meme_generation.log",
-		"/home/clemsos/Dev/mitras/results/nb_of_users_by_provinces.json"
+		"/home/clemsos/Dev/mitras/ui/public/libs/simg.js"
 	],
 	"find":
 	{
@@ -873,6 +865,34 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"color",
+			"rgb",
+			"Crimson",
+			"color",
+			"qiegao : int",
+			"h!",
+			"observat",
+			"contrairem",
+			"disponibilité",
+			"gestion",
+			"h!",
+			"!h",
+			"h]",
+			"h",
+			"h!",
+			"message-",
+			"ui-algo",
+			"utilise",
+			"scree",
+			"subfloat",
+			"hfill",
+			"subfl",
+			"ltab",
+			"lta",
+			"ltab",
+			"mass",
+			"desig",
+			"desig$",
 			"copi",
 			"front",
 			"inv",
@@ -972,35 +992,7 @@
 			"   ",
 			"effectuer",
 			"hex",
-			"Apach",
-			"Apac",
-			"\\^e",
-			"\\`a",
-			"\\`e",
-			"\\'e",
-			"enjeux",
-			"mots-c",
-			"hash",
-			"subsec",
-			"subs",
-			"subsection",
-			"analyse de don",
-			"dans les ",
-			"dans les rés",
-			"subsec",
-			"\\sect",
-			"ibid",
-			"données",
-			"messages",
-			"mèmes",
-			"corpus",
-			"algo",
-			"adviso",
-			"thetitle",
-			"thetilte",
-			"thetile",
-			"title",
-			"interfa"
+			"Apach"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1049,7 +1041,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -1065,83 +1057,51 @@
 						"selection":
 						[
 							[
-								269,
-								269
+								1743,
+								1743
 							]
 						],
 						"settings":
 						{
-							"origPos": 0.0,
+							"origPos": 286.0,
 							"syncScroll": false,
 							"syntax": "Packages/LaTeX/LaTeX.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 286.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "chapters/introduction.tex",
+					"file": "test.tex",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 8901,
+						"buffer_size": 1691,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								57,
-								57
+								361,
+								361
 							]
 						],
 						"settings":
 						{
-							"origPos": 0.0,
+							"origPos": 936.0,
 							"syncScroll": false,
 							"syntax": "Packages/LaTeX/LaTeX.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 1404.0,
+						"translation.y": 936.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "chapters/chapitre2.tex",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 83354,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								25599,
-								25599
-							]
-						],
-						"settings":
-						{
-							"origPos": 0.0,
-							"syncScroll": false,
-							"syntax": "Packages/LaTeX/LaTeX.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 11160.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
