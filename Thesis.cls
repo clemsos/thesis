@@ -145,65 +145,63 @@
     \thispagestyle{empty}
 
     \begin{center}
-      \includegraphics[scale=0.12]{media/logoTPT.png}
-      \vspace*{1cm}
+    \includegraphics[scale=0.12]{media/logoTPT.png}
 
-        \textbf{TH\`ESE DE DOCTORAT} \\
-        \vspace*{0.5cm}
-        % dans la discipline  \@field\\
-        \textbf{\@department}\\
-        \vspace*{1cm}
-        Pr\'esent\'ee par \ \\ 
-        \vspace*{0.5cm}
-        {\Large \theauthor}\\
-        \vspace*{1cm}
-
-        Pour obtenir le grade de \ \\[1ex]
-        \textbf{\@degree  \ ès  \@field} \ \\
-    \end{center}
-    
-    % title 
     \vspace*{1cm}
+
+    {\Large TH\`ESE DE DOCTORAT} \\
+    \vspace*{0.5cm}
+    en  \@field \ \\
+    \vspace*{0.25cm}
+    \textbf{\@department}\\
+
+    % title 
+    \vspace*{60pt}
+
     { \Huge 
       \begin{spacing}{1.2}
-        \begin{center}
           \textcolor{Crimson}{
             \thetitle \\
+            \vspace*{10pt}
             \Large{\@subtitle} \\
           }
-        \end{center}
       \end{spacing}
     }
     
+    \vspace{50pt} 
 
-    
-    \vspace{80pt} 
+    %
+
+    % Pr\'esent\'e\ par \ \\ 
+    \vspace*{0.3cm}
+    {\Large \theauthor}\\
+    \vspace*{0.5cm}
+    le \@datesoutenance
+
+    \vspace{70pt} 
+
 
     % soutenance
-  {\small
-      {\flushleft{Soutenue le \@datesoutenance\\
-      devant le jury composé de : \\[2ex]
-        
-        \begin{tabular}{r@{\ }ll}
-        & Mme. Valérie {\sc Fernandez} & Directeur de thèse\\
-        & M. Gilles {\sc Puel} & Directeur de thèse  \\
-        & Mme. Carine {\sc Dominguez-Péry}  & Rapporteur  \\
-        & M. Thierry {\sc Joliveau} &  Rapporteur \\
-        & M. \'Eric {\sc Guichard} & Examinateur \\
-      \end{tabular}
-      }
+
+    Devant un jury composé de : \\[2ex]
+      
+    \begin{tabular}{r@{\ }ll}
+      & Mme. Valérie {\sc Fernandez} & Directeur de thèse\\
+      & M. Gilles {\sc Puel} & Directeur de thèse  \\
+      & Mme. Carine {\sc Dominguez-Péry}  & Rapporteur  \\
+      & M. Thierry {\sc Joliveau} &  Rapporteur \\
+      & M. \'Eric {\sc Guichard} & Examinateur \\
+    \end{tabular}
+
+
+    \vspace{40pt} 
+    
+    \textbf{
+      \@university \\
+      \@universitycity, \@universitystate \\ 
+      \@degreeyear
     }
-  }
 
-
-
-
-    \vspace{30pt} 
-    \begin{center}
-      \textbf{
-        \@university - \@universitycity, \@universitystate\\
-        \@degreemonth\ \@degreeyear
-      }
     \end{center}
 }
 
@@ -237,7 +235,8 @@
     \includegraphics[scale=0.12]{media/logoTPT.png}
 
     \textbf{\@university}  \\ 
-    \@universitycity, \@universitystate \ - \@degreeyear
+    \@universitycity, \@universitystate \\ 
+    \@degreeyear
 
   \end{center}
 }

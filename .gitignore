@@ -8,6 +8,7 @@
 *.toc
 
 *.sublime-*
+cover/*
 
 ## Intermediate documents:
 *.dvi
