@@ -2,6 +2,14 @@
 
 Clément Renaud phD Thesis (LaTex)
 
+
+## Packages
+
+on Debian 
+
+    sudo apt-get install texlive-latex-base latex-cjk-common texlive-language-french texlive-language-chinese texlive-science
+
+
 ## Convert Word to Latex
 
 Save as .odt with OpenOffice then use [Writer2LaTeX](http://writer2latex.sourceforge.net)

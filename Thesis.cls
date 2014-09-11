@@ -242,7 +242,7 @@
 }
 
 % the abstract
-\newcommand{\abstractpage}{
+\newcommand{\resumepage}{
     \newpage
     \pagenumbering{roman}
     \setcounter{page}{3}
@@ -254,6 +254,33 @@
     \Large \textcolor{Crimson}{\textit{\@title}} \normalsize\\
     \vspace*{15pt}
     \sc Résumé \\ \rm
+    \end{center}
+    \doublespace %Harvard registrar requests that abstract is double spaced
+    \input{pages/resume}
+    \doublespace %Harvard registrar requests that abstract is double spaced
+    \newpage \lhead{} \rhead{}
+    \cfoot{\thepage}
+    \onehalfspacing
+}
+
+% asbtarct
+\newcommand{\abstractpage}{
+    \newpage
+    \pagenumbering{roman}
+    \setcounter{page}{3}
+    \pagestyle{fancy}
+    \lhead{Sous la direction de \@advisor} \rhead{\@author}
+    \renewcommand{\headrulewidth}{0.0pt}
+    \begin{center}
+    \vspace*{1pt}
+    \Large \textcolor{Crimson}{
+      \textit{Design of a Internet memes data visualisation toolkit}
+      \normalsize\\
+      The case of the Chinese social network Sina Weibo
+      }
+    \\
+    \vspace*{15pt}
+    \sc Abstract \\ \rm
     \end{center}
     \doublespace %Harvard registrar requests that abstract is double spaced
     \input{pages/abstract}
