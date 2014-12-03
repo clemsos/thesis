@@ -26,7 +26,7 @@
 \hypersetup{
     linktocpage,
     colorlinks,
-    citecolor=black, %Crimson,%linkgrey,
+    citecolor=Crimson,%linkgrey,
     filecolor=black,
     linkcolor=black,
     urlcolor=black %Crimson%linkgrey,
